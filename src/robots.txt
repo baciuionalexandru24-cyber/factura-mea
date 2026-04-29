@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://factura-mea.vercel.app/sitemap.xml
