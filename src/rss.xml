@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Verifică Factura — Ghiduri energie electrică</title>
+    <link>https://factura-mea.vercel.app</link>
+    <description>Ghiduri practice pentru verificarea facturii de energie, compararea furnizorilor și reducerea costurilor.</description>
+    <language>ro</language>
+    <lastBuildDate>Tue, 29 Apr 2026 12:00:00 +0300</lastBuildDate>
+    <atom:link href="https://factura-mea.vercel.app/rss.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>Cum să îți reduci factura la energie în 2026 — ghid complet</title>
+      <link>https://factura-mea.vercel.app/articole/cum-reduci-factura-energie-2026</link>
+      <guid>https://factura-mea.vercel.app/articole/cum-reduci-factura-energie-2026</guid>
+      <pubDate>Tue, 29 Apr 2026 12:00:00 +0300</pubDate>
+      <description>Pași practici pentru a plăti mai puțin pe energie: verifică consumul, compară furnizori, optimizează abonamentul și redu consumul aparatelor mari.</description>
+    </item>
+
+    <item>
+      <title>Cum se calculează factura la energie electrică — toate componentele explicate</title>
+      <link>https://factura-mea.vercel.app/articole/cum-se-calculeaza-factura-energie</link>
+      <guid>https://factura-mea.vercel.app/articole/cum-se-calculeaza-factura-energie</guid>
+      <pubDate>Tue, 29 Apr 2026 12:00:00 +0300</pubDate>
+      <description>Explicație completă cu cifre reale: energie activă, distribuție, transport TG și TL, servicii sistem, certificate verzi, cogenerare, CFD, acciză și TVA 21%.</description>
+    </item>
+
+    <item>
+      <title>Ce aparate consumă cel mai mult curent în casă — cifre reale și sfaturi</title>
+      <link>https://factura-mea.vercel.app/articole/ce-aparate-consuma-cel-mai-mult-curent</link>
+      <guid>https://factura-mea.vercel.app/articole/ce-aparate-consuma-cel-mai-mult-curent</guid>
+      <pubDate>Tue, 29 Apr 2026 12:00:00 +0300</pubDate>
+      <description>Aerul condiționat, boilerul, uscătorul, cuptorul și frigiderul: cât consumă fiecare pe lună și cum reduci factura fără investiții mari.</description>
+    </item>
+
+    <item>
+      <title>Merită să schimbi furnizorul de energie în 2026? Ghid complet de analiză</title>
+      <link>https://factura-mea.vercel.app/articole/merita-sa-schimbi-furnizorul-de-energie</link>
+      <guid>https://factura-mea.vercel.app/articole/merita-sa-schimbi-furnizorul-de-energie</guid>
+      <pubDate>Tue, 29 Apr 2026 12:00:00 +0300</pubDate>
+      <description>Comparație reală între furnizori, ce verifici înainte de schimbare, cât economisești și când nu merită efortul.</description>
+    </item>
+
+    <item>
+      <title>De ce a crescut factura la energie? 7 cauze frecvente și ce verifici imediat</title>
+      <link>https://factura-mea.vercel.app/articole/de-ce-a-crescut-factura-la-energie</link>
+      <guid>https://factura-mea.vercel.app/articole/de-ce-a-crescut-factura-la-energie</guid>
+      <pubDate>Tue, 29 Apr 2026 12:00:00 +0300</pubDate>
+      <description>Factura mai mare nu înseamnă neapărat preț mai mare. Verifică consumul, regularizarea, perioada facturată, prețul și abonamentele.</description>
+    </item>
+
+    <item>
+      <title>Cum citești corect o factură de energie electrică — ghid pas cu pas</title>
+      <link>https://factura-mea.vercel.app/articole/cum-citesti-corect-factura-de-energie</link>
+      <guid>https://factura-mea.vercel.app/articole/cum-citesti-corect-factura-de-energie</guid>
+      <pubDate>Tue, 29 Apr 2026 12:00:00 +0300</pubDate>
+      <description>Unde găsești codul NLC, consumul real, prețul pe kWh, perioada facturată, fiecare componentă de cost și totalul de plată.</description>
+    </item>
+
+    <item>
+      <title>Cât consumă un aer condiționat pe lună în lei — calcul real 2026</title>
+      <link>https://factura-mea.vercel.app/articole/cat-consuma-un-aer-conditionat-pe-luna</link>
+      <guid>https://factura-mea.vercel.app/articole/cat-consuma-un-aer-conditionat-pe-luna</guid>
+      <pubDate>Tue, 29 Apr 2026 12:00:00 +0300</pubDate>
+      <description>Consum real per oră, pe zi și pe lună pentru aparate de 9.000, 12.000 și 18.000 BTU, cu costuri calculate la prețurile din 2026.</description>
+    </item>
+
+    <item>
+      <title>Hidroelectrica vs Electrica Furnizare — comparație completă 2026</title>
+      <link>https://factura-mea.vercel.app/articole/hidroelectrica-vs-electrica-comparatie-2026</link>
+      <guid>https://factura-mea.vercel.app/articole/hidroelectrica-vs-electrica-comparatie-2026</guid>
+      <pubDate>Tue, 29 Apr 2026 12:00:00 +0300</pubDate>
+      <description>Preț per kWh, abonament, cost total calculat, calitatea serviciului și când merită fiecare furnizor.</description>
+    </item>
+
+    <item>
+      <title>Ce înseamnă regularizare pe factura de energie și de ce e factura mai mare</title>
+      <link>https://factura-mea.vercel.app/articole/ce-inseamna-regularizare-factura-energie</link>
+      <guid>https://factura-mea.vercel.app/articole/ce-inseamna-regularizare-factura-energie</guid>
+      <pubDate>Tue, 29 Apr 2026 12:00:00 +0300</pubDate>
+      <description>Explicație simplă: ce este regularizarea, de ce apare, cum o verifici și ce faci dacă nu ești de acord cu suma.</description>
+    </item>
+
+    <item>
+      <title>Cât consumă un boiler electric pe lună în lei — calcul real 2026</title>
+      <link>https://factura-mea.vercel.app/articole/cat-consuma-un-boiler-electric-pe-luna</link>
+      <guid>https://factura-mea.vercel.app/articole/cat-consuma-un-boiler-electric-pe-luna</guid>
+      <pubDate>Tue, 29 Apr 2026 12:00:00 +0300</pubDate>
+      <description>Consum real pentru boilere de 50L, 80L și 120L, cu costuri calculate și sfaturi de reducere a consumului.</description>
+    </item>
+
+  </channel>
+</rss>
