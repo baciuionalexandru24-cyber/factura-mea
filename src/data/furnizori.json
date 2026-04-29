@@ -1,0 +1,79 @@
+{
+  "Hidroelectrica": {
+    "casnic": 0.45,
+    "noncasnic": 0.62,
+    "abonament": 0,
+    "sursa": "POSF/ANRE",
+    "actualizatLa": "2026-04-28"
+  },
+  "Premier Energy": {
+    "casnic": 0.599,
+    "noncasnic": 0.75,
+    "abonament": 0,
+    "sursa": "POSF/ANRE",
+    "actualizatLa": "2026-04-28"
+  },
+  "Nova Power & Gas": {
+    "casnic": 0.499,
+    "noncasnic": 0.7,
+    "abonament": 0,
+    "sursa": "POSF/ANRE",
+    "actualizatLa": "2026-04-28"
+  },
+  "Electrica Furnizare": {
+    "casnic": 0.62,
+    "noncasnic": 0.75,
+    "abonament": 0,
+    "sursa": "POSF/ANRE",
+    "actualizatLa": "2026-04-28"
+  },
+  "PPC (ex Enel)": {
+    "casnic": 0.67,
+    "noncasnic": 0.95,
+    "abonament": 5,
+    "sursa": "estimare internă",
+    "actualizatLa": "2026-04-28"
+  },
+  "E.ON Energie": {
+    "casnic": 0.64,
+    "noncasnic": 1.05,
+    "abonament": 4,
+    "sursa": "estimare internă",
+    "actualizatLa": "2026-04-28"
+  },
+  "ENGIE România": {
+    "casnic": 0.66,
+    "noncasnic": 1.0,
+    "abonament": 4,
+    "sursa": "estimare internă",
+    "actualizatLa": "2026-04-28"
+  },
+  "Tinmar Energy": {
+    "casnic": 0.61,
+    "noncasnic": 0.9,
+    "abonament": 3,
+    "sursa": "estimare internă",
+    "actualizatLa": "2026-04-28"
+  },
+  "Restart Energy": {
+    "casnic": 0.63,
+    "noncasnic": 0.88,
+    "abonament": 0,
+    "sursa": "estimare internă",
+    "actualizatLa": "2026-04-28"
+  },
+  "Monsson Trading": {
+    "casnic": 0.58,
+    "noncasnic": 0.82,
+    "abonament": 0,
+    "sursa": "estimare internă",
+    "actualizatLa": "2026-04-28"
+  },
+  "Getica 95": {
+    "casnic": 0.6,
+    "noncasnic": 0.85,
+    "abonament": 0,
+    "sursa": "estimare internă",
+    "actualizatLa": "2026-04-28"
+  }
+}
