@@ -168,7 +168,7 @@ function HomePage({ calculation, setCalculation, navigate }) {
         <div className="mx-auto max-w-6xl px-6 py-16 grid gap-10 lg:grid-cols-2 items-center">
           <div>
             <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/5 px-3 py-1 text-xs uppercase tracking-[0.2em] text-emerald-200">
-              <SparkIcon /> Energie • Economii • Comparator orientativ
+              <SparkIcon /> Energie • Economii • Comparator
             </div>
             <h2 className="text-4xl md:text-5xl font-bold leading-tight">
               Verifică dacă factura ta de energie poate fi optimizată
@@ -184,7 +184,7 @@ function HomePage({ calculation, setCalculation, navigate }) {
                 Cere analiză gratuită
               </a>
             </div>
-            <div className="mt-8 grid gap-3 sm:grid-cols-3 max-w-xl">
+            <div className="mt-8 hidden sm:grid gap-3 sm:grid-cols-3 max-w-xl">
               <HeroBadge icon="leaf" title="Energie verde" />
               <HeroBadge icon="chart" title="Estimare rapidă" />
               <HeroBadge icon="shield" title="Date protejate" />
@@ -670,7 +670,7 @@ function LeadForm({ calculation }) {
         )}
 
         <div className="md:col-span-2">
-          <RequiredLabel>GDPR *</RequiredLabel>
+          <label className="block text-sm font-semibold text-slate-800">GDPR <span className="text-red-500">*</span></label>
           <label className="mt-2 flex gap-3 rounded-2xl bg-slate-50 p-4 text-sm text-slate-700 border border-slate-200 hover:border-emerald-200 transition cursor-pointer">
             <input type="checkbox" name="gdpr" required value="acceptat" className="mt-1 h-4 w-4 rounded border-slate-300 accent-emerald-500" />
             <span>Sunt de acord cu prelucrarea datelor transmise prin formular pentru analizarea solicitării mele. Am înțeles că estimarea este orientativă și că pot solicita ștergerea datelor.</span>
