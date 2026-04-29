@@ -582,38 +582,38 @@ function LeadForm({ calculation }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault(); setSending(true); setError("");
-    const formData = new FormData(e.target);
-    formData.append("_subject", "Lead nou - Verifică Factura");
+
+    const payload = {
+      nume: e.target.nume.value,
+      email: e.target.email.value,
+      telefon: e.target.telefon?.value || "",
+      mesaj: e.target.mesaj.value,
+    };
+
     if (calculation) {
-      formData.append("consum_kwh", calculation.kwh);
-      formData.append("tip_client", calculation.clientType === "nonhousehold" ? "Noncasnic" : "Casnic");
-      formData.append("tip_loc_consum", formatLocationType(calculation.locationType));
-      formData.append("tip_factura", formatInvoiceType(calculation.invoiceType));
-      formData.append("abonament", formatYesNoUnknown(calculation.hasSubscription));
-      formData.append("schimbat_recent_furnizor", calculation.changedSupplier === "yes" ? "Da" : "Nu");
-      formData.append("furnizor_oferta", calculation.supplierName);
-      formData.append("zona_distributie", calculation.zoneName);
-      formData.append("pret_energie_activa_ron_kwh", money(calculation.selectedEnergyPrice));
-      formData.append("factura_actuala_ron", money(calculation.currentBill));
-      formData.append("estimare_lunara_ron", money(calculation.estimatedMonthly));
-      formData.append("diferenta_lunara_ron", money(calculation.monthlyDifference));
-      formData.append("diferenta_anuala_ron", money(calculation.annualDifference));
-      formData.append("energie_activa_ron", money(calculation.activeEnergy));
-      formData.append("distributie_ron", money(calculation.distribution));
-      formData.append("transport_ron", money(calculation.transport));
-      formData.append("servicii_sistem_ron", money(calculation.systemServices));
-      formData.append("certificate_verzi_ron", money(calculation.greenCertificates));
-      formData.append("cogenerare_ron", money(calculation.cogeneration));
-      formData.append("acciza_ron", money(calculation.excise));
-      formData.append("abonament_ron", money(calculation.subscription));
-      formData.append("tva_ron", money(calculation.vat));
-      formData.append("recomandare", calculation.recommendation);
-      formData.append("aspecte_de_verificat", calculation.warnings.join(" | ") || "N/A");
+      payload.consum_kwh = calculation.kwh;
+      payload.tip_client = calculation.clientType === "nonhousehold" ? "Noncasnic" : "Casnic";
+      payload.tip_loc_consum = formatLocationType(calculation.locationType);
+      payload.tip_factura = formatInvoiceType(calculation.invoiceType);
+      payload.abonament = formatYesNoUnknown(calculation.hasSubscription);
+      payload.schimbat_recent_furnizor = calculation.changedSupplier === "yes" ? "Da" : "Nu";
+      payload.furnizor_oferta = calculation.supplierName;
+      payload.zona_distributie = calculation.zoneName;
+      payload.factura_actuala_ron = money(calculation.currentBill);
+      payload.estimare_lunara_ron = money(calculation.estimatedMonthly);
+      payload.diferenta_lunara_ron = money(calculation.monthlyDifference);
+      payload.diferenta_anuala_ron = money(calculation.annualDifference);
+      payload.recomandare = calculation.recommendation;
+      payload.aspecte_de_verificat = calculation.warnings.join(" | ") || "N/A";
     }
+
     try {
-      const response = await fetch("https://formspree.io/f/mvzdjvrd", { method: "POST", body: formData, headers: { Accept: "application/json" } });
-      const result = await response.json().catch(() => null);
-      if (!response.ok) { setError(result?.errors?.[0]?.message || `Eroare ${response.status}`); return; }
+      await fetch("https://script.google.com/macros/s/AKfycbx7dwfSTNQuIByxmUWw0Srx80Yhc7Hu97kqY-A82j2KbxWdMJ-xADyLt9cqn296_f3wpg/exec", {
+        method: "POST",
+        mode: "no-cors",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
       setSent(true);
     } catch { setError("Cererea nu a putut fi trimisă. Verifică conexiunea și încearcă din nou."); }
     finally { setSending(false); }
