@@ -27,17 +27,28 @@ const supplierOffers = Object.entries(furnizoriRaw).map(([name, prices]) => ({
 }));
 
 const distributionZones = [
-  { id: "muntenia", name: "Muntenia / București-Ilfov", distributionTariff: 0.28 },
-  { id: "transilvania", name: "Transilvania", distributionTariff: 0.31 },
-  { id: "moldova", name: "Moldova", distributionTariff: 0.33 },
-  { id: "oltenia", name: "Oltenia", distributionTariff: 0.3 },
-  { id: "banat", name: "Banat", distributionTariff: 0.29 },
-  { id: "dobrogea", name: "Dobrogea", distributionTariff: 0.32 },
+  { id: "muntenia", name: "Muntenia / București-Ilfov", distributionTariff: 0.3174 },
+  { id: "transilvania-nord", name: "Transilvania Nord", distributionTariff: 0.3295 },
+  { id: "transilvania-sud", name: "Transilvania Sud", distributionTariff: 0.3180 },
+  { id: "moldova", name: "Moldova (Delgaz Grid)", distributionTariff: 0.3390 },
+  { id: "oltenia", name: "Oltenia", distributionTariff: 0.3050 },
+  { id: "banat", name: "Banat", distributionTariff: 0.3174 },
+  { id: "dobrogea", name: "Dobrogea", distributionTariff: 0.3174 },
+  { id: "muntenia-nord", name: "Muntenia Nord", distributionTariff: 0.3295 },
 ];
 
+/* Costuri reglementate — actualizate conform facturilor reale ANRE 2026
+   Pentru a modifica: editează valorile de mai jos */
 const regulatedCosts = {
-  transport: 0.07, systemServices: 0.02, greenCertificates: 0.08,
-  cogeneration: 0.03, excise: 0.01, vat: 0.19,
+  transportTG: 0.00363,      // Tarif introducere în rețea (TG)
+  transportTL: 0.03645,      // Tarif extragere din rețea (TL)
+  systemServices: 0.0147,    // Servicii de sistem
+  greenCertificates: 0.0740, // Certificate verzi
+  cogeneration: 0.0136,      // Contribuție cogenerare
+  cfd: 0.000144,             // Componentă CFD
+  excise: 0.00768,           // Acciză
+  vat: 0.21,                 // TVA 21%
+  actualizatLa: "2026-04-28",
 };
 
 const articles = [
@@ -348,10 +359,12 @@ function AdvancedCalculator({ onCalculationChange }) {
     const selectedEnergyPrice = clientType === "nonhousehold" ? selectedSupplier.prices.nonhousehold : selectedSupplier.prices.household;
     const activeEnergy = kwh * selectedEnergyPrice * businessMultiplier * locationMultiplier;
     const distribution = kwh * selectedZone.distributionTariff;
-    const transport = kwh * regulatedCosts.transport;
+    const transportTG = kwh * regulatedCosts.transportTG;
+    const transportTL = kwh * regulatedCosts.transportTL;
     const systemServices = kwh * regulatedCosts.systemServices;
     const greenCertificates = kwh * regulatedCosts.greenCertificates;
     const cogeneration = kwh * regulatedCosts.cogeneration;
+    const cfd = kwh * regulatedCosts.cfd;
     const excise = kwh * regulatedCosts.excise;
     const subscription = hasSubscription === "yes" ? Math.max(selectedSupplier.subscription, 5) : hasSubscription === "no" ? 0 : selectedSupplier.subscription;
 
@@ -359,12 +372,12 @@ function AdvancedCalculator({ onCalculationChange }) {
       const price = clientType === "nonhousehold" ? supplier.prices.nonhousehold : supplier.prices.household;
       const ae = kwh * price * businessMultiplier * locationMultiplier;
       const sub = hasSubscription === "yes" ? Math.max(supplier.subscription, 5) : hasSubscription === "no" ? 0 : supplier.subscription;
-      const st = (ae + distribution + transport + systemServices + greenCertificates + cogeneration + excise + sub) * invoiceAdjustment;
+      const st = (ae + distribution + transportTG + transportTL + systemServices + greenCertificates + cogeneration + cfd + excise + sub) * invoiceAdjustment;
       return st + st * regulatedCosts.vat;
     };
 
     const cheapestOffer = supplierOffers.map(s => ({ name: s.name, monthlyTotal: calcTotal(s), source: s.source, updatedAt: s.updatedAt })).sort((a, b) => a.monthlyTotal - b.monthlyTotal)[0];
-    const subtotal = (activeEnergy + distribution + transport + systemServices + greenCertificates + cogeneration + excise + subscription) * invoiceAdjustment;
+    const subtotal = (activeEnergy + distribution + transportTG + transportTL + systemServices + greenCertificates + cogeneration + cfd + excise + subscription) * invoiceAdjustment;
     const vat = subtotal * regulatedCosts.vat;
     const estimatedMonthly = subtotal + vat;
     const monthlyDifference = bill - estimatedMonthly;
@@ -385,7 +398,7 @@ function AdvancedCalculator({ onCalculationChange }) {
       ? "Factura introdusă este sub estimarea orientativă. Verifică dacă ai plafonări, compensări, regularizări negative sau o ofertă foarte bună."
       : "Factura pare apropiată de estimarea orientativă. Poți verifica în continuare abonamentul, oferta și istoricul consumului.";
 
-    return { kwh, clientType, locationType, invoiceType, hasSubscription, changedSupplier, supplierName: selectedSupplier.name, zoneName: selectedZone.name, selectedEnergyPrice, selectedEnergySource: selectedSupplier.source, selectedUpdatedAt: selectedSupplier.updatedAt, cheapestOffer, currentBill: bill, activeEnergy, distribution, transport, systemServices, greenCertificates, cogeneration, excise, subscription, vat, estimatedMonthly, monthlyDifference, annualDifference, recommendation, warnings };
+    return { kwh, clientType, locationType, invoiceType, hasSubscription, changedSupplier, supplierName: selectedSupplier.name, zoneName: selectedZone.name, selectedEnergyPrice, selectedEnergySource: selectedSupplier.source, selectedUpdatedAt: selectedSupplier.updatedAt, cheapestOffer, currentBill: bill, activeEnergy, distribution, transportTG, transportTL, systemServices, greenCertificates, cogeneration, cfd, excise, subscription, vat, estimatedMonthly, monthlyDifference, annualDifference, recommendation, warnings };
   }, [consumption, currentBill, clientType, locationType, invoiceType, hasSubscription, changedSupplier, supplierId, zoneId, validationErrors]);
 
   useEffect(() => { onCalculationChange(result); }, [result, onCalculationChange]);
@@ -554,13 +567,15 @@ function CalculatorResult({ result }) {
             <div className="pt-3" />
             <CostRow label="Energie activă" value={result.activeEnergy} />
             <CostRow label="Distribuție" value={result.distribution} />
-            <CostRow label="Transport" value={result.transport} />
+            <CostRow label="Transport — introducere rețea (TG)" value={result.transportTG} />
+            <CostRow label="Transport — extragere rețea (TL)" value={result.transportTL} />
             <CostRow label="Servicii sistem" value={result.systemServices} />
             <CostRow label="Certificate verzi" value={result.greenCertificates} />
             <CostRow label="Cogenerare" value={result.cogeneration} />
+            <CostRow label="Componentă CFD" value={result.cfd} />
             <CostRow label="Acciză" value={result.excise} />
             <CostRow label="Abonament" value={result.subscription} />
-            <CostRow label="TVA (19%)" value={result.vat} />
+            <CostRow label="TVA (21%)" value={result.vat} />
           </div>
         )}
       </div>
