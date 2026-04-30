@@ -272,6 +272,16 @@ const articles = [
   },
 ];
 
+/* Știri & Noutăți — adaugă intrări noi la început
+   Categorii: TARIFE, LEGISLAȚIE, E-FACTURA, GHID, ANRE, FURNIZORI */
+const newsFeed = [
+  { date: "25 aprilie 2026", category: "E-FACTURA", title: "ANAF actualizează sistemul e-Factura cu noi validări", description: "Începând cu 1 mai 2026, ANAF introduce validări suplimentare pentru facturile electronice transmise prin sistemul RO e-Factura.", link: "https://www.anaf.ro/anaf/internet/ANAF/despre_ANAF/informatii_publice/comunicate/", sursa: "anaf.ro" },
+  { date: "20 aprilie 2026", category: "TARIFE", title: "ANRE publică noile tarife de distribuție pentru 2026", description: "Tarifele de distribuție au fost actualizate prin ordine ANRE. Modificările variază între +2% și +5% în funcție de zona de distribuție.", link: "https://anre.ro/energie-electrica/legislatie/tarife-reglementate/", sursa: "anre.ro" },
+  { date: "15 aprilie 2026", category: "LEGISLAȚIE", title: "TVA energia electrică rămâne la 21% în 2026", description: "Parlamentul a confirmat menținerea cotei TVA de 21% pentru energia electrică, aplicabilă tuturor consumatorilor casnici și noncasnici.", link: "https://www.cdep.ro/", sursa: "cdep.ro" },
+  { date: "10 aprilie 2026", category: "FURNIZORI", title: "Hidroelectrica rămâne cel mai ieftin furnizor pe piața concurențială", description: "Conform comparatorului POSF/ANRE, Hidroelectrica oferă cel mai mic preț pentru clienții casnici: 0.45 RON/kWh, cu energie 98.71% regenerabilă.", link: "https://posf.ro/comparator?comparatorType=electric", sursa: "posf.ro" },
+  { date: "5 aprilie 2026", category: "ANRE", title: "ANRE actualizează componenta CFD în facturile de energie", description: "Componenta CFD (Contract for Difference) a fost recalculată la 0.000144 RON/kWh, conform Ordinului ANRE nr. 10/2025.", link: "https://anre.ro/energie-electrica/legislatie/", sursa: "anre.ro" },
+];
+
 const legalPages = [
   { path: "/confidentialitate", title: "Politică de confidențialitate", metaDescription: "Politica de confidențialitate pentru Verifică Factura.", intro: "Această pagină explică modul în care sunt colectate și folosite datele transmise prin formularul de analiză.", sections: [{ heading: "1. Date colectate", body: "Prin formular putem colecta nume, email, telefon, informații despre consum, furnizor, zonă de distribuție, valoarea facturii și mesajul transmis voluntar." }, { heading: "2. Scopul prelucrării", body: "Datele sunt folosite pentru a răspunde solicitării de verificare orientativă a facturii." }, { heading: "3. Transmiterea datelor", body: "Datele sunt transmise și stocate securizat prin Google Sheets, accesibil doar administratorului site-ului." }, { heading: "4. Păstrarea datelor", body: "Datele sunt păstrate doar atât timp cât este necesar pentru gestionarea solicitării." }, { heading: "5. Drepturile utilizatorului", body: "Utilizatorul poate solicita accesul, rectificarea sau ștergerea datelor transmise." }] },
   { path: "/termeni", title: "Termeni și condiții", metaDescription: "Termeni și condiții pentru utilizarea site-ului Verifică Factura.", intro: "Prin utilizarea site-ului, utilizatorul acceptă că informațiile afișate au caracter general și orientativ.", sections: [{ heading: "1. Scopul site-ului", body: "Site-ul oferă informații generale și un calculator orientativ. Nu furnizează oferte comerciale ferme, consultanță juridică sau servicii reglementate." }, { heading: "2. Caracter orientativ", body: "Rezultatele calculatorului sunt estimări bazate pe datele introduse și pe valori orientative." }, { heading: "3. Responsabilitatea utilizatorului", body: "Utilizatorul trebuie să verifice informațiile înainte de a lua decizii contractuale, comerciale sau financiare." }, { heading: "4. Limitarea răspunderii", body: "Administratorul site-ului nu răspunde pentru pierderi, costuri, decizii comerciale sau diferențe de facturare rezultate din folosirea informațiilor afișate." }] },
@@ -470,9 +480,15 @@ function HomePage({ calculation, setCalculation, navigate }) {
 
       {/* GHIDURI */}
       <section id="ghiduri" className="mx-auto max-w-6xl px-6 py-16">
-        <div className="mb-8">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-700">Ghiduri utile</p>
-          <h3 className="mt-3 text-3xl font-bold">Învață să verifici factura de energie</h3>
+        <div className="flex items-center justify-between gap-4 flex-wrap mb-8">
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-700">Ghiduri utile</p>
+            <h3 className="mt-3 text-3xl font-bold">Învață să verifici factura de energie</h3>
+          </div>
+          <a href="/rss.xml" target="_blank" rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border-2 border-amber-400 bg-amber-50 px-5 py-2.5 text-sm font-bold text-amber-700 hover:bg-amber-100 transition shadow-sm">
+            <RssIcon /> Abonează-te via RSS
+          </a>
         </div>
         <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {articles.map((article) => (
@@ -489,6 +505,48 @@ function HomePage({ calculation, setCalculation, navigate }) {
               </button>
             </article>
           ))}
+        </div>
+      </section>
+
+      {/* ȘTIRI & NOUTĂȚI */}
+      <section className="mx-auto max-w-6xl px-6 py-16">
+        <div className="mb-8">
+          <h3 className="text-3xl font-bold text-slate-900">Știri & Noutăți</h3>
+          <p className="mt-2 text-slate-600">Ultimele actualizări din domeniul energiei electrice în România.</p>
+        </div>
+        <div className="grid gap-5 md:grid-cols-2">
+          {newsFeed.map((item, i) => (
+            <a key={i} href={item.link} target="_blank" rel="noopener noreferrer"
+              className="block rounded-2xl bg-white p-6 border border-slate-200 shadow-sm hover:shadow-md hover:border-emerald-200 transition">
+              <div className="flex items-center justify-between gap-3 mb-3">
+                <span className={`inline-block rounded-md px-2.5 py-1 text-xs font-bold uppercase tracking-wider ${
+                  item.category === "TARIFE" ? "bg-blue-100 text-blue-700" :
+                  item.category === "LEGISLAȚIE" ? "bg-purple-100 text-purple-700" :
+                  item.category === "E-FACTURA" ? "bg-red-100 text-red-700" :
+                  item.category === "GHID" ? "bg-emerald-100 text-emerald-700" :
+                  item.category === "ANRE" ? "bg-sky-100 text-sky-700" :
+                  item.category === "FURNIZORI" ? "bg-amber-100 text-amber-700" :
+                  "bg-slate-100 text-slate-700"
+                }`}>{item.category}</span>
+                <span className="text-sm text-slate-500">{item.date}</span>
+              </div>
+              <h4 className="text-lg font-bold text-slate-900 leading-snug">{item.title}</h4>
+              <p className="mt-2 text-sm text-slate-600 leading-relaxed">{item.description}</p>
+              <p className="mt-3 text-xs text-emerald-600 font-semibold">Sursa: {item.sursa} →</p>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      {/* NEWSLETTER */}
+      <section className="bg-emerald-50 border-y border-emerald-100">
+        <div className="mx-auto max-w-6xl px-6 py-12">
+          <div className="mx-auto max-w-2xl text-center">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-700">Rămâi la curent</p>
+            <h3 className="mt-3 text-2xl font-bold text-slate-900">Primește notificări când se schimbă prețurile</h3>
+            <p className="mt-3 text-slate-600 text-sm">Abonează-te și te anunțăm când apar modificări de tarife, oferte noi sau ghiduri utile. Fără spam, doar informații relevante.</p>
+            <NewsletterForm />
+          </div>
         </div>
       </section>
 
@@ -983,18 +1041,28 @@ function LegalPage({ page, navigate }) {
 function Footer({ navigate }) {
   return (
     <footer className="bg-slate-950 text-slate-300 border-t border-white/10">
-      <div className="mx-auto max-w-6xl px-6 py-10 grid gap-8 md:grid-cols-2">
+      <div className="mx-auto max-w-6xl px-6 py-10 grid gap-8 md:grid-cols-3">
         <div>
           <p className="text-sm uppercase tracking-[0.2em] text-emerald-300">Verifică Factura</p>
           <p className="mt-3 text-sm leading-6 text-slate-400">Platformă informativă pentru verificarea orientativă a facturilor de energie. Estimările nu reprezintă ofertă comercială, recomandare contractuală finală sau garanție de economie.</p>
         </div>
-        <div className="md:text-right">
+        <div>
           <p className="font-semibold text-white">Informații legale</p>
-          <div className="mt-3 flex flex-wrap gap-4 md:justify-end text-sm">
-            <button onClick={() => navigate("/confidentialitate")} className="hover:text-white transition">Confidențialitate</button>
-            <button onClick={() => navigate("/termeni")} className="hover:text-white transition">Termeni</button>
-            <button onClick={() => navigate("/disclaimer")} className="hover:text-white transition">Disclaimer</button>
-            <button onClick={() => navigate("/cookies")} className="hover:text-white transition">Cookies</button>
+          <div className="mt-3 flex flex-col gap-2 text-sm">
+            <button onClick={() => navigate("/confidentialitate")} className="text-left hover:text-white transition">Confidențialitate</button>
+            <button onClick={() => navigate("/termeni")} className="text-left hover:text-white transition">Termeni</button>
+            <button onClick={() => navigate("/disclaimer")} className="text-left hover:text-white transition">Disclaimer</button>
+            <button onClick={() => navigate("/cookies")} className="text-left hover:text-white transition">Cookies</button>
+          </div>
+        </div>
+        <div className="md:text-right">
+          <p className="font-semibold text-white">Resurse</p>
+          <div className="mt-3 flex flex-col gap-2 text-sm md:items-end">
+            <a href="/rss.xml" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 hover:text-white transition">
+              <RssIcon /> RSS Feed
+            </a>
+            <a href="https://posf.ro/comparator?comparatorType=electric" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">Comparator POSF/ANRE</a>
+            <a href="https://anre.ro" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">ANRE</a>
           </div>
           <p className="mt-4 text-xs text-slate-500">© {new Date().getFullYear()} Verifică Factura. Toate drepturile rezervate.</p>
         </div>
@@ -1046,6 +1114,44 @@ function SparkIcon() { return <svg viewBox="0 0 24 24" className="h-4 w-4" fill=
 function LeafIcon() { return <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 4c-7 0-12 5-12 12 0 2 1 4 3 4 7 0 9-9 9-16Z" /><path d="M4 20c4-6 8-9 16-16" /></svg>; }
 function ChartIcon() { return <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 19V5" /><path d="M4 19h16" /><path d="m7 15 4-4 3 3 5-7" /></svg>; }
 function ShieldIcon() { return <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z" /><path d="m9 12 2 2 4-5" /></svg>; }
+function RssIcon() { return <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 11a9 9 0 0 1 9 9" /><path d="M4 4a16 16 0 0 1 16 16" /><circle cx="5" cy="19" r="1" /></svg>; }
+
+/* Newsletter Form */
+function NewsletterForm() {
+  const [email, setEmail] = useState("");
+  const [sent, setSent] = useState(false);
+  const [sending, setSending] = useState(false);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (!email) return;
+    setSending(true);
+    try {
+      await fetch("https://script.google.com/macros/s/AKfycbx7dwfSTNQuIByxmUWw0Srx80Yhc7Hu97kqY-A82j2KbxWdMJ-xADyLt9cqn296_f3wpg/exec", {
+        method: "POST",
+        mode: "no-cors",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ nume: "Newsletter", email: email, mesaj: "Abonare newsletter", tip_client: "Newsletter" }),
+      });
+      setSent(true);
+    } catch { }
+    finally { setSending(false); }
+  };
+
+  if (sent) return <p className="mt-6 text-emerald-700 font-semibold">✔ Te-ai abonat cu succes! Vei primi notificări când apar noutăți.</p>;
+
+  return (
+    <form onSubmit={handleSubmit} className="mt-6 flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+      <input type="email" required value={email} onChange={(e) => setEmail(e.target.value)}
+        className="flex-1 rounded-2xl border border-slate-300 px-4 py-3 outline-none focus:border-emerald-500 focus:ring-2 focus:ring-emerald-100 text-slate-900"
+        placeholder="Adresa ta de email" />
+      <button type="submit" disabled={sending}
+        className="rounded-2xl bg-emerald-500 px-6 py-3 font-bold text-slate-950 hover:bg-emerald-400 transition disabled:opacity-60 shadow-lg shadow-emerald-500/20 whitespace-nowrap">
+        {sending ? "Se trimite..." : "Abonează-mă"}
+      </button>
+    </form>
+  );
+}
 
 /* Helpers */
 function money(value) { return Number(value || 0).toFixed(2); }
