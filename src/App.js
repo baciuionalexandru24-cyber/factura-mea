@@ -538,18 +538,6 @@ function HomePage({ calculation, setCalculation, navigate }) {
         </div>
       </section>
 
-      {/* NEWSLETTER */}
-      <section className="bg-emerald-50 border-y border-emerald-100">
-        <div className="mx-auto max-w-6xl px-6 py-12">
-          <div className="mx-auto max-w-2xl text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-700">Rămâi la curent</p>
-            <h3 className="mt-3 text-2xl font-bold text-slate-900">Primește notificări când se schimbă prețurile</h3>
-            <p className="mt-3 text-slate-600 text-sm">Abonează-te și te anunțăm când apar modificări de tarife, oferte noi sau ghiduri utile. Fără spam, doar informații relevante.</p>
-            <NewsletterForm />
-          </div>
-        </div>
-      </section>
-
       <ContactSection calculation={calculation} />
     </main>
   );
