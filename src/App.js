@@ -631,7 +631,7 @@ function ContactSection({ calculation }) {
               </div>
               <div className="rounded-3xl bg-emerald-400/10 p-5 border border-emerald-300/20 backdrop-blur">
                 <p className="font-semibold text-white">Contact</p>
-                <p className="mt-2 text-sm text-slate-300">Pentru solicitări, folosește formularul de pe site. După activarea domeniului, va fi disponibil și un email oficial.</p>
+                <p className="mt-2 text-sm text-slate-300">Pentru solicitări, folosește formularul de pe site și vei fi contactat în cel mai scurt timp.</p>
               </div>
             </div>
           </div>
