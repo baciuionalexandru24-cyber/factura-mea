@@ -8,8 +8,11 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
-    "generate:seo": "node scripts/generate-content-assets.cjs",
-    "prebuild": "npm run generate:seo",
+    "validate:content": "node scripts/validate-editorial-content.cjs",
+    "generate:seo": "npm run validate:content && node scripts/generate-content-assets.cjs",
+    "generate:social": "npm run validate:content && node scripts/generate-social-assets.cjs",
+    "generate:all": "npm run generate:seo && npm run generate:social",
+    "prebuild": "npm run generate:all",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

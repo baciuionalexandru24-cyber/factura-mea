@@ -1,0 +1,147 @@
+{
+    "updatedAt": "2026-05-05",
+    "strategy": {
+      "primaryGoal": "Crestere trafic organic si conversie catre calculatorul de factura si formularul de analiza.",
+      "audience": [
+        "consumatori casnici cu facturi mari",
+        "persoane care vor sa schimbe furnizorul",
+        "utilizatori care nu inteleg componentele facturii",
+        "mici afaceri care verifica factura de energie"
+      ],
+      "mainConversion": "Vizitator -> calculator -> formular analiza -> lead segmentat"
+    },
+    "contentPillars": [
+      {
+        "id": "factura-explicata",
+        "name": "Factura explicata",
+        "goal": "Explica fiecare linie din factura pe intelesul consumatorului.",
+        "formats": ["article", "short_video", "carousel", "facebook_post"]
+      },
+      {
+        "id": "consumatori-mari",
+        "name": "Consumatori mari",
+        "goal": "Aparate si obiceiuri care cresc factura: boiler, aer conditionat, incalzire, uscator.",
+        "formats": ["article", "short_video", "carousel"]
+      },
+      {
+        "id": "furnizori-comparatii",
+        "name": "Furnizori si comparatii",
+        "goal": "Compara oferte, cost total si conditii contractuale.",
+        "formats": ["supplier_page", "comparison_article", "facebook_post"]
+      },
+      {
+        "id": "legislatie-stiri",
+        "name": "Legislatie si stiri",
+        "goal": "Actualizari rapide, verificate cu surse oficiale.",
+        "formats": ["news", "short_post", "newsletter"]
+      },
+      {
+        "id": "monetizare-leads",
+        "name": "Lead generation",
+        "goal": "Transforma traficul informational in solicitari de analiza si contacte comerciale cu acord explicit.",
+        "formats": ["cta_block", "partner_page", "newsletter"]
+      }
+    ],
+    "weeklyCadence": [
+      {
+        "weekday": "luni",
+        "asset": "article",
+        "topicType": "ghid practic",
+        "channel": "site",
+        "target": "1 articol evergreen"
+      },
+      {
+        "weekday": "marti",
+        "asset": "short_video",
+        "topicType": "Factura explicata in 60 secunde",
+        "channel": "TikTok/Reels/Shorts",
+        "target": "1 video scurt"
+      },
+      {
+        "weekday": "miercuri",
+        "asset": "supplier_post",
+        "topicType": "furnizor sau comparatie",
+        "channel": "Facebook",
+        "target": "1 post cu link catre pagina furnizor"
+      },
+      {
+        "weekday": "joi",
+        "asset": "news",
+        "topicType": "actualizare ANRE/POSF/ANAF",
+        "channel": "site + Facebook",
+        "target": "1 stire verificata"
+      },
+      {
+        "weekday": "vineri",
+        "asset": "carousel",
+        "topicType": "3-5 lucruri de verificat",
+        "channel": "Facebook/Instagram/LinkedIn",
+        "target": "1 carusel"
+      }
+    ],
+    "backlog": [
+      {
+        "id": "hidroelectrica-vs-ppc",
+        "status": "planned",
+        "priority": "high",
+        "pillar": "furnizori-comparatii",
+        "type": "comparison_article",
+        "primaryKeyword": "Hidroelectrica vs PPC",
+        "title": "Hidroelectrica vs PPC: comparatie pret, cost total si conditii",
+        "conversionTarget": "calculator"
+      },
+      {
+        "id": "cum-transmiti-indexul",
+        "status": "planned",
+        "priority": "high",
+        "pillar": "factura-explicata",
+        "type": "article",
+        "primaryKeyword": "cum transmiti indexul la energie",
+        "title": "Cum transmiti indexul la energie si cum eviti estimarile",
+        "conversionTarget": "newsletter"
+      },
+      {
+        "id": "abonament-furnizor-energie",
+        "status": "planned",
+        "priority": "medium",
+        "pillar": "factura-explicata",
+        "type": "article",
+        "primaryKeyword": "abonament furnizor energie",
+        "title": "Ce inseamna abonamentul lunar la energie si cand te costa mai mult",
+        "conversionTarget": "calculator"
+      },
+      {
+        "id": "parteneri-lead-generation",
+        "status": "planned",
+        "priority": "medium",
+        "pillar": "monetizare-leads",
+        "type": "landing_page",
+        "primaryKeyword": "leaduri energie electrica",
+        "title": "Parteneriate pentru furnizori si consultanti energie",
+        "conversionTarget": "partner_contact"
+      }
+    ],
+    "socialTemplates": [
+      {
+        "id": "short_video_60s",
+        "channel": "TikTok/Reels/Shorts",
+        "structure": ["hook", "context", "3 idei clare", "cta catre calculator"]
+      },
+      {
+        "id": "facebook_summary",
+        "channel": "Facebook",
+        "structure": ["problema", "explicatie scurta", "link articol", "intrebare pentru comentarii"]
+      },
+      {
+        "id": "carousel",
+        "channel": "Facebook/Instagram/LinkedIn",
+        "structure": ["coperta", "3-5 slide-uri educative", "slide CTA"]
+      },
+      {
+        "id": "newsletter",
+        "channel": "Email",
+        "structure": ["subiect", "rezumat", "link", "cta analiza factura"]
+      }
+    ]
+  }
+  

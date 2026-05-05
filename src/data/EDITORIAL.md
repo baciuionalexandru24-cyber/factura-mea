@@ -4,6 +4,7 @@ Editeaza continutul principal in aceste fisiere:
 
 - `content.json` pentru articole si stiri.
 - `furnizori.json` pentru furnizori, oferte si preturi.
+- `editorial-calendar.json` pentru strategie, cadenta saptamanala, backlog si template-uri social.
 
 ## Flux continut
 
@@ -30,7 +31,7 @@ Ruleaza:
 npm run generate:seo
 ```
 
-Comanda genereaza automat:
+Comanda ruleaza mai intai validatorul editorial, apoi genereaza automat:
 
 - `public/sitemap.xml`
 - `public/rss.xml`
@@ -40,6 +41,67 @@ Comanda genereaza automat:
   - `public/furnizori/.../index.html`
 
 La `npm run build`, generarea SEO ruleaza automat prin `prebuild`.
+
+## Content engine si calendar editorial
+
+Calendarul editorial este in:
+
+```txt
+src/data/editorial-calendar.json
+```
+
+Include:
+
+- obiectivul principal si audienta;
+- piloni de continut;
+- cadenta saptamanala;
+- backlog de articole, stiri, comparatii si pagini comerciale;
+- template-uri pentru social media.
+
+Pentru a genera asset-uri de social media din continutul publicat:
+
+```bash
+npm run generate:social
+```
+
+Comanda creeaza folderul intern:
+
+```txt
+editorial/
+  social-calendar.json
+  social-calendar.md
+```
+
+Aceste fisiere nu sunt pentru publicare directa pe site. Sunt materiale de lucru pentru TikTok/Reels/Shorts, Facebook, carusele si newsletter.
+
+Pentru regenerarea completa:
+
+```bash
+npm run generate:all
+```
+
+Aceasta ruleaza validarea, genereaza SEO si creeaza asset-urile social.
+
+## Validare editoriala
+
+Ruleaza:
+
+```bash
+npm run validate:content
+```
+
+Validatorul opreste build-ul daca un material publicat are probleme critice:
+
+- lipseste `title`, `excerpt`, `metaDescription` sau `intro`;
+- lipseste `author.name`;
+- lipseste `lastVerifiedAt`;
+- lipsesc sursele sau URL-urile de sursa sunt invalide;
+- lipsesc intrebarile FAQ;
+- exista slug duplicat;
+- exista caractere corupte de encoding, de tip `sÄƒ`, `Ã®`, `È›`;
+- un furnizor are pret invalid, sursa lipsa sau data `actualizatLa` invalida.
+
+Pentru materiale in lucru foloseste `status: "draft"` sau `status: "review"`. Doar `published` este validat strict si publicat in site, sitemap si RSS.
 
 ## De ce exista pagini HTML statice
 
