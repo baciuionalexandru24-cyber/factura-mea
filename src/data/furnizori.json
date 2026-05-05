@@ -1,79 +1,522 @@
 {
-  "Hidroelectrica": {
-    "casnic": 0.45,
-    "noncasnic": 0.62,
-    "abonament": 0,
-    "sursa": "POSF/ANRE",
-    "actualizatLa": "2026-04-28"
-  },
-  "Premier Energy": {
-    "casnic": 0.599,
-    "noncasnic": 0.75,
-    "abonament": 0,
-    "sursa": "POSF/ANRE",
-    "actualizatLa": "2026-04-28"
-  },
-  "Nova Power & Gas": {
-    "casnic": 0.499,
-    "noncasnic": 0.7,
-    "abonament": 0,
-    "sursa": "POSF/ANRE",
-    "actualizatLa": "2026-04-28"
-  },
-  "Electrica Furnizare": {
-    "casnic": 0.62,
-    "noncasnic": 0.75,
-    "abonament": 0,
-    "sursa": "POSF/ANRE",
-    "actualizatLa": "2026-04-28"
-  },
-  "PPC (ex Enel)": {
-    "casnic": 0.67,
-    "noncasnic": 0.95,
-    "abonament": 5,
-    "sursa": "estimare internă",
-    "actualizatLa": "2026-04-28"
-  },
-  "E.ON Energie": {
-    "casnic": 0.64,
-    "noncasnic": 1.05,
-    "abonament": 4,
-    "sursa": "estimare internă",
-    "actualizatLa": "2026-04-28"
-  },
-  "ENGIE România": {
-    "casnic": 0.66,
-    "noncasnic": 1.0,
-    "abonament": 4,
-    "sursa": "estimare internă",
-    "actualizatLa": "2026-04-28"
-  },
-  "Tinmar Energy": {
-    "casnic": 0.61,
-    "noncasnic": 0.9,
-    "abonament": 3,
-    "sursa": "estimare internă",
-    "actualizatLa": "2026-04-28"
-  },
-  "Restart Energy": {
-    "casnic": 0.63,
-    "noncasnic": 0.88,
-    "abonament": 0,
-    "sursa": "estimare internă",
-    "actualizatLa": "2026-04-28"
-  },
-  "Monsson Trading": {
-    "casnic": 0.58,
-    "noncasnic": 0.82,
-    "abonament": 0,
-    "sursa": "estimare internă",
-    "actualizatLa": "2026-04-28"
-  },
-  "Getica 95": {
-    "casnic": 0.6,
-    "noncasnic": 0.85,
-    "abonament": 0,
-    "sursa": "estimare internă",
-    "actualizatLa": "2026-04-28"
-  }
+  "Hidroelectrica":  {
+                         "casnic":  0.45,
+                         "noncasnic":  0.62,
+                         "abonament":  0,
+                         "verde":  98.71,
+                         "oferta":  "Viitor Hidro",
+                         "valoareUnitara":  1.05,
+                         "sursa":  "POSF/ANRE",
+                         "actualizatLa":  "2026-04-29"
+                     },
+  "Nova Power \u0026 Gas":  {
+                                "casnic":  0.57,
+                                "noncasnic":  0.7,
+                                "abonament":  0,
+                                "verde":  100,
+                                "oferta":  "Casnic preț fix o lună",
+                                "valoareUnitara":  1.17,
+                                "sursa":  "POSF/ANRE",
+                                "actualizatLa":  "2026-04-29"
+                            },
+  "Premier Energy":  {
+                         "casnic":  0.63,
+                         "noncasnic":  0.75,
+                         "abonament":  0,
+                         "verde":  0,
+                         "oferta":  "PE Rezidențial Online Promo",
+                         "valoareUnitara":  1.23,
+                         "sursa":  "POSF/ANRE",
+                         "actualizatLa":  "2026-04-29"
+                     },
+  "Energy Tech Entera":  {
+                             "casnic":  0.63,
+                             "noncasnic":  0.75,
+                             "abonament":  0,
+                             "verde":  100,
+                             "oferta":  "entera SWITCH Casnic",
+                             "valoareUnitara":  1.23,
+                             "sursa":  "POSF/ANRE",
+                             "actualizatLa":  "2026-04-29"
+                         },
+  "Grenerg":  {
+                  "casnic":  0.64,
+                  "noncasnic":  0.76,
+                  "abonament":  0,
+                  "verde":  24.3,
+                  "oferta":  "FIX 24+",
+                  "valoareUnitara":  1.24,
+                  "sursa":  "POSF/ANRE",
+                  "actualizatLa":  "2026-04-29"
+              },
+  "E.ON Energie":  {
+                       "casnic":  0.64,
+                       "noncasnic":  0.76,
+                       "abonament":  0,
+                       "verde":  39.93,
+                       "oferta":  "E.ON Duo Assist PRO",
+                       "valoareUnitara":  1.24,
+                       "sursa":  "POSF/ANRE",
+                       "actualizatLa":  "2026-04-29"
+                   },
+  "PPC Energie (ex Enel)":  {
+                                "casnic":  0.65,
+                                "noncasnic":  0.77,
+                                "abonament":  0,
+                                "verde":  0,
+                                "oferta":  "ppc energie easy",
+                                "valoareUnitara":  1.25,
+                                "sursa":  "POSF/ANRE",
+                                "actualizatLa":  "2026-04-29"
+                            },
+  "ENGIE România":  {
+                        "casnic":  0.69,
+                        "noncasnic":  0.81,
+                        "abonament":  0,
+                        "verde":  100,
+                        "oferta":  "Ampero Verde Online",
+                        "valoareUnitara":  1.29,
+                        "sursa":  "POSF/ANRE",
+                        "actualizatLa":  "2026-04-29"
+                    },
+  "MVM Future Energy":  {
+                            "casnic":  0.78,
+                            "noncasnic":  0.9,
+                            "abonament":  0,
+                            "verde":  53.73,
+                            "oferta":  "Oferta EE tip casnic general",
+                            "valoareUnitara":  1.38,
+                            "sursa":  "POSF/ANRE",
+                            "actualizatLa":  "2026-04-29"
+                        },
+  "Energy Core Development":  {
+                                  "casnic":  0.82,
+                                  "noncasnic":  0.94,
+                                  "abonament":  0,
+                                  "verde":  0,
+                                  "oferta":  "CORE Residential",
+                                  "valoareUnitara":  1.42,
+                                  "sursa":  "POSF/ANRE",
+                                  "actualizatLa":  "2026-04-29"
+                              },
+  "Luxten Lighting":  {
+                          "casnic":  0.83,
+                          "noncasnic":  0.95,
+                          "abonament":  0,
+                          "verde":  100,
+                          "oferta":  "Luxten casnic JT",
+                          "valoareUnitara":  1.43,
+                          "sursa":  "POSF/ANRE",
+                          "actualizatLa":  "2026-04-29"
+                      },
+  "EM Power":  {
+                   "casnic":  0.85,
+                   "noncasnic":  0.97,
+                   "abonament":  0,
+                   "verde":  52.57,
+                   "oferta":  "Oferta casnic jt 1 an",
+                   "valoareUnitara":  1.45,
+                   "sursa":  "POSF/ANRE",
+                   "actualizatLa":  "2026-04-29"
+               },
+  "Alive Capital":  {
+                        "casnic":  0.85,
+                        "noncasnic":  0.97,
+                        "abonament":  0,
+                        "verde":  100,
+                        "oferta":  "Rezidențial Energie Verde",
+                        "valoareUnitara":  1.45,
+                        "sursa":  "POSF/ANRE",
+                        "actualizatLa":  "2026-04-29"
+                    },
+  "Electrica Furnizare":  {
+                              "casnic":  0.88,
+                              "noncasnic":  1,
+                              "abonament":  0,
+                              "verde":  0,
+                              "oferta":  "Oferta casnici Serviciu Universal",
+                              "valoareUnitara":  1.48,
+                              "sursa":  "POSF/ANRE",
+                              "actualizatLa":  "2026-04-29"
+                          },
+  "OMV Petrom":  {
+                     "casnic":  0.88,
+                     "noncasnic":  1,
+                     "abonament":  0,
+                     "verde":  33.55,
+                     "oferta":  "Oferta serviciu universal",
+                     "valoareUnitara":  1.48,
+                     "sursa":  "POSF/ANRE",
+                     "actualizatLa":  "2026-04-29"
+                 },
+  "Next Energy Partners":  {
+                               "casnic":  0.87,
+                               "noncasnic":  0.99,
+                               "abonament":  0,
+                               "verde":  0,
+                               "oferta":  "Clienți finali casnic concurențial",
+                               "valoareUnitara":  1.47,
+                               "sursa":  "POSF/ANRE",
+                               "actualizatLa":  "2026-04-29"
+                           },
+  "Dacia Energy Solutions":  {
+                                 "casnic":  0.93,
+                                 "noncasnic":  1.05,
+                                 "abonament":  0,
+                                 "verde":  43.6,
+                                 "oferta":  "Oferta Tip Client Casnic",
+                                 "valoareUnitara":  1.53,
+                                 "sursa":  "POSF/ANRE",
+                                 "actualizatLa":  "2026-04-29"
+                             },
+  "Tinmar Green Energy":  {
+                              "casnic":  0.93,
+                              "noncasnic":  1.05,
+                              "abonament":  0,
+                              "verde":  0,
+                              "oferta":  "Oferta casnic Rețele Electrice JT",
+                              "valoareUnitara":  1.53,
+                              "sursa":  "POSF/ANRE",
+                              "actualizatLa":  "2026-04-29"
+                          },
+  "M.D.A. Energy":  {
+                        "casnic":  0.93,
+                        "noncasnic":  1.05,
+                        "abonament":  0,
+                        "verde":  0,
+                        "oferta":  "Oferta casnic Rețele Electrice JT",
+                        "valoareUnitara":  1.53,
+                        "sursa":  "POSF/ANRE",
+                        "actualizatLa":  "2026-04-29"
+                    },
+  "Mar-Tin Solar Energy":  {
+                               "casnic":  0.93,
+                               "noncasnic":  1.05,
+                               "abonament":  0,
+                               "verde":  0,
+                               "oferta":  "Oferta casnic Rețele Electrice JT",
+                               "valoareUnitara":  1.53,
+                               "sursa":  "POSF/ANRE",
+                               "actualizatLa":  "2026-04-29"
+                           },
+  "Ingka Investments (IKEA)":  {
+                                   "casnic":  0.93,
+                                   "noncasnic":  1.05,
+                                   "abonament":  0,
+                                   "verde":  100,
+                                   "oferta":  "Oferta Standard casnici JT",
+                                   "valoareUnitara":  1.53,
+                                   "sursa":  "POSF/ANRE",
+                                   "actualizatLa":  "2026-04-29"
+                               },
+  "Termo Ploiești":  {
+                         "casnic":  0.93,
+                         "noncasnic":  1.05,
+                         "abonament":  0,
+                         "verde":  0,
+                         "oferta":  "Oferta furnizare clienți casnici",
+                         "valoareUnitara":  1.53,
+                         "sursa":  "POSF/ANRE",
+                         "actualizatLa":  "2026-04-29"
+                     },
+  "Lord Energy":  {
+                      "casnic":  0.96,
+                      "noncasnic":  1.08,
+                      "abonament":  0,
+                      "verde":  0,
+                      "oferta":  "Oferta casnic Rețele Electrice JT 2025",
+                      "valoareUnitara":  1.56,
+                      "sursa":  "POSF/ANRE",
+                      "actualizatLa":  "2026-04-29"
+                  },
+  "Photovoltaic Green Project":  {
+                                     "casnic":  0.96,
+                                     "noncasnic":  1.08,
+                                     "abonament":  0,
+                                     "verde":  45.65,
+                                     "oferta":  "Oferta furnizare energie electrică",
+                                     "valoareUnitara":  1.56,
+                                     "sursa":  "POSF/ANRE",
+                                     "actualizatLa":  "2026-04-29"
+                                 },
+  "Solprim":  {
+                  "casnic":  0.92,
+                  "noncasnic":  1.04,
+                  "abonament":  0,
+                  "verde":  0,
+                  "oferta":  "Oferta casnic Rețele Electrice JT",
+                  "valoareUnitara":  1.52,
+                  "sursa":  "POSF/ANRE",
+                  "actualizatLa":  "2026-04-29"
+              },
+  "AMV Solar":  {
+                    "casnic":  0.92,
+                    "noncasnic":  1.04,
+                    "abonament":  0,
+                    "verde":  0,
+                    "oferta":  "Oferta casnic Rețele Electrice JT",
+                    "valoareUnitara":  1.52,
+                    "sursa":  "POSF/ANRE",
+                    "actualizatLa":  "2026-04-29"
+                },
+  "Eye Mall":  {
+                   "casnic":  0.92,
+                   "noncasnic":  1.04,
+                   "abonament":  0,
+                   "verde":  0,
+                   "oferta":  "Oferta casnic Rețele Electrice JT",
+                   "valoareUnitara":  1.52,
+                   "sursa":  "POSF/ANRE",
+                   "actualizatLa":  "2026-04-29"
+               },
+  "Tinmar Energy":  {
+                        "casnic":  0.92,
+                        "noncasnic":  1.04,
+                        "abonament":  0,
+                        "verde":  0,
+                        "oferta":  "Oferta casnic Rețele Electrice JT",
+                        "valoareUnitara":  1.52,
+                        "sursa":  "POSF/ANRE",
+                        "actualizatLa":  "2026-04-29"
+                    },
+  "Monsson Trading":  {
+                          "casnic":  0.99,
+                          "noncasnic":  1.11,
+                          "abonament":  0,
+                          "verde":  0,
+                          "oferta":  "Oferta-tip furnizare energie electrică",
+                          "valoareUnitara":  1.59,
+                          "sursa":  "POSF/ANRE",
+                          "actualizatLa":  "2026-04-29"
+                      },
+  "Getica 95 COM":  {
+                        "casnic":  0.99,
+                        "noncasnic":  1.11,
+                        "abonament":  0,
+                        "verde":  0,
+                        "oferta":  "Casnic JT Rețele Electrice Muntenia",
+                        "valoareUnitara":  1.59,
+                        "sursa":  "POSF/ANRE",
+                        "actualizatLa":  "2026-04-29"
+                    },
+  "Cotroceni Park":  {
+                         "casnic":  0.99,
+                         "noncasnic":  1.11,
+                         "abonament":  0,
+                         "verde":  39.87,
+                         "oferta":  "Casnic Muntenia Sud",
+                         "valoareUnitara":  1.59,
+                         "sursa":  "POSF/ANRE",
+                         "actualizatLa":  "2026-04-29"
+                     },
+  "DIGI România":  {
+                       "casnic":  1,
+                       "noncasnic":  1.12,
+                       "abonament":  0,
+                       "verde":  20.5,
+                       "oferta":  "CASNIC01",
+                       "valoareUnitara":  1.6,
+                       "sursa":  "POSF/ANRE",
+                       "actualizatLa":  "2026-04-29"
+                   },
+  "Energy Distribution Services":  {
+                                       "casnic":  1.05,
+                                       "noncasnic":  1.17,
+                                       "abonament":  0,
+                                       "verde":  0,
+                                       "oferta":  "Oferta consumatori casnici",
+                                       "valoareUnitara":  1.65,
+                                       "sursa":  "POSF/ANRE",
+                                       "actualizatLa":  "2026-04-29"
+                                   },
+  "Renovatio Trading":  {
+                            "casnic":  1.05,
+                            "noncasnic":  1.17,
+                            "abonament":  0,
+                            "verde":  54.05,
+                            "oferta":  "Oferta Casnic RT JT Muntenia Sud",
+                            "valoareUnitara":  1.65,
+                            "sursa":  "POSF/ANRE",
+                            "actualizatLa":  "2026-04-29"
+                        },
+  "Ges Furnizare":  {
+                        "casnic":  1.05,
+                        "noncasnic":  1.17,
+                        "abonament":  0,
+                        "verde":  0,
+                        "oferta":  "GES Ofertă Rezidențial Rețele România JT",
+                        "valoareUnitara":  1.65,
+                        "sursa":  "POSF/ANRE",
+                        "actualizatLa":  "2026-04-29"
+                    },
+  "Enevo Power":  {
+                      "casnic":  1.05,
+                      "noncasnic":  1.17,
+                      "abonament":  0,
+                      "verde":  0,
+                      "oferta":  "Oferta Casnic Muntenia Sud Feb 2026",
+                      "valoareUnitara":  1.65,
+                      "sursa":  "POSF/ANRE",
+                      "actualizatLa":  "2026-04-29"
+                  },
+  "MET Romania Energy":  {
+                             "casnic":  1.07,
+                             "noncasnic":  1.19,
+                             "abonament":  0,
+                             "verde":  46.76,
+                             "oferta":  "Met Casnici Rețele Electrice Muntenia",
+                             "valoareUnitara":  1.67,
+                             "sursa":  "POSF/ANRE",
+                             "actualizatLa":  "2026-04-29"
+                         },
+  "Transenergo Microhidro":  {
+                                 "casnic":  1.08,
+                                 "noncasnic":  1.2,
+                                 "abonament":  0,
+                                 "verde":  50,
+                                 "oferta":  "Oferta furnizare energie electrică",
+                                 "valoareUnitara":  1.68,
+                                 "sursa":  "POSF/ANRE",
+                                 "actualizatLa":  "2026-04-29"
+                             },
+  "Veolia România Soluții Integrate":  {
+                                           "casnic":  1.09,
+                                           "noncasnic":  1.21,
+                                           "abonament":  0,
+                                           "verde":  17.96,
+                                           "oferta":  "VRSI Casnic Muntenia Sud JT",
+                                           "valoareUnitara":  1.69,
+                                           "sursa":  "POSF/ANRE",
+                                           "actualizatLa":  "2026-04-29"
+                                       },
+  "Verbund Wind Power":  {
+                             "casnic":  1.11,
+                             "noncasnic":  1.23,
+                             "abonament":  0,
+                             "verde":  74.77,
+                             "oferta":  "Oferta standard casnic",
+                             "valoareUnitara":  1.71,
+                             "sursa":  "POSF/ANRE",
+                             "actualizatLa":  "2026-04-29"
+                         },
+  "Fundpole Capital":  {
+                           "casnic":  1.12,
+                           "noncasnic":  1.24,
+                           "abonament":  0,
+                           "verde":  17,
+                           "oferta":  "Oferta TIP furnizare energie electrică client casnic",
+                           "valoareUnitara":  1.72,
+                           "sursa":  "POSF/ANRE",
+                           "actualizatLa":  "2026-04-29"
+                       },
+  "Electricom":  {
+                     "casnic":  1.14,
+                     "noncasnic":  1.26,
+                     "abonament":  0,
+                     "verde":  88.04,
+                     "oferta":  "Oferta casnic Muntenia Sud JT",
+                     "valoareUnitara":  1.74,
+                     "sursa":  "POSF/ANRE",
+                     "actualizatLa":  "2026-04-29"
+                 },
+  "EFT Power / EFT Furnizare":  {
+                                    "casnic":  1.17,
+                                    "noncasnic":  1.29,
+                                    "abonament":  0,
+                                    "verde":  24.54,
+                                    "oferta":  "Oferta pentru clienții casnici",
+                                    "valoareUnitara":  1.77,
+                                    "sursa":  "POSF/ANRE",
+                                    "actualizatLa":  "2026-04-29"
+                                },
+  "Vimetco Management":  {
+                             "casnic":  1.17,
+                             "noncasnic":  1.29,
+                             "abonament":  0,
+                             "verde":  22.89,
+                             "oferta":  "Oferta consumatori casnici MS JT",
+                             "valoareUnitara":  1.77,
+                             "sursa":  "POSF/ANRE",
+                             "actualizatLa":  "2026-04-29"
+                         },
+  "ISPH (Inst. Studii Hidroenergetice)":  {
+                                              "casnic":  1.23,
+                                              "noncasnic":  1.35,
+                                              "abonament":  0,
+                                              "verde":  80,
+                                              "oferta":  "Oferta casnic Muntenia",
+                                              "valoareUnitara":  1.83,
+                                              "sursa":  "POSF/ANRE",
+                                              "actualizatLa":  "2026-04-29"
+                                          },
+  "Alro":  {
+               "casnic":  1.23,
+               "noncasnic":  1.35,
+               "abonament":  0,
+               "verde":  36.73,
+               "oferta":  "Oferta consumatori casnici JT Muntenia Sud",
+               "valoareUnitara":  1.83,
+               "sursa":  "POSF/ANRE",
+               "actualizatLa":  "2026-04-29"
+           },
+  "Cooperativa de Energie":  {
+                                 "casnic":  1.28,
+                                 "noncasnic":  1.4,
+                                 "abonament":  0,
+                                 "verde":  100,
+                                 "oferta":  "Flexi consumator casnic",
+                                 "valoareUnitara":  1.88,
+                                 "sursa":  "POSF/ANRE",
+                                 "actualizatLa":  "2026-04-29"
+                             },
+  "Auchan Renewable Energy":  {
+                                  "casnic":  1.31,
+                                  "noncasnic":  1.43,
+                                  "abonament":  0,
+                                  "verde":  46.84,
+                                  "oferta":  "Oferta-tip C Muntenia Sud JT",
+                                  "valoareUnitara":  1.91,
+                                  "sursa":  "POSF/ANRE",
+                                  "actualizatLa":  "2026-04-29"
+                              },
+  "Werk Energy":  {
+                      "casnic":  1.32,
+                      "noncasnic":  1.44,
+                      "abonament":  0,
+                      "verde":  58.3,
+                      "oferta":  "Oferta Casnic Muntenia Sud JT",
+                      "valoareUnitara":  1.92,
+                      "sursa":  "POSF/ANRE",
+                      "actualizatLa":  "2026-04-29"
+                  },
+  "Entrex Services":  {
+                          "casnic":  1.34,
+                          "noncasnic":  1.46,
+                          "abonament":  0,
+                          "verde":  41.87,
+                          "oferta":  "Oferta energie electrică Muntenia Sud casnic JT",
+                          "valoareUnitara":  1.94,
+                          "sursa":  "POSF/ANRE",
+                          "actualizatLa":  "2026-04-29"
+                      },
+  "Plenerg":  {
+                  "casnic":  1.35,
+                  "noncasnic":  1.47,
+                  "abonament":  0,
+                  "verde":  54.62,
+                  "oferta":  "PEG027 Oferta-tip PLENERG Muntenia Sud JT",
+                  "valoareUnitara":  1.95,
+                  "sursa":  "POSF/ANRE",
+                  "actualizatLa":  "2026-04-29"
+              },
+  "Transenergo COM":  {
+                          "casnic":  1.41,
+                          "noncasnic":  1.53,
+                          "abonament":  0,
+                          "verde":  40,
+                          "oferta":  "Oferta furnizare energie electrică client casnic",
+                          "valoareUnitara":  2.01,
+                          "sursa":  "POSF/ANRE",
+                          "actualizatLa":  "2026-04-29"
+                      }
 }

@@ -1,513 +1,928 @@
 [
-    {
-      "type": "article",
-      "status": "published",
-      "publishDate": "2026-04-29",
-      "slug": "cum-reduci-factura-energie-2026",
-      "title": "Cum să îți reduci factura la energie în 2026 — ghid complet",
-      "excerpt": "Pași practici pentru a plăti mai puțin pe energie: verifică consumul, compară furnizori, optimizează abonamentul și redu consumul aparatelor mari.",
-      "readTime": "10 min",
-      "metaDescription": "Ghid complet 2026 pentru reducerea facturii la energie electrică: verifică consumul, compară oferte, optimizează abonamentul și redu consumul aparatelor mari.",
-      "intro": "Reducerea facturii la energie nu înseamnă doar să stingi lumina. În 2026, cu prețuri între 0.45 și 0.67 RON/kWh în funcție de furnizor, diferența dintre o ofertă bună și una slabă poate ajunge la 50–100 RON pe lună pentru un consum mediu de apartament. Acest ghid îți arată exact ce poți face, pas cu pas.",
-      "sections": [
-        {
-          "heading": "1. Verifică mai întâi consumul în kWh, nu suma în RON",
-          "body": "Cel mai frecvent motiv pentru o factură mai mare este consumul crescut, nu prețul. Uită-te pe factură la kWh, nu la RON. Compară consumul cu aceeași lună din anul trecut — variațiile sezoniere sunt normale. Un apartament de 2 camere consumă în medie 200–300 kWh/lună, o casă 400–700 kWh. Dacă ai mult peste aceste valori, cauza este probabil un aparat mare (boiler, aer condiționat, uscător) sau o scurgere de consum (aparat vechi, frigider cu garnitura defectă)."
-        },
-        {
-          "heading": "2. Compară prețul tău cu ofertele disponibile pe POSF",
-          "body": "Platforma Oficială de Schimbare a Furnizorului (posf.ro) și comparatorul ANRE îți arată toate ofertele disponibile în zona ta. În aprilie 2026, prețurile pentru clienți casnici variază de la 0.45 RON/kWh (Hidroelectrica) la 0.67 RON/kWh (PPC/Enel). La un consum de 250 kWh/lună, diferența între cel mai ieftin și cel mai scump furnizor poate fi de 55–70 RON pe lună, adică 660–840 RON pe an. Merită verificat cel puțin o dată pe an."
-        },
-        {
-          "heading": "3. Analizează abonamentul lunar — poate anula economia",
-          "body": "Unele oferte par ieftine la prețul pe kWh dar includ un abonament lunar de 3–5 RON. Pentru un consum mic (sub 150 kWh/lună), abonamentul de 5 RON reprezintă echivalentul a 0.033 RON/kWh în plus. Asta poate transforma o ofertă aparent bună în una mediocră. Calculează întotdeauna costul total: (consum × preț) + abonament + taxe. Furnizorii fără abonament (Hidroelectrica, Electrica Furnizare, Nova Power & Gas) sunt avantajoși mai ales la consumuri mici."
-        },
-        {
-          "heading": "4. Verifică perioada facturată și tipul facturii",
-          "body": "O factură care acoperă 35 de zile în loc de 30 va fi automat mai mare cu ~17%, fără ca prețul să se fi schimbat. Verifică întotdeauna datele de pe factură. De asemenea, dacă factura este estimată (nu pe consum real), totalul poate fi mai mare sau mai mic decât consumul efectiv. Regularizările corectează aceste diferențe — o factură de regularizare mare nu înseamnă neapărat că plătești mai mult, ci că ai plătit mai puțin anterior."
-        },
-        {
-          "heading": "5. Redu consumul aparatelor mari — impact imediat",
-          "body": "Aerul condiționat setat la 18°C consumă cu 30–40% mai mult decât la 24°C. Boilerul electric de 80L consumă 3–5 kWh pe zi — un termostat și programarea pe noapte pot reduce costul cu 20–30%. Uscătorul de rufe consumă de 3–5 ori mai mult decât mașina de spălat. Frigiderul vechi (clasa A sau mai jos) poate consuma 400–500 kWh/an, față de 150–200 kWh/an pentru unul nou clasa A+++. Înlocuirea unui singur aparat vechi poate economisi 100–200 RON pe an."
-        },
-        {
-          "heading": "6. Transmite indexul lunar și evită estimările",
-          "body": "Dacă nu transmiți indexul contorului, furnizorul estimează consumul pe baza istoricului. Această estimare poate fi mai mare decât consumul real, ceea ce înseamnă că plătești mai mult acum și primești o regularizare mai târziu. Transmiterea lunară a indexului (prin aplicația furnizorului, SMS sau telefon) te ajută să plătești exact cât consumi și să ai control real asupra facturii."
-        }
-      ]
-    },
-    {
-      "type": "article",
-      "status": "published",
-      "publishDate": "2026-04-29",
-      "slug": "cum-se-calculeaza-factura-energie",
-      "title": "Cum se calculează factura la energie electrică — toate componentele explicate",
-      "excerpt": "Explicație completă cu cifre reale: energie activă, distribuție, transport TG și TL, servicii sistem, certificate verzi, cogenerare, CFD, acciză și TVA 21%.",
-      "readTime": "12 min",
-      "metaDescription": "Cum se calculează factura la energie electrică în 2026: energie activă, distribuție, transport TG/TL, servicii sistem, certificate verzi, cogenerare, CFD, acciză, TVA 21%.",
-      "intro": "Factura de energie electrică include mult mai mult decât prețul energiei. Din totalul pe care îl plătești, energia activă (prețul furnizorului) reprezintă doar circa 40–50% din factură. Restul sunt componente reglementate, taxe și TVA. Iată fiecare componentă, cu valorile reale din 2026.",
-      "sections": [
-        {
-          "heading": "1. Energia activă — singura componentă comercială",
-          "body": "Energia activă este consumul tău în kWh înmulțit cu prețul din contract. Aceasta este singura componentă care diferă între furnizori. În 2026, prețurile variază de la 0.45 RON/kWh (Hidroelectrica) la 0.67 RON/kWh (PPC). Pentru un consum de 118 kWh, energia activă la Hidroelectrica costă 53.10 RON. La PPC, același consum ar costa 79.06 RON — o diferență de 25.96 RON doar pe această componentă."
-        },
-        {
-          "heading": "2. Distribuția — tarif reglementat pe zone",
-          "body": "Distribuția reprezintă costul utilizării rețelei locale de joasă și medie tensiune. Tariful este reglementat de ANRE și variază pe zone: 0.3174 RON/kWh în Muntenia/București, 0.3390 RON/kWh în Moldova (Delgaz Grid), 0.3050 RON/kWh în Oltenia. Nu poți alege operatorul de distribuție — depinde de adresa locului de consum. Pentru 118 kWh în Muntenia, distribuția costă 37.45 RON."
-        },
-        {
-          "heading": "3. Transportul — TG (introducere) și TL (extragere)",
-          "body": "Transportul acoperă utilizarea rețelei naționale de înaltă tensiune și se împarte în două componente: tariful de introducere în rețea (TG) de 0.00363 RON/kWh și tariful de extragere din rețea (TL) de 0.03645 RON/kWh. Pentru 118 kWh, TG costă 0.43 RON iar TL costă 4.30 RON. Aceste tarife sunt stabilite de ANRE și sunt identice în toată țara."
-        },
-        {
-          "heading": "4. Servicii de sistem — stabilitatea rețelei",
-          "body": "Serviciile de sistem susțin funcționarea sigură a sistemului energetic național. Tariful este de 0.0147 RON/kWh, ceea ce înseamnă 1.73 RON pentru un consum de 118 kWh. Această componentă a scăzut semnificativ față de anii anteriori."
-        },
-        {
-          "heading": "5. Certificate verzi — sprijin pentru energia regenerabilă",
-          "body": "Certificatele verzi finanțează producția de energie din surse regenerabile (eolian, solar, biomasă). Tariful este de 0.0740 RON/kWh, adică 8.73 RON pentru 118 kWh. Valoarea se modifică anual prin ordine ANRE."
-        },
-        {
-          "heading": "6. Cogenerare și CFD — componente mai mici",
-          "body": "Contribuția pentru cogenerare de înaltă eficiență este 0.0136 RON/kWh (1.60 RON la 118 kWh). Componenta CFD (Contract for Difference) este nouă și foarte mică: 0.000144 RON/kWh (0.02 RON la 118 kWh). Ambele sunt reglementate de ANRE."
-        },
-        {
-          "heading": "7. Acciză și TVA — componentele fiscale",
-          "body": "Acciza pe energia electrică este 0.00768 RON/kWh (0.91 RON la 118 kWh). TVA-ul de 21% se aplică la suma tuturor componentelor de mai sus. Pentru un consum de 118 kWh la Hidroelectrica în zona Muntenia, TVA-ul este 22.74 RON, iar totalul facturii ajunge la 131.02 RON."
-        },
-        {
-          "heading": "8. Exemplu complet de calcul — 118 kWh Hidroelectrica Muntenia",
-          "body": "Energie activă: 53.10 RON + Distribuție: 37.45 RON + Transport TG: 0.43 RON + Transport TL: 4.30 RON + Servicii sistem: 1.73 RON + Certificate verzi: 8.73 RON + Cogenerare: 1.60 RON + CFD: 0.02 RON + Acciză: 0.91 RON = Subtotal: 108.28 RON + TVA 21%: 22.74 RON = Total: 131.02 RON. Acest calcul corespunde aproape exact cu o factură reală Hidroelectrica din aprilie 2026."
-        }
-      ]
-    },
-    {
-      "type": "article",
-      "status": "published",
-      "publishDate": "2026-04-29",
-      "slug": "ce-aparate-consuma-cel-mai-mult-curent",
-      "title": "Ce aparate consumă cel mai mult curent în casă — cifre reale și sfaturi",
-      "excerpt": "Aerul condiționat, boilerul, uscătorul, cuptorul și frigiderul: cât consumă fiecare pe lună și cum reduci factura fără investiții mari.",
-      "readTime": "9 min",
-      "metaDescription": "Ce aparate consumă cel mai mult curent: aer condiționat, boiler, uscător, cuptor, frigider. Cifre reale de consum lunar și sfaturi practice de reducere.",
-      "intro": "Într-o locuință tipică, 5–6 aparate mari sunt responsabile pentru 60–80% din consumul de energie. Restul — becuri, televizor, încărcătoare — consumă relativ puțin. Dacă vrei să reduci factura, trebuie să te concentrezi pe consumatorii mari.",
-      "sections": [
-        {
-          "heading": "1. Aerul condiționat — cel mai mare consumator vara",
-          "body": "Un aparat de aer condiționat de 12.000 BTU consumă între 0.8 și 1.5 kWh pe oră, în funcție de clasa energetică și temperatura setată. La 8 ore de funcționare pe zi, consumul lunar poate ajunge la 200–360 kWh, adică 90–160 RON doar pentru aer condiționat (la 0.45 RON/kWh). Setarea la 24–25°C în loc de 18–20°C poate reduce consumul cu 30–40%. Un aparat inverter clasa A+++ consumă cu 40–50% mai puțin decât unul vechi clasa B."
-        },
-        {
-          "heading": "2. Boilerul electric — consumă constant, chiar și când nu folosești apă",
-          "body": "Un boiler de 80 litri consumă 3–5 kWh pe zi pentru a menține apa caldă, adică 90–150 kWh pe lună (40–70 RON). Pierderea de căldură prin izolație defectuoasă crește consumul. Soluții: setează temperatura la 55–60°C (nu 70–80°C), folosește un timer pentru a încălzi apa doar noaptea sau dimineața, și verifică izolația boilerului. Alternativa ideală pe termen lung este un boiler cu pompă de căldură, care consumă de 3 ori mai puțin."
-        },
-        {
-          "heading": "3. Cuptorul electric și plita electrică — puteri mari, perioade scurte",
-          "body": "Cuptorul electric consumă 1.5–2.5 kWh pe oră de funcționare. Plita electrică (cu rezistență) consumă 1–2 kWh per arzător. La gătit zilnic, consumul poate ajunge la 60–100 kWh/lună (25–45 RON). Plita cu inducție este cu 30–40% mai eficientă decât cea clasică. Folosirea capacului pe oale reduce timpul de gătit cu 20–30%."
-        },
-        {
-          "heading": "4. Uscătorul de rufe — surpriza din factură",
-          "body": "Uscătorul cu rezistență consumă 3–5 kWh per ciclu, adică de 3–5 ori mai mult decât mașina de spălat. La 3–4 cicluri pe săptămână, consumul lunar este 40–80 kWh (18–36 RON). Uscătorul cu pompă de căldură consumă de 2 ori mai puțin. Alternativa gratuită: uscatul natural pe sârmă, cel puțin vara."
-        },
-        {
-          "heading": "5. Mașina de spălat — programele eco chiar funcționează",
-          "body": "Mașina de spălat consumă 0.5–1.5 kWh per ciclu, în funcție de temperatură și program. Programul la 30°C consumă cu 50–60% mai puțin decât cel la 60°C. Încărcarea completă e importantă — o mașină pe jumătate consumă aproape la fel de mult, dar speli de două ori mai des. Consumul lunar tipic: 15–30 kWh (7–14 RON)."
-        },
-        {
-          "heading": "6. Frigiderul și congelatorul — funcționează non-stop",
-          "body": "Frigiderul funcționează 24/7, deci și un consum orar mic se adună. Un frigider vechi (clasa A sau mai jos) consumă 350–500 kWh/an, adică 30–42 kWh/lună (13–19 RON). Unul nou clasa A+++ consumă 100–150 kWh/an. Verifică garniturile, nu bloca ventilatorul cu alimente, setează temperatura la 4–5°C (frigider) și -18°C (congelator), și lasă spațiu în spate pentru ventilație."
-        },
-        {
-          "heading": "7. Consumatori mici care se adună — standby, becuri, electronice",
-          "body": "Televizorul, routerul, consolele, încărcătoarele și becurile consumă individual puțin (5–50W), dar împreună pot ajunge la 30–60 kWh/lună. Aparatele în standby consumă 5–10% din factura totală. Becurile LED consumă de 5–8 ori mai puțin decât cele incandescente. Un bec LED de 10W dă aceeași lumină ca unul incandescent de 60W."
-        }
-      ]
-    },
-    {
-      "type": "article",
-      "status": "published",
-      "publishDate": "2026-04-29",
-      "slug": "merita-sa-schimbi-furnizorul-de-energie",
-      "title": "Merită să schimbi furnizorul de energie în 2026? Ghid complet de analiză",
-      "excerpt": "Comparație reală între furnizori, ce verifici înainte de schimbare, cât economisești și când nu merită efortul.",
-      "readTime": "10 min",
-      "metaDescription": "Merită să schimbi furnizorul de energie în 2026? Comparație reală între furnizori, economii calculate, pași de schimbare și capcane de evitat.",
-      "intro": "Schimbarea furnizorului de energie este gratuită și se poate face online prin platforma POSF. Dar nu orice schimbare aduce economii reale. Acest ghid îți arată exact când merită, cât poți economisi și ce capcane să eviți.",
-      "sections": [
-        {
-          "heading": "1. Cât poți economisi real — calcul cu cifre din 2026",
-          "body": "La un consum de 250 kWh/lună, diferența între Hidroelectrica (0.45 RON/kWh) și PPC (0.67 RON/kWh) este de 55 RON/lună doar pe energia activă, adică 660 RON/an. Chiar și între furnizori mai apropiați (Hidroelectrica vs Nova Power 0.499 RON/kWh), diferența este de 12.25 RON/lună, adică 147 RON/an. Aceste diferențe sunt semnificative și justifică schimbarea."
-        },
-        {
-          "heading": "2. Nu compara doar prețul pe kWh — costul total contează",
-          "body": "Un furnizor cu preț de 0.50 RON/kWh și abonament de 5 RON poate fi mai scump decât unul cu 0.52 RON/kWh fără abonament, la consumuri mici. Formula corectă: (consum × preț) + abonament + toate componentele reglementate + TVA. Folosește un calculator de factură (ca cel de pe acest site) pentru comparație realistă."
-        },
-        {
-          "heading": "3. Verifică durata ofertei și ce se întâmplă la expirare",
-          "body": "Multe oferte au preț fix doar 6 sau 12 luni. După expirare, prețul poate reveni la tariful standard, care este adesea mai mare. Verifică în contract: durata ofertei, prețul după expirare, și dacă există penalități de reziliere anticipată. O ofertă bună pe 3 luni urmată de un preț mare pe 9 luni poate fi mai scumpă per total decât o ofertă mediocră pe 12 luni."
-        },
-        {
-          "heading": "4. Procesul de schimbare — gratuit și online",
-          "body": "Schimbarea se face prin platforma POSF (posf.ro) sau direct pe site-ul noului furnizor. Procesul durează de obicei 21 de zile calendaristice. Nu ai întrerupere de curent. Nu plătești nicio taxă. Ai nevoie de: cod NLC/POD (de pe factură), act de identitate, și ultima factură. Furnizorul vechi emite factura finală, iar noul furnizor începe facturarea din ziua schimbării."
-        },
-        {
-          "heading": "5. Când NU merită să schimbi",
-          "body": "Dacă diferența estimată este sub 15–20 RON/lună, efortul administrativ și riscul unei oferte cu condiții ascunse nu se justifică. Dacă ai un contract cu preț fix bun care nu a expirat, schimbarea poate atrage penalități. Dacă furnizorul actual are aplicație bună, facturare corectă și suport decent, o economie mică nu compensează riscul de a ajunge la un furnizor cu servicii slabe."
-        },
-        {
-          "heading": "6. Calitatea serviciului contează — nu doar prețul",
-          "body": "Un furnizor ieftin cu facturare greșită, aplicație nefuncțională sau suport inexistent poate genera mai multe probleme decât economia realizată. Verifică recenziile altor clienți, funcționalitatea aplicației mobile, ușurința transmiterii indexului și timpul de răspuns al suportului clienți. Hidroelectrica, de exemplu, are prețul cel mai mic DAR și un portal online funcțional și aplicația iHidro."
-        }
-      ]
-    },
-    {
-      "type": "article",
-      "status": "published",
-      "publishDate": "2026-04-29",
-      "slug": "de-ce-a-crescut-factura-la-energie",
-      "title": "De ce a crescut factura la energie? 7 cauze frecvente și ce verifici imediat",
-      "excerpt": "Factura mai mare nu înseamnă neapărat preț mai mare. Verifică consumul, regularizarea, perioada facturată, prețul și abonamentele.",
-      "readTime": "8 min",
-      "metaDescription": "De ce a crescut factura la energie electrică? 7 cauze frecvente: consum crescut, regularizare, perioadă mai lungă, preț modificat, abonament, TVA 21%.",
-      "intro": "Ai primit o factură mai mare decât de obicei și nu înțelegi de ce? Cele mai frecvente cauze nu au legătură cu prețul energiei. Iată ce trebuie să verifici, în ordinea probabilității.",
-      "sections": [
-        {
-          "heading": "1. Consumul a crescut — verifică kWh, nu RON",
-          "body": "Cea mai frecventă cauză. Uită-te la consumul în kWh, nu la suma totală. Dacă kWh sunt mai mulți, cauza este consumul, nu prețul. Compară cu aceeași lună din anul trecut, nu cu luna precedentă — consumul variază sezonier (iarna crește din cauza iluminatului și a încălzirii electrice, vara din cauza aerului condiționat)."
-        },
-        {
-          "heading": "2. Factura include o regularizare",
-          "body": "Dacă în lunile anterioare furnizorul a estimat consumul și acum a citit contorul real, factura poate include diferența acumulată. O factură de regularizare poate fi de 2–3 ori mai mare decât una normală, fără ca tu să fi consumat mai mult în luna respectivă. Verifică pe factură dacă apare mențiunea 'regularizare' sau 'consum estimat vs. real'."
-        },
-        {
-          "heading": "3. Perioada facturată este mai lungă",
-          "body": "O factură care acoperă 40 de zile în loc de 30 va fi mai mare cu ~33%. Verifică datele de început și sfârșit ale perioadei de facturare. Compară consumul mediu zilnic (kWh total ÷ număr de zile), nu totalul — acesta este singurul mod corect de comparare între perioade diferite."
-        },
-        {
-          "heading": "4. TVA-ul a crescut la 21%",
-          "body": "Din 2025, TVA-ul pe energie electrică a crescut de la 19% la 21%. Pentru o factură cu un subtotal de 108 RON, diferența este de 2.16 RON (22.74 RON TVA la 21% vs. 20.57 RON la 19%). Nu e o diferență uriașă, dar contribuie la totalul mai mare."
-        },
-        {
-          "heading": "5. Prețul contractual s-a modificat",
-          "body": "Oferta ta poate fi expirat. Verifică pe factură prețul pe kWh și compară-l cu contractul. Dacă prețul a crescut de la 0.45 la 0.55 RON/kWh, pentru 250 kWh diferența este de 25 RON/lună. Când oferta expiră, furnizorul aplică de obicei un tarif standard mai mare. Verifică data de valabilitate a ofertei în contract."
-        },
-        {
-          "heading": "6. Au apărut servicii sau abonamente suplimentare",
-          "body": "Unele contracte includ servicii adiționale cu cost lunar: protecție echipamente, asigurare, servicii de urgență. Acestea pot apărea ca linii separate pe factură sau pot fi incluse în abonament. Verifică toate liniile din factură, nu doar energia activă."
-        },
-        {
-          "heading": "7. Tarifele reglementate s-au modificat",
-          "body": "Distribuția, transportul, serviciile de sistem, certificatele verzi și cogenerarea sunt componente reglementate care se modifică periodic prin ordine ANRE. Aceste modificări sunt mici individual, dar împreună pot adăuga 5–10 RON pe lună. Nu poți influența aceste tarife, dar poți verifica dacă sunt aplicate corect."
-        }
-      ]
-    },
-    {
-      "type": "article",
-      "status": "published",
-      "publishDate": "2026-04-29",
-      "slug": "cum-citesti-corect-factura-de-energie",
-      "title": "Cum citești corect o factură de energie electrică — ghid pas cu pas",
-      "excerpt": "Unde găsești codul NLC, consumul real, prețul pe kWh, perioada facturată, fiecare componentă de cost și totalul de plată.",
-      "readTime": "9 min",
-      "metaDescription": "Cum citești factura de energie electrică: cod NLC/POD, consum kWh, preț energie activă, distribuție, transport, taxe, TVA, sold și scadență.",
-      "intro": "Factura de energie pare complicată, dar dacă știi unde să te uiți, devine simplă. Acest ghid îți arată exact ce înseamnă fiecare element, folosind ca exemplu o factură reală Hidroelectrica din 2026.",
-      "sections": [
-        {
-          "heading": "1. Datele tale și codul NLC/POD — identitatea locului de consum",
-          "body": "În antetul facturii găsești datele clientului, adresa locului de consum, codul client și codul NLC (Număr Loc Consum) sau POD. Codul POD (de exemplu RO001E103551959) este unic pentru locul tău de consum și este esențial pentru: schimbarea furnizorului, contestații, verificări cu operatorul de distribuție. Notează-l — îl vei folosi des."
-        },
-        {
-          "heading": "2. Perioada de facturare și tipul citirii",
-          "body": "Factura specifică perioada (ex: 28.02.2026 – 27.03.2026 = 28 de zile). Verifică întotdeauna dacă este citire reală sau estimare. Pe factură apare 'autocitire', 'citire reală' sau 'estimat'. Consumul mediu zilnic (kWh ÷ zile) este mai relevant decât totalul — compară acest indicator între luni."
-        },
-        {
-          "heading": "3. Consumul în kWh — baza facturii",
-          "body": "Secțiunea de măsurări arată indexul vechi, indexul nou și diferența (consumul). Pe o factură Hidroelectrica, exemplu: index vechi 49402 (autocitire), index nou 49520 (autocitire), diferență 118 kWh. Dacă nu ai transmis indexul, furnizorul estimează pe baza istoricului. Estimarea poate fi mai mare sau mai mică decât consumul real."
-        },
-        {
-          "heading": "4. Prețul energiei active și oferta contractuală",
-          "body": "Pe factură apare prețul final contractual (ex: 1.11 lei/kWh). Atenție: acest preț include toate componentele, nu doar energia activă! Prețul energiei active pure (ex: 0.45 RON/kWh) apare în detaliile facturii. Verifică dacă se potrivește cu oferta din contract. Dacă a crescut, posibil oferta a expirat."
-        },
-        {
-          "heading": "5. Detaliile facturii — fiecare componentă de cost",
-          "body": "Pagina 2 a facturii listează toate componentele: Energia activă (0.45 RON/kWh), Tarif distribuție (0.3174 RON/kWh), Servicii sistem (0.0147 RON/kWh), Transport TG (0.00363 RON/kWh), Transport TL (0.03645 RON/kWh), Cogenerare (0.0136 RON/kWh), CFD (0.000144 RON/kWh), Certificate verzi (0.0740 RON/kWh), Acciză (0.00768 RON/kWh). Suma lor + TVA 21% = totalul facturii."
-        },
-        {
-          "heading": "6. Soldul anterior, scadența și modalități de plată",
-          "body": "Totalul de plată poate include sume restante din facturi anterioare. Verifică linia 'Sold Cont Contract la data emiterii'. Data scadenței este importantă — întârzierea atrage penalități contractuale. Plata se poate face prin aplicația furnizorului, internet banking (șablon de plată), direct debit, scanare cod de bare sau la Poșta Română."
-        }
-      ]
-    },
-    {
-      "type": "article",
-      "status": "published",
-      "publishDate": "2026-04-29",
-      "slug": "cat-consuma-un-aer-conditionat-pe-luna",
-      "title": "Cât consumă un aer condiționat pe lună în lei — calcul real 2026",
-      "excerpt": "Consum real per oră, pe zi și pe lună pentru aparate de 9.000, 12.000 și 18.000 BTU, cu costuri calculate la prețurile din 2026.",
-      "readTime": "7 min",
-      "metaDescription": "Cât consumă un aer condiționat pe lună în lei în 2026: calcul real pentru 9.000, 12.000 și 18.000 BTU, cu sfaturi de reducere a consumului.",
-      "intro": "Aerul condiționat este cel mai mare consumator de energie vara. Un aparat folosit 8 ore pe zi poate adăuga 80–200 RON pe lună la factură. Iată cifrele exacte și ce poți face pentru a reduce costul.",
-      "sections": [
-        {
-          "heading": "1. Consum per oră în funcție de capacitate",
-          "body": "Un aparat de 9.000 BTU (2.6 kW) consumă 0.6–1.0 kWh pe oră. Unul de 12.000 BTU (3.5 kW) consumă 0.8–1.5 kWh pe oră. Unul de 18.000 BTU (5.3 kW) consumă 1.5–2.5 kWh pe oră. Consumul exact depinde de clasa energetică: un inverter A+++ consumă cu 40–50% mai puțin decât un aparat fix clasa B."
-        },
-        {
-          "heading": "2. Calcul lunar la 8 ore pe zi — 12.000 BTU",
-          "body": "Inverter A+++: 0.8 kWh/h × 8 ore × 30 zile = 192 kWh/lună → 86 RON (la 0.45 RON/kWh Hidroelectrica) sau 129 RON (la 0.67 RON/kWh PPC). Aparat vechi clasa B: 1.4 kWh/h × 8 ore × 30 zile = 336 kWh/lună → 151 RON sau 225 RON. Diferența între un aparat eficient și unul vechi: 65–96 RON pe lună."
-        },
-        {
-          "heading": "3. Temperatura setată — cel mai mare factor de control",
-          "body": "Fiecare grad în minus crește consumul cu 6–8%. La 18°C, aparatul funcționează aproape continuu și consumă maxim. La 24–25°C, consumul scade cu 30–40%. La 26–27°C, consumul este minimal dar confortul scade. Recomandarea optimă: 24°C vara, cu ventilator pe tavan pentru o senzație de 2–3°C mai răcoare."
-        },
-        {
-          "heading": "4. Sfaturi concrete pentru reducerea consumului",
-          "body": "Închide ușile și ferestrele când funcționează aerul condiționat. Folosește perdele sau jaluzele pentru a bloca soarele direct. Curăță filtrele la fiecare 2–4 săptămâni — filtrele murdare cresc consumul cu 10–15%. Nu seta temperatura cu 10°C sub cea exterioară — 5–7°C diferență e optim. Folosește modul 'eco' sau 'sleep' noaptea. Un aparat inverter se amortizează în 2–3 ani față de unul fix, doar din economia de energie."
-        }
-      ]
-    },
-    {
-      "type": "article",
-      "status": "published",
-      "publishDate": "2026-04-29",
-      "slug": "hidroelectrica-vs-electrica-comparatie-2026",
-      "title": "Hidroelectrica vs Electrica Furnizare — comparație completă 2026",
-      "excerpt": "Preț per kWh, abonament, cost total calculat, calitatea serviciului și când merită fiecare furnizor.",
-      "readTime": "8 min",
-      "metaDescription": "Comparație Hidroelectrica vs Electrica Furnizare 2026: preț kWh, abonament, cost total, calitate serviciu. Calculat pe consumuri reale.",
-      "intro": "Hidroelectrica și Electrica Furnizare sunt doi dintre cei mai mari furnizori de energie din România. Prețurile lor diferă semnificativ. Iată o comparație obiectivă, cu cifre reale din aprilie 2026.",
-      "sections": [
-        {
-          "heading": "1. Prețul energiei active — diferența de bază",
-          "body": "Hidroelectrica: 0.45 RON/kWh (casnic), sursă POSF/ANRE. Electrica Furnizare: 0.62 RON/kWh (casnic), sursă POSF/ANRE. Diferența: 0.17 RON/kWh. La un consum de 250 kWh/lună, doar pe energia activă diferența este de 42.50 RON/lună sau 510 RON/an. Ambii furnizori nu percep abonament lunar."
-        },
-        {
-          "heading": "2. Cost total calculat — 3 scenarii de consum",
-          "body": "Apartament mic (150 kWh): Hidroelectrica ~167 RON, Electrica ~198 RON — diferență 31 RON/lună. Apartament 2-3 camere (250 kWh): Hidroelectrica ~280 RON, Electrica ~331 RON — diferență 51 RON/lună. Casă (500 kWh): Hidroelectrica ~559 RON, Electrica ~662 RON — diferență 103 RON/lună. Toate calculele includ distribuție Muntenia, transport, taxe și TVA 21%."
-        },
-        {
-          "heading": "3. Calitatea serviciului și aplicații",
-          "body": "Hidroelectrica are aplicația iHidro (Android, iOS, web) pentru autocitire, plăți și vizualizare facturi. Portalul online funcționează bine. Suport prin call center (021.9834) luni-vineri 08-20. Electrica Furnizare are portalul MyElectrica pentru facturi și plăți online. Suport prin call center și email. Ambii furnizori permit transmiterea indexului online."
-        },
-        {
-          "heading": "4. Disponibilitate și zonă de acoperire",
-          "body": "Ambii furnizori sunt disponibili în toată țara — nu depinzi de zona de distribuție. Poți avea Hidroelectrica în Moldova sau Electrica în Banat. Operatorul de distribuție (rețeaua fizică) rămâne același indiferent de furnizor."
-        },
-        {
-          "heading": "5. Verdictul — când merită fiecare",
-          "body": "La prețurile din aprilie 2026, Hidroelectrica este clar mai avantajoasă financiar pentru orice nivel de consum. Diferența de 510 RON/an la un consum mediu este substanțială. Electrica Furnizare poate fi preferată de clienții care au deja un contract bun cu preț fix pe perioadă lungă sau care preferă experiența lor de client. Dacă ești la Electrica și vrei să schimbi, procesul este gratuit prin POSF și durează ~21 de zile."
-        }
-      ]
-    },
-    {
-      "type": "article",
-      "status": "published",
-      "publishDate": "2026-04-29",
-      "slug": "ce-inseamna-regularizare-factura-energie",
-      "title": "Ce înseamnă regularizare pe factura de energie și de ce e factura mai mare",
-      "excerpt": "Explicație simplă: ce este regularizarea, de ce apare, cum o verifici și ce faci dacă nu ești de acord cu suma.",
-      "readTime": "7 min",
-      "metaDescription": "Ce înseamnă regularizare pe factura de energie electrică: de ce apare, cum se calculează, cum o verifici și ce faci dacă suma e prea mare.",
-      "intro": "Ai primit o factură mult mai mare decât de obicei și scrie 'regularizare'? Nu intră în panică — regularizarea nu înseamnă că plătești mai mult per total, ci că plătești acum ce ai consumat în lunile anterioare dar nu a fost facturat corect.",
-      "sections": [
-        {
-          "heading": "1. Ce este regularizarea — explicație simplă",
-          "body": "Regularizarea apare când furnizorul a estimat consumul în lunile anterioare (pentru că nu a avut indexul real) și acum, după citirea contorului, corectează diferența. Dacă ai consumat mai mult decât s-a estimat, plătești diferența acum. Dacă ai consumat mai puțin, primești un credit pe factura următoare."
-        },
-        {
-          "heading": "2. De ce apare regularizarea",
-          "body": "Cauzele frecvente: nu ai transmis indexul lunar, operatorul de distribuție nu a citit contorul (citirea se face la maximum 3 luni), sau s-a schimbat tariful între estimare și citirea reală. Regularizarea este normală și legală — nu este o greșeală și nu este o taxă suplimentară."
-        },
-        {
-          "heading": "3. Cum verifici dacă regularizarea e corectă",
-          "body": "Compară indexul vechi și cel nou de pe factură cu cifrele de pe contorul tău. Verifică dacă consumul total (diferența între indecși) este corect. Înmulțește consumul cu prețul pe kWh și adaugă componentele reglementate și TVA. Dacă cifrele se potrivesc, regularizarea este corectă."
-        },
-        {
-          "heading": "4. Ce faci dacă nu ești de acord",
-          "body": "Contactează furnizorul și solicită verificarea facturii. Poți cere și verificarea metrologică a contorului (contra cost, dar dacă se dovedește defect, costul e suportat de operatorul de distribuție). Dacă furnizorul nu rezolvă, te poți adresa ANRE prin telefon (021.9782) sau email (anre@anre.ro). Poți solicita și eșalonarea plății dacă suma este mare."
-        },
-        {
-          "heading": "5. Cum eviți regularizările pe viitor",
-          "body": "Transmite indexul lunar în perioada indicată pe factură (de obicei între 22 și 26 ale lunii). Folosește aplicația furnizorului, SMS-ul sau formularul online. Dacă transmiți indexul constant, facturile vor fi pe consum real și nu vor mai apărea regularizări."
-        }
-      ]
-    },
-    {
-      "type": "article",
-      "status": "published",
-      "publishDate": "2026-04-29",
-      "slug": "cat-consuma-un-boiler-electric-pe-luna",
-      "title": "Cât consumă un boiler electric pe lună în lei — calcul real 2026",
-      "excerpt": "Consum real pentru boilere de 50L, 80L și 120L, cu costuri calculate și sfaturi de reducere a consumului.",
-      "readTime": "7 min",
-      "metaDescription": "Cât consumă un boiler electric pe lună: calcul real 2026 pentru 50L, 80L și 120L. Costuri în RON și sfaturi practice de reducere.",
-      "intro": "Boilerul electric este unul dintre cei mai mari consumatori de energie dintr-o locuință, dar funcționează 'invizibil' — nu îl vezi, nu îl auzi, dar consumă constant. Iată cât te costă real și ce poți face.",
-      "sections": [
-        {
-          "heading": "1. Consum zilnic în funcție de capacitate",
-          "body": "Boiler 50L (1.5 kW): 2–3 kWh/zi, suficient pentru 1–2 persoane. Boiler 80L (2.0 kW): 3–5 kWh/zi, pentru 2–3 persoane. Boiler 120L (2.5 kW): 5–7 kWh/zi, pentru 3–5 persoane. Consumul depinde de: temperatura setată, cantitatea de apă caldă folosită, izolația boilerului și temperatura apei reci de la rețea (mai scăzută iarna)."
-        },
-        {
-          "heading": "2. Cost lunar calculat — la prețuri 2026",
-          "body": "Boiler 80L, consum mediu 4 kWh/zi × 30 zile = 120 kWh/lună. La Hidroelectrica (0.45 RON/kWh): ~54 RON/lună doar boilerul. La Electrica (0.62 RON/kWh): ~74 RON/lună. La PPC (0.67 RON/kWh): ~80 RON/lună. Iarna consumul crește cu 20–30% din cauza temperaturii mai scăzute a apei reci."
-        },
-        {
-          "heading": "3. Temperatura setată — cheia economisirii",
-          "body": "La 70–80°C, boilerul consumă maximum și pierde mult mai multă căldură prin izolație. La 55–60°C, consumul scade cu 15–20% și apa este suficient de caldă pentru toate utilizările casnice. Sub 55°C nu este recomandat din motive sanitare (risc de Legionella). Fiecare 10°C în minus economisește aproximativ 10% din consum."
-        },
-        {
-          "heading": "4. Timer și programare — economie fără efort",
-          "body": "Un timer simplu (50–100 RON) poate reduce consumul cu 20–30%. Programează boilerul să funcționeze: dimineața 05:00–07:00 (înainte de dușuri) și seara 21:00–23:00 (pregătire pentru dimineață). În rest, rezistența stă oprită și nu consumă. Alternativ, unele boilere moderne au programare integrată."
-        },
-        {
-          "heading": "5. Alternativa pe termen lung — boiler cu pompă de căldură",
-          "body": "Un boiler cu pompă de căldură consumă de 3 ori mai puțin decât unul cu rezistență: ~1.3 kWh/zi în loc de 4 kWh/zi pentru 80L. Economia: ~80 kWh/lună × 0.45 RON = 36 RON/lună, adică 432 RON/an. Prețul unui boiler cu pompă de căldură: 3.000–5.000 RON. Se amortizează în 7–12 ani, dar și mai rapid dacă prețul energiei crește."
-        }
-      ]
-    },
-    {
-      "type": "news",
-      "status": "published",
-      "slug": "anaf-actualizeaza-sistemul-e-factura-cu-noi-validari",
-      "title": "ANAF actualizează sistemul e-Factura cu noi validări",
-      "excerpt": "Începând cu 1 mai 2026, ANAF introduce validări suplimentare pentru facturile electronice transmise prin sistemul RO e-Factura.",
-      "readTime": "3 min",
-      "metaDescription": "Începând cu 1 mai 2026, ANAF introduce validări suplimentare pentru facturile electronice transmise prin sistemul RO e-Factura.",
-      "intro": "Începând cu 1 mai 2026, ANAF introduce validări suplimentare pentru facturile electronice transmise prin sistemul RO e-Factura.",
-      "category": "E-FACTURA",
-      "date": "25 aprilie 2026",
-      "source": "anaf.ro",
-      "sourceUrl": "https://www.anaf.ro/anaf/internet/ANAF/despre_ANAF/informatii_publice/comunicate/",
-      "publishDate": "2026-04-29",
-      "sections": [
-        {
-          "heading": "Ce s-a anunțat?",
-          "body": "Începând cu 1 mai 2026, ANAF introduce validări suplimentare pentru facturile electronice transmise prin sistemul RO e-Factura."
-        },
-        {
-          "heading": "Ce înseamnă pentru consumatori?",
-          "body": "Impactul exact depinde de consum, zona de distribuție și condițiile contractuale. Verifică factura, contractul și sursa oficială înainte de a lua o decizie."
-        },
-        {
-          "heading": "Ce poți face mai departe?",
-          "body": "Poți folosi calculatorul de factură pentru o estimare orientativă și poți compara ofertele disponibile în POSF/ANRE."
-        }
-      ]
-    },
-    {
-      "type": "news",
-      "status": "published",
-      "slug": "anre-publica-noile-tarife-de-distributie-pentru-2026",
-      "title": "ANRE publică noile tarife de distribuție pentru 2026",
-      "excerpt": "Tarifele de distribuție au fost actualizate prin ordine ANRE. Modificările variază între +2% și +5% în funcție de zona de distribuție.",
-      "readTime": "3 min",
-      "metaDescription": "Tarifele de distribuție au fost actualizate prin ordine ANRE. Modificările variază între +2% și +5% în funcție de zona de distribuție.",
-      "intro": "Tarifele de distribuție au fost actualizate prin ordine ANRE. Modificările variază între +2% și +5% în funcție de zona de distribuție.",
-      "category": "TARIFE",
-      "date": "20 aprilie 2026",
-      "source": "anre.ro",
-      "sourceUrl": "https://anre.ro/energie-electrica/legislatie/tarife-reglementate/",
-      "publishDate": "2026-04-29",
-      "sections": [
-        {
-          "heading": "Ce s-a anunțat?",
-          "body": "Tarifele de distribuție au fost actualizate prin ordine ANRE. Modificările variază între +2% și +5% în funcție de zona de distribuție."
-        },
-        {
-          "heading": "Ce înseamnă pentru consumatori?",
-          "body": "Impactul exact depinde de consum, zona de distribuție și condițiile contractuale. Verifică factura, contractul și sursa oficială înainte de a lua o decizie."
-        },
-        {
-          "heading": "Ce poți face mai departe?",
-          "body": "Poți folosi calculatorul de factură pentru o estimare orientativă și poți compara ofertele disponibile în POSF/ANRE."
-        }
-      ]
-    },
-    {
-      "type": "news",
-      "status": "published",
-      "slug": "tva-energia-electrica-ramane-la-21-in-2026",
-      "title": "TVA energia electrică rămâne la 21% în 2026",
-      "excerpt": "Parlamentul a confirmat menținerea cotei TVA de 21% pentru energia electrică, aplicabilă tuturor consumatorilor casnici și noncasnici.",
-      "readTime": "3 min",
-      "metaDescription": "Parlamentul a confirmat menținerea cotei TVA de 21% pentru energia electrică, aplicabilă tuturor consumatorilor casnici și noncasnici.",
-      "intro": "Parlamentul a confirmat menținerea cotei TVA de 21% pentru energia electrică, aplicabilă tuturor consumatorilor casnici și noncasnici.",
-      "category": "LEGISLAȚIE",
-      "date": "15 aprilie 2026",
-      "source": "cdep.ro",
-      "sourceUrl": "https://www.cdep.ro/",
-      "publishDate": "2026-04-29",
-      "sections": [
-        {
-          "heading": "Ce s-a anunțat?",
-          "body": "Parlamentul a confirmat menținerea cotei TVA de 21% pentru energia electrică, aplicabilă tuturor consumatorilor casnici și noncasnici."
-        },
-        {
-          "heading": "Ce înseamnă pentru consumatori?",
-          "body": "Impactul exact depinde de consum, zona de distribuție și condițiile contractuale. Verifică factura, contractul și sursa oficială înainte de a lua o decizie."
-        },
-        {
-          "heading": "Ce poți face mai departe?",
-          "body": "Poți folosi calculatorul de factură pentru o estimare orientativă și poți compara ofertele disponibile în POSF/ANRE."
-        }
-      ]
-    },
-    {
-      "type": "news",
-      "status": "published",
-      "slug": "hidroelectrica-ramane-cel-mai-ieftin-furnizor-pe-piata-concurentiala",
-      "title": "Hidroelectrica rămâne cel mai ieftin furnizor pe piața concurențială",
-      "excerpt": "Conform comparatorului POSF/ANRE, Hidroelectrica oferă cel mai mic preț pentru clienții casnici: 0.45 RON/kWh, cu energie 98.71% regenerabilă.",
-      "readTime": "3 min",
-      "metaDescription": "Conform comparatorului POSF/ANRE, Hidroelectrica oferă cel mai mic preț pentru clienții casnici: 0.45 RON/kWh, cu energie 98.71% regenerabilă.",
-      "intro": "Conform comparatorului POSF/ANRE, Hidroelectrica oferă cel mai mic preț pentru clienții casnici: 0.45 RON/kWh, cu energie 98.71% regenerabilă.",
-      "category": "FURNIZORI",
-      "date": "10 aprilie 2026",
-      "source": "posf.ro",
-      "sourceUrl": "https://posf.ro/comparator?comparatorType=electric",
-      "publishDate": "2026-04-29",
-      "sections": [
-        {
-          "heading": "Ce s-a anunțat?",
-          "body": "Conform comparatorului POSF/ANRE, Hidroelectrica oferă cel mai mic preț pentru clienții casnici: 0.45 RON/kWh, cu energie 98.71% regenerabilă."
-        },
-        {
-          "heading": "Ce înseamnă pentru consumatori?",
-          "body": "Impactul exact depinde de consum, zona de distribuție și condițiile contractuale. Verifică factura, contractul și sursa oficială înainte de a lua o decizie."
-        },
-        {
-          "heading": "Ce poți face mai departe?",
-          "body": "Poți folosi calculatorul de factură pentru o estimare orientativă și poți compara ofertele disponibile în POSF/ANRE."
-        }
-      ]
-    },
-    {
-      "type": "news",
-      "status": "published",
-      "slug": "anre-actualizeaza-componenta-cfd-in-facturile-de-energie",
-      "title": "ANRE actualizează componenta CFD în facturile de energie",
-      "excerpt": "Componenta CFD (Contract for Difference) a fost recalculată la 0.000144 RON/kWh, conform Ordinului ANRE nr. 10/2025.",
-      "readTime": "3 min",
-      "metaDescription": "Componenta CFD (Contract for Difference) a fost recalculată la 0.000144 RON/kWh, conform Ordinului ANRE nr. 10/2025.",
-      "intro": "Componenta CFD (Contract for Difference) a fost recalculată la 0.000144 RON/kWh, conform Ordinului ANRE nr. 10/2025.",
-      "category": "ANRE",
-      "date": "5 aprilie 2026",
-      "source": "anre.ro",
-      "sourceUrl": "https://anre.ro/energie-electrica/legislatie/",
-      "publishDate": "2026-04-29",
-      "sections": [
-        {
-          "heading": "Ce s-a anunțat?",
-          "body": "Componenta CFD (Contract for Difference) a fost recalculată la 0.000144 RON/kWh, conform Ordinului ANRE nr. 10/2025."
-        },
-        {
-          "heading": "Ce înseamnă pentru consumatori?",
-          "body": "Impactul exact depinde de consum, zona de distribuție și condițiile contractuale. Verifică factura, contractul și sursa oficială înainte de a lua o decizie."
-        },
-        {
-          "heading": "Ce poți face mai departe?",
-          "body": "Poți folosi calculatorul de factură pentru o estimare orientativă și poți compara ofertele disponibile în POSF/ANRE."
-        }
-      ]
-    }
-  ]
+  {
+      "type":  "article",
+      "status":  "published",
+      "publishDate":  "2026-04-29",
+      "slug":  "cum-reduci-factura-energie-2026",
+      "title":  "Cum să îți reduci factura la energie în 2026 — ghid complet",
+      "excerpt":  "Pași practici pentru a plăti mai puțin pe energie: verifică consumul, compară furnizori, optimizează abonamentul și redu consumul aparatelor mari.",
+      "readTime":  "10 min",
+      "metaDescription":  "Ghid complet 2026 pentru reducerea facturii la energie electrică: verifică consumul, compară oferte, optimizează abonamentul și redu consumul aparatelor mari.",
+      "intro":  "Reducerea facturii la energie nu înseamnă doar să stingi lumina. În 2026, cu prețuri între 0.45 și 0.67 RON/kWh în funcție de furnizor, diferența dintre o ofertă bună și una slabă poate ajunge la 50–100 RON pe lună pentru un consum mediu de apartament. Acest ghid îți arată exact ce poți face, pas cu pas.",
+      "sections":  [
+                       {
+                           "heading":  "1. Verifică mai întâi consumul în kWh, nu suma în RON",
+                           "body":  "Cel mai frecvent motiv pentru o factură mai mare este consumul crescut, nu prețul. Uită-te pe factură la kWh, nu la RON. Compară consumul cu aceeași lună din anul trecut — variațiile sezoniere sunt normale. Un apartament de 2 camere consumă în medie 200–300 kWh/lună, o casă 400–700 kWh. Dacă ai mult peste aceste valori, cauza este probabil un aparat mare (boiler, aer condiționat, uscător) sau o scurgere de consum (aparat vechi, frigider cu garnitura defectă)."
+                       },
+                       {
+                           "heading":  "2. Compară prețul tău cu ofertele disponibile pe POSF",
+                           "body":  "Platforma Oficială de Schimbare a Furnizorului (posf.ro) și comparatorul ANRE îți arată toate ofertele disponibile în zona ta. În aprilie 2026, prețurile pentru clienți casnici variază de la 0.45 RON/kWh (Hidroelectrica) la 0.67 RON/kWh (PPC/Enel). La un consum de 250 kWh/lună, diferența între cel mai ieftin și cel mai scump furnizor poate fi de 55–70 RON pe lună, adică 660–840 RON pe an. Merită verificat cel puțin o dată pe an."
+                       },
+                       {
+                           "heading":  "3. Analizează abonamentul lunar — poate anula economia",
+                           "body":  "Unele oferte par ieftine la prețul pe kWh dar includ un abonament lunar de 3–5 RON. Pentru un consum mic (sub 150 kWh/lună), abonamentul de 5 RON reprezintă echivalentul a 0.033 RON/kWh în plus. Asta poate transforma o ofertă aparent bună în una mediocră. Calculează întotdeauna costul total: (consum × preț) + abonament + taxe. Furnizorii fără abonament (Hidroelectrica, Electrica Furnizare, Nova Power \u0026 Gas) sunt avantajoși mai ales la consumuri mici."
+                       },
+                       {
+                           "heading":  "4. Verifică perioada facturată și tipul facturii",
+                           "body":  "O factură care acoperă 35 de zile în loc de 30 va fi automat mai mare cu ~17%, fără ca prețul să se fi schimbat. Verifică întotdeauna datele de pe factură. De asemenea, dacă factura este estimată (nu pe consum real), totalul poate fi mai mare sau mai mic decât consumul efectiv. Regularizările corectează aceste diferențe — o factură de regularizare mare nu înseamnă neapărat că plătești mai mult, ci că ai plătit mai puțin anterior."
+                       },
+                       {
+                           "heading":  "5. Redu consumul aparatelor mari — impact imediat",
+                           "body":  "Aerul condiționat setat la 18°C consumă cu 30–40% mai mult decât la 24°C. Boilerul electric de 80L consumă 3–5 kWh pe zi — un termostat și programarea pe noapte pot reduce costul cu 20–30%. Uscătorul de rufe consumă de 3–5 ori mai mult decât mașina de spălat. Frigiderul vechi (clasa A sau mai jos) poate consuma 400–500 kWh/an, față de 150–200 kWh/an pentru unul nou clasa A+++. Înlocuirea unui singur aparat vechi poate economisi 100–200 RON pe an."
+                       },
+                       {
+                           "heading":  "6. Transmite indexul lunar și evită estimările",
+                           "body":  "Dacă nu transmiți indexul contorului, furnizorul estimează consumul pe baza istoricului. Această estimare poate fi mai mare decât consumul real, ceea ce înseamnă că plătești mai mult acum și primești o regularizare mai târziu. Transmiterea lunară a indexului (prin aplicația furnizorului, SMS sau telefon) te ajută să plătești exact cât consumi și să ai control real asupra facturii."
+                       }
+                   ],
+      "author":  {
+                     "name":  "Echipa Verifica Factura",
+                     "url":  "https://verificafactura.ro"
+                 },
+      "lastVerifiedAt":  "2026-04-29",
+      "sources":  [
+                      {
+                          "name":  "ANRE",
+                          "url":  "https://anre.ro"
+                      },
+                      {
+                          "name":  "POSF",
+                          "url":  "https://posf.ro/comparator?comparatorType=electric"
+                      }
+                  ],
+      "faq":  [
+                  {
+                      "question":  "Verifică mai întâi consumul în kWh, nu suma în RON",
+                      "answer":  "Cel mai frecvent motiv pentru o factură mai mare este consumul crescut, nu prețul. Uită-te pe factură la kWh, nu la RON. Compară consumul cu aceeași lună din anul trecut — variațiile sezoniere sunt normale. Un apartament de 2 camere consumă în medie 200–300 kWh/lună, o casă 400–700 kWh. Dacă ai mult peste aceste valori, cauza este probabil un aparat mare (boiler, aer condiționat, uscător) sau o scurgere de consum (aparat vechi, frigider cu garnitura defectă)."
+                  },
+                  {
+                      "question":  "Compară prețul tău cu ofertele disponibile pe POSF",
+                      "answer":  "Platforma Oficială de Schimbare a Furnizorului (posf.ro) și comparatorul ANRE îți arată toate ofertele disponibile în zona ta. În aprilie 2026, prețurile pentru clienți casnici variază de la 0.45 RON/kWh (Hidroelectrica) la 0.67 RON/kWh (PPC/Enel). La un consum de 250 kWh/lună, diferența între cel mai ieftin și cel mai scump furnizor poate fi de 55–70 RON pe lună, adică 660–840 RON pe an. Merită verificat cel puțin o dată pe an."
+                  },
+                  {
+                      "question":  "Analizează abonamentul lunar — poate anula economia",
+                      "answer":  "Unele oferte par ieftine la prețul pe kWh dar includ un abonament lunar de 3–5 RON. Pentru un consum mic (sub 150 kWh/lună), abonamentul de 5 RON reprezintă echivalentul a 0.033 RON/kWh în plus. Asta poate transforma o ofertă aparent bună în una mediocră. Calculează întotdeauna costul total: (consum × preț) + abonament + taxe. Furnizorii fără abonament (Hidroelectrica, Electrica Furnizare, Nova Power \u0026 Gas) sunt avantajoși mai ales la consumuri mici."
+                  }
+              ]
+  },
+  {
+      "type":  "article",
+      "status":  "published",
+      "publishDate":  "2026-04-29",
+      "slug":  "cum-se-calculeaza-factura-energie",
+      "title":  "Cum se calculează factura la energie electrică — toate componentele explicate",
+      "excerpt":  "Explicație completă cu cifre reale: energie activă, distribuție, transport TG și TL, servicii sistem, certificate verzi, cogenerare, CFD, acciză și TVA 21%.",
+      "readTime":  "12 min",
+      "metaDescription":  "Cum se calculează factura la energie electrică în 2026: energie activă, distribuție, transport TG/TL, servicii sistem, certificate verzi, cogenerare, CFD, acciză, TVA 21%.",
+      "intro":  "Factura de energie electrică include mult mai mult decât prețul energiei. Din totalul pe care îl plătești, energia activă (prețul furnizorului) reprezintă doar circa 40–50% din factură. Restul sunt componente reglementate, taxe și TVA. Iată fiecare componentă, cu valorile reale din 2026.",
+      "sections":  [
+                       {
+                           "heading":  "1. Energia activă — singura componentă comercială",
+                           "body":  "Energia activă este consumul tău în kWh înmulțit cu prețul din contract. Aceasta este singura componentă care diferă între furnizori. În 2026, prețurile variază de la 0.45 RON/kWh (Hidroelectrica) la 0.67 RON/kWh (PPC). Pentru un consum de 118 kWh, energia activă la Hidroelectrica costă 53.10 RON. La PPC, același consum ar costa 79.06 RON — o diferență de 25.96 RON doar pe această componentă."
+                       },
+                       {
+                           "heading":  "2. Distribuția — tarif reglementat pe zone",
+                           "body":  "Distribuția reprezintă costul utilizării rețelei locale de joasă și medie tensiune. Tariful este reglementat de ANRE și variază pe zone: 0.3174 RON/kWh în Muntenia/București, 0.3390 RON/kWh în Moldova (Delgaz Grid), 0.3050 RON/kWh în Oltenia. Nu poți alege operatorul de distribuție — depinde de adresa locului de consum. Pentru 118 kWh în Muntenia, distribuția costă 37.45 RON."
+                       },
+                       {
+                           "heading":  "3. Transportul — TG (introducere) și TL (extragere)",
+                           "body":  "Transportul acoperă utilizarea rețelei naționale de înaltă tensiune și se împarte în două componente: tariful de introducere în rețea (TG) de 0.00363 RON/kWh și tariful de extragere din rețea (TL) de 0.03645 RON/kWh. Pentru 118 kWh, TG costă 0.43 RON iar TL costă 4.30 RON. Aceste tarife sunt stabilite de ANRE și sunt identice în toată țara."
+                       },
+                       {
+                           "heading":  "4. Servicii de sistem — stabilitatea rețelei",
+                           "body":  "Serviciile de sistem susțin funcționarea sigură a sistemului energetic național. Tariful este de 0.0147 RON/kWh, ceea ce înseamnă 1.73 RON pentru un consum de 118 kWh. Această componentă a scăzut semnificativ față de anii anteriori."
+                       },
+                       {
+                           "heading":  "5. Certificate verzi — sprijin pentru energia regenerabilă",
+                           "body":  "Certificatele verzi finanțează producția de energie din surse regenerabile (eolian, solar, biomasă). Tariful este de 0.0740 RON/kWh, adică 8.73 RON pentru 118 kWh. Valoarea se modifică anual prin ordine ANRE."
+                       },
+                       {
+                           "heading":  "6. Cogenerare și CFD — componente mai mici",
+                           "body":  "Contribuția pentru cogenerare de înaltă eficiență este 0.0136 RON/kWh (1.60 RON la 118 kWh). Componenta CFD (Contract for Difference) este nouă și foarte mică: 0.000144 RON/kWh (0.02 RON la 118 kWh). Ambele sunt reglementate de ANRE."
+                       },
+                       {
+                           "heading":  "7. Acciză și TVA — componentele fiscale",
+                           "body":  "Acciza pe energia electrică este 0.00768 RON/kWh (0.91 RON la 118 kWh). TVA-ul de 21% se aplică la suma tuturor componentelor de mai sus. Pentru un consum de 118 kWh la Hidroelectrica în zona Muntenia, TVA-ul este 22.74 RON, iar totalul facturii ajunge la 131.02 RON."
+                       },
+                       {
+                           "heading":  "8. Exemplu complet de calcul — 118 kWh Hidroelectrica Muntenia",
+                           "body":  "Energie activă: 53.10 RON + Distribuție: 37.45 RON + Transport TG: 0.43 RON + Transport TL: 4.30 RON + Servicii sistem: 1.73 RON + Certificate verzi: 8.73 RON + Cogenerare: 1.60 RON + CFD: 0.02 RON + Acciză: 0.91 RON = Subtotal: 108.28 RON + TVA 21%: 22.74 RON = Total: 131.02 RON. Acest calcul corespunde aproape exact cu o factură reală Hidroelectrica din aprilie 2026."
+                       }
+                   ],
+      "author":  {
+                     "name":  "Echipa Verifica Factura",
+                     "url":  "https://verificafactura.ro"
+                 },
+      "lastVerifiedAt":  "2026-04-29",
+      "sources":  [
+                      {
+                          "name":  "ANRE",
+                          "url":  "https://anre.ro"
+                      },
+                      {
+                          "name":  "POSF",
+                          "url":  "https://posf.ro/comparator?comparatorType=electric"
+                      }
+                  ],
+      "faq":  [
+                  {
+                      "question":  "Energia activă — singura componentă comercială",
+                      "answer":  "Energia activă este consumul tău în kWh înmulțit cu prețul din contract. Aceasta este singura componentă care diferă între furnizori. În 2026, prețurile variază de la 0.45 RON/kWh (Hidroelectrica) la 0.67 RON/kWh (PPC). Pentru un consum de 118 kWh, energia activă la Hidroelectrica costă 53.10 RON. La PPC, același consum ar costa 79.06 RON — o diferență de 25.96 RON doar pe această componentă."
+                  },
+                  {
+                      "question":  "Distribuția — tarif reglementat pe zone",
+                      "answer":  "Distribuția reprezintă costul utilizării rețelei locale de joasă și medie tensiune. Tariful este reglementat de ANRE și variază pe zone: 0.3174 RON/kWh în Muntenia/București, 0.3390 RON/kWh în Moldova (Delgaz Grid), 0.3050 RON/kWh în Oltenia. Nu poți alege operatorul de distribuție — depinde de adresa locului de consum. Pentru 118 kWh în Muntenia, distribuția costă 37.45 RON."
+                  },
+                  {
+                      "question":  "Transportul — TG (introducere) și TL (extragere)",
+                      "answer":  "Transportul acoperă utilizarea rețelei naționale de înaltă tensiune și se împarte în două componente: tariful de introducere în rețea (TG) de 0.00363 RON/kWh și tariful de extragere din rețea (TL) de 0.03645 RON/kWh. Pentru 118 kWh, TG costă 0.43 RON iar TL costă 4.30 RON. Aceste tarife sunt stabilite de ANRE și sunt identice în toată țara."
+                  }
+              ]
+  },
+  {
+      "type":  "article",
+      "status":  "published",
+      "publishDate":  "2026-04-29",
+      "slug":  "ce-aparate-consuma-cel-mai-mult-curent",
+      "title":  "Ce aparate consumă cel mai mult curent în casă — cifre reale și sfaturi",
+      "excerpt":  "Aerul condiționat, boilerul, uscătorul, cuptorul și frigiderul: cât consumă fiecare pe lună și cum reduci factura fără investiții mari.",
+      "readTime":  "9 min",
+      "metaDescription":  "Ce aparate consumă cel mai mult curent: aer condiționat, boiler, uscător, cuptor, frigider. Cifre reale de consum lunar și sfaturi practice de reducere.",
+      "intro":  "Într-o locuință tipică, 5–6 aparate mari sunt responsabile pentru 60–80% din consumul de energie. Restul — becuri, televizor, încărcătoare — consumă relativ puțin. Dacă vrei să reduci factura, trebuie să te concentrezi pe consumatorii mari.",
+      "sections":  [
+                       {
+                           "heading":  "1. Aerul condiționat — cel mai mare consumator vara",
+                           "body":  "Un aparat de aer condiționat de 12.000 BTU consumă între 0.8 și 1.5 kWh pe oră, în funcție de clasa energetică și temperatura setată. La 8 ore de funcționare pe zi, consumul lunar poate ajunge la 200–360 kWh, adică 90–160 RON doar pentru aer condiționat (la 0.45 RON/kWh). Setarea la 24–25°C în loc de 18–20°C poate reduce consumul cu 30–40%. Un aparat inverter clasa A+++ consumă cu 40–50% mai puțin decât unul vechi clasa B."
+                       },
+                       {
+                           "heading":  "2. Boilerul electric — consumă constant, chiar și când nu folosești apă",
+                           "body":  "Un boiler de 80 litri consumă 3–5 kWh pe zi pentru a menține apa caldă, adică 90–150 kWh pe lună (40–70 RON). Pierderea de căldură prin izolație defectuoasă crește consumul. Soluții: setează temperatura la 55–60°C (nu 70–80°C), folosește un timer pentru a încălzi apa doar noaptea sau dimineața, și verifică izolația boilerului. Alternativa ideală pe termen lung este un boiler cu pompă de căldură, care consumă de 3 ori mai puțin."
+                       },
+                       {
+                           "heading":  "3. Cuptorul electric și plita electrică — puteri mari, perioade scurte",
+                           "body":  "Cuptorul electric consumă 1.5–2.5 kWh pe oră de funcționare. Plita electrică (cu rezistență) consumă 1–2 kWh per arzător. La gătit zilnic, consumul poate ajunge la 60–100 kWh/lună (25–45 RON). Plita cu inducție este cu 30–40% mai eficientă decât cea clasică. Folosirea capacului pe oale reduce timpul de gătit cu 20–30%."
+                       },
+                       {
+                           "heading":  "4. Uscătorul de rufe — surpriza din factură",
+                           "body":  "Uscătorul cu rezistență consumă 3–5 kWh per ciclu, adică de 3–5 ori mai mult decât mașina de spălat. La 3–4 cicluri pe săptămână, consumul lunar este 40–80 kWh (18–36 RON). Uscătorul cu pompă de căldură consumă de 2 ori mai puțin. Alternativa gratuită: uscatul natural pe sârmă, cel puțin vara."
+                       },
+                       {
+                           "heading":  "5. Mașina de spălat — programele eco chiar funcționează",
+                           "body":  "Mașina de spălat consumă 0.5–1.5 kWh per ciclu, în funcție de temperatură și program. Programul la 30°C consumă cu 50–60% mai puțin decât cel la 60°C. Încărcarea completă e importantă — o mașină pe jumătate consumă aproape la fel de mult, dar speli de două ori mai des. Consumul lunar tipic: 15–30 kWh (7–14 RON)."
+                       },
+                       {
+                           "heading":  "6. Frigiderul și congelatorul — funcționează non-stop",
+                           "body":  "Frigiderul funcționează 24/7, deci și un consum orar mic se adună. Un frigider vechi (clasa A sau mai jos) consumă 350–500 kWh/an, adică 30–42 kWh/lună (13–19 RON). Unul nou clasa A+++ consumă 100–150 kWh/an. Verifică garniturile, nu bloca ventilatorul cu alimente, setează temperatura la 4–5°C (frigider) și -18°C (congelator), și lasă spațiu în spate pentru ventilație."
+                       },
+                       {
+                           "heading":  "7. Consumatori mici care se adună — standby, becuri, electronice",
+                           "body":  "Televizorul, routerul, consolele, încărcătoarele și becurile consumă individual puțin (5–50W), dar împreună pot ajunge la 30–60 kWh/lună. Aparatele în standby consumă 5–10% din factura totală. Becurile LED consumă de 5–8 ori mai puțin decât cele incandescente. Un bec LED de 10W dă aceeași lumină ca unul incandescent de 60W."
+                       }
+                   ],
+      "author":  {
+                     "name":  "Echipa Verifica Factura",
+                     "url":  "https://verificafactura.ro"
+                 },
+      "lastVerifiedAt":  "2026-04-29",
+      "sources":  [
+                      {
+                          "name":  "ANRE",
+                          "url":  "https://anre.ro"
+                      },
+                      {
+                          "name":  "POSF",
+                          "url":  "https://posf.ro/comparator?comparatorType=electric"
+                      }
+                  ],
+      "faq":  [
+                  {
+                      "question":  "Aerul condiționat — cel mai mare consumator vara",
+                      "answer":  "Un aparat de aer condiționat de 12.000 BTU consumă între 0.8 și 1.5 kWh pe oră, în funcție de clasa energetică și temperatura setată. La 8 ore de funcționare pe zi, consumul lunar poate ajunge la 200–360 kWh, adică 90–160 RON doar pentru aer condiționat (la 0.45 RON/kWh). Setarea la 24–25°C în loc de 18–20°C poate reduce consumul cu 30–40%. Un aparat inverter clasa A+++ consumă cu 40–50% mai puțin decât unul vechi clasa B."
+                  },
+                  {
+                      "question":  "Boilerul electric — consumă constant, chiar și când nu folosești apă",
+                      "answer":  "Un boiler de 80 litri consumă 3–5 kWh pe zi pentru a menține apa caldă, adică 90–150 kWh pe lună (40–70 RON). Pierderea de căldură prin izolație defectuoasă crește consumul. Soluții: setează temperatura la 55–60°C (nu 70–80°C), folosește un timer pentru a încălzi apa doar noaptea sau dimineața, și verifică izolația boilerului. Alternativa ideală pe termen lung este un boiler cu pompă de căldură, care consumă de 3 ori mai puțin."
+                  },
+                  {
+                      "question":  "Cuptorul electric și plita electrică — puteri mari, perioade scurte",
+                      "answer":  "Cuptorul electric consumă 1.5–2.5 kWh pe oră de funcționare. Plita electrică (cu rezistență) consumă 1–2 kWh per arzător. La gătit zilnic, consumul poate ajunge la 60–100 kWh/lună (25–45 RON). Plita cu inducție este cu 30–40% mai eficientă decât cea clasică. Folosirea capacului pe oale reduce timpul de gătit cu 20–30%."
+                  }
+              ]
+  },
+  {
+      "type":  "article",
+      "status":  "published",
+      "publishDate":  "2026-04-29",
+      "slug":  "merita-sa-schimbi-furnizorul-de-energie",
+      "title":  "Merită să schimbi furnizorul de energie în 2026? Ghid complet de analiză",
+      "excerpt":  "Comparație reală între furnizori, ce verifici înainte de schimbare, cât economisești și când nu merită efortul.",
+      "readTime":  "10 min",
+      "metaDescription":  "Merită să schimbi furnizorul de energie în 2026? Comparație reală între furnizori, economii calculate, pași de schimbare și capcane de evitat.",
+      "intro":  "Schimbarea furnizorului de energie este gratuită și se poate face online prin platforma POSF. Dar nu orice schimbare aduce economii reale. Acest ghid îți arată exact când merită, cât poți economisi și ce capcane să eviți.",
+      "sections":  [
+                       {
+                           "heading":  "1. Cât poți economisi real — calcul cu cifre din 2026",
+                           "body":  "La un consum de 250 kWh/lună, diferența între Hidroelectrica (0.45 RON/kWh) și PPC (0.67 RON/kWh) este de 55 RON/lună doar pe energia activă, adică 660 RON/an. Chiar și între furnizori mai apropiați (Hidroelectrica vs Nova Power 0.499 RON/kWh), diferența este de 12.25 RON/lună, adică 147 RON/an. Aceste diferențe sunt semnificative și justifică schimbarea."
+                       },
+                       {
+                           "heading":  "2. Nu compara doar prețul pe kWh — costul total contează",
+                           "body":  "Un furnizor cu preț de 0.50 RON/kWh și abonament de 5 RON poate fi mai scump decât unul cu 0.52 RON/kWh fără abonament, la consumuri mici. Formula corectă: (consum × preț) + abonament + toate componentele reglementate + TVA. Folosește un calculator de factură (ca cel de pe acest site) pentru comparație realistă."
+                       },
+                       {
+                           "heading":  "3. Verifică durata ofertei și ce se întâmplă la expirare",
+                           "body":  "Multe oferte au preț fix doar 6 sau 12 luni. După expirare, prețul poate reveni la tariful standard, care este adesea mai mare. Verifică în contract: durata ofertei, prețul după expirare, și dacă există penalități de reziliere anticipată. O ofertă bună pe 3 luni urmată de un preț mare pe 9 luni poate fi mai scumpă per total decât o ofertă mediocră pe 12 luni."
+                       },
+                       {
+                           "heading":  "4. Procesul de schimbare — gratuit și online",
+                           "body":  "Schimbarea se face prin platforma POSF (posf.ro) sau direct pe site-ul noului furnizor. Procesul durează de obicei 21 de zile calendaristice. Nu ai întrerupere de curent. Nu plătești nicio taxă. Ai nevoie de: cod NLC/POD (de pe factură), act de identitate, și ultima factură. Furnizorul vechi emite factura finală, iar noul furnizor începe facturarea din ziua schimbării."
+                       },
+                       {
+                           "heading":  "5. Când NU merită să schimbi",
+                           "body":  "Dacă diferența estimată este sub 15–20 RON/lună, efortul administrativ și riscul unei oferte cu condiții ascunse nu se justifică. Dacă ai un contract cu preț fix bun care nu a expirat, schimbarea poate atrage penalități. Dacă furnizorul actual are aplicație bună, facturare corectă și suport decent, o economie mică nu compensează riscul de a ajunge la un furnizor cu servicii slabe."
+                       },
+                       {
+                           "heading":  "6. Calitatea serviciului contează — nu doar prețul",
+                           "body":  "Un furnizor ieftin cu facturare greșită, aplicație nefuncțională sau suport inexistent poate genera mai multe probleme decât economia realizată. Verifică recenziile altor clienți, funcționalitatea aplicației mobile, ușurința transmiterii indexului și timpul de răspuns al suportului clienți. Hidroelectrica, de exemplu, are prețul cel mai mic DAR și un portal online funcțional și aplicația iHidro."
+                       }
+                   ],
+      "author":  {
+                     "name":  "Echipa Verifica Factura",
+                     "url":  "https://verificafactura.ro"
+                 },
+      "lastVerifiedAt":  "2026-04-29",
+      "sources":  [
+                      {
+                          "name":  "ANRE",
+                          "url":  "https://anre.ro"
+                      },
+                      {
+                          "name":  "POSF",
+                          "url":  "https://posf.ro/comparator?comparatorType=electric"
+                      }
+                  ],
+      "faq":  [
+                  {
+                      "question":  "Cât poți economisi real — calcul cu cifre din 2026",
+                      "answer":  "La un consum de 250 kWh/lună, diferența între Hidroelectrica (0.45 RON/kWh) și PPC (0.67 RON/kWh) este de 55 RON/lună doar pe energia activă, adică 660 RON/an. Chiar și între furnizori mai apropiați (Hidroelectrica vs Nova Power 0.499 RON/kWh), diferența este de 12.25 RON/lună, adică 147 RON/an. Aceste diferențe sunt semnificative și justifică schimbarea."
+                  },
+                  {
+                      "question":  "Nu compara doar prețul pe kWh — costul total contează",
+                      "answer":  "Un furnizor cu preț de 0.50 RON/kWh și abonament de 5 RON poate fi mai scump decât unul cu 0.52 RON/kWh fără abonament, la consumuri mici. Formula corectă: (consum × preț) + abonament + toate componentele reglementate + TVA. Folosește un calculator de factură (ca cel de pe acest site) pentru comparație realistă."
+                  },
+                  {
+                      "question":  "Verifică durata ofertei și ce se întâmplă la expirare",
+                      "answer":  "Multe oferte au preț fix doar 6 sau 12 luni. După expirare, prețul poate reveni la tariful standard, care este adesea mai mare. Verifică în contract: durata ofertei, prețul după expirare, și dacă există penalități de reziliere anticipată. O ofertă bună pe 3 luni urmată de un preț mare pe 9 luni poate fi mai scumpă per total decât o ofertă mediocră pe 12 luni."
+                  }
+              ]
+  },
+  {
+      "type":  "article",
+      "status":  "published",
+      "publishDate":  "2026-04-29",
+      "slug":  "de-ce-a-crescut-factura-la-energie",
+      "title":  "De ce a crescut factura la energie? 7 cauze frecvente și ce verifici imediat",
+      "excerpt":  "Factura mai mare nu înseamnă neapărat preț mai mare. Verifică consumul, regularizarea, perioada facturată, prețul și abonamentele.",
+      "readTime":  "8 min",
+      "metaDescription":  "De ce a crescut factura la energie electrică? 7 cauze frecvente: consum crescut, regularizare, perioadă mai lungă, preț modificat, abonament, TVA 21%.",
+      "intro":  "Ai primit o factură mai mare decât de obicei și nu înțelegi de ce? Cele mai frecvente cauze nu au legătură cu prețul energiei. Iată ce trebuie să verifici, în ordinea probabilității.",
+      "sections":  [
+                       {
+                           "heading":  "1. Consumul a crescut — verifică kWh, nu RON",
+                           "body":  "Cea mai frecventă cauză. Uită-te la consumul în kWh, nu la suma totală. Dacă kWh sunt mai mulți, cauza este consumul, nu prețul. Compară cu aceeași lună din anul trecut, nu cu luna precedentă — consumul variază sezonier (iarna crește din cauza iluminatului și a încălzirii electrice, vara din cauza aerului condiționat)."
+                       },
+                       {
+                           "heading":  "2. Factura include o regularizare",
+                           "body":  "Dacă în lunile anterioare furnizorul a estimat consumul și acum a citit contorul real, factura poate include diferența acumulată. O factură de regularizare poate fi de 2–3 ori mai mare decât una normală, fără ca tu să fi consumat mai mult în luna respectivă. Verifică pe factură dacă apare mențiunea \u0027regularizare\u0027 sau \u0027consum estimat vs. real\u0027."
+                       },
+                       {
+                           "heading":  "3. Perioada facturată este mai lungă",
+                           "body":  "O factură care acoperă 40 de zile în loc de 30 va fi mai mare cu ~33%. Verifică datele de început și sfârșit ale perioadei de facturare. Compară consumul mediu zilnic (kWh total ÷ număr de zile), nu totalul — acesta este singurul mod corect de comparare între perioade diferite."
+                       },
+                       {
+                           "heading":  "4. TVA-ul a crescut la 21%",
+                           "body":  "Din 2025, TVA-ul pe energie electrică a crescut de la 19% la 21%. Pentru o factură cu un subtotal de 108 RON, diferența este de 2.16 RON (22.74 RON TVA la 21% vs. 20.57 RON la 19%). Nu e o diferență uriașă, dar contribuie la totalul mai mare."
+                       },
+                       {
+                           "heading":  "5. Prețul contractual s-a modificat",
+                           "body":  "Oferta ta poate fi expirat. Verifică pe factură prețul pe kWh și compară-l cu contractul. Dacă prețul a crescut de la 0.45 la 0.55 RON/kWh, pentru 250 kWh diferența este de 25 RON/lună. Când oferta expiră, furnizorul aplică de obicei un tarif standard mai mare. Verifică data de valabilitate a ofertei în contract."
+                       },
+                       {
+                           "heading":  "6. Au apărut servicii sau abonamente suplimentare",
+                           "body":  "Unele contracte includ servicii adiționale cu cost lunar: protecție echipamente, asigurare, servicii de urgență. Acestea pot apărea ca linii separate pe factură sau pot fi incluse în abonament. Verifică toate liniile din factură, nu doar energia activă."
+                       },
+                       {
+                           "heading":  "7. Tarifele reglementate s-au modificat",
+                           "body":  "Distribuția, transportul, serviciile de sistem, certificatele verzi și cogenerarea sunt componente reglementate care se modifică periodic prin ordine ANRE. Aceste modificări sunt mici individual, dar împreună pot adăuga 5–10 RON pe lună. Nu poți influența aceste tarife, dar poți verifica dacă sunt aplicate corect."
+                       }
+                   ],
+      "author":  {
+                     "name":  "Echipa Verifica Factura",
+                     "url":  "https://verificafactura.ro"
+                 },
+      "lastVerifiedAt":  "2026-04-29",
+      "sources":  [
+                      {
+                          "name":  "ANRE",
+                          "url":  "https://anre.ro"
+                      },
+                      {
+                          "name":  "POSF",
+                          "url":  "https://posf.ro/comparator?comparatorType=electric"
+                      }
+                  ],
+      "faq":  [
+                  {
+                      "question":  "Consumul a crescut — verifică kWh, nu RON",
+                      "answer":  "Cea mai frecventă cauză. Uită-te la consumul în kWh, nu la suma totală. Dacă kWh sunt mai mulți, cauza este consumul, nu prețul. Compară cu aceeași lună din anul trecut, nu cu luna precedentă — consumul variază sezonier (iarna crește din cauza iluminatului și a încălzirii electrice, vara din cauza aerului condiționat)."
+                  },
+                  {
+                      "question":  "Factura include o regularizare",
+                      "answer":  "Dacă în lunile anterioare furnizorul a estimat consumul și acum a citit contorul real, factura poate include diferența acumulată. O factură de regularizare poate fi de 2–3 ori mai mare decât una normală, fără ca tu să fi consumat mai mult în luna respectivă. Verifică pe factură dacă apare mențiunea \u0027regularizare\u0027 sau \u0027consum estimat vs. real\u0027."
+                  },
+                  {
+                      "question":  "Perioada facturată este mai lungă",
+                      "answer":  "O factură care acoperă 40 de zile în loc de 30 va fi mai mare cu ~33%. Verifică datele de început și sfârșit ale perioadei de facturare. Compară consumul mediu zilnic (kWh total ÷ număr de zile), nu totalul — acesta este singurul mod corect de comparare între perioade diferite."
+                  }
+              ]
+  },
+  {
+      "type":  "article",
+      "status":  "published",
+      "publishDate":  "2026-04-29",
+      "slug":  "cum-citesti-corect-factura-de-energie",
+      "title":  "Cum citești corect o factură de energie electrică — ghid pas cu pas",
+      "excerpt":  "Unde găsești codul NLC, consumul real, prețul pe kWh, perioada facturată, fiecare componentă de cost și totalul de plată.",
+      "readTime":  "9 min",
+      "metaDescription":  "Cum citești factura de energie electrică: cod NLC/POD, consum kWh, preț energie activă, distribuție, transport, taxe, TVA, sold și scadență.",
+      "intro":  "Factura de energie pare complicată, dar dacă știi unde să te uiți, devine simplă. Acest ghid îți arată exact ce înseamnă fiecare element, folosind ca exemplu o factură reală Hidroelectrica din 2026.",
+      "sections":  [
+                       {
+                           "heading":  "1. Datele tale și codul NLC/POD — identitatea locului de consum",
+                           "body":  "În antetul facturii găsești datele clientului, adresa locului de consum, codul client și codul NLC (Număr Loc Consum) sau POD. Codul POD (de exemplu RO001E103551959) este unic pentru locul tău de consum și este esențial pentru: schimbarea furnizorului, contestații, verificări cu operatorul de distribuție. Notează-l — îl vei folosi des."
+                       },
+                       {
+                           "heading":  "2. Perioada de facturare și tipul citirii",
+                           "body":  "Factura specifică perioada (ex: 28.02.2026 – 27.03.2026 = 28 de zile). Verifică întotdeauna dacă este citire reală sau estimare. Pe factură apare \u0027autocitire\u0027, \u0027citire reală\u0027 sau \u0027estimat\u0027. Consumul mediu zilnic (kWh ÷ zile) este mai relevant decât totalul — compară acest indicator între luni."
+                       },
+                       {
+                           "heading":  "3. Consumul în kWh — baza facturii",
+                           "body":  "Secțiunea de măsurări arată indexul vechi, indexul nou și diferența (consumul). Pe o factură Hidroelectrica, exemplu: index vechi 49402 (autocitire), index nou 49520 (autocitire), diferență 118 kWh. Dacă nu ai transmis indexul, furnizorul estimează pe baza istoricului. Estimarea poate fi mai mare sau mai mică decât consumul real."
+                       },
+                       {
+                           "heading":  "4. Prețul energiei active și oferta contractuală",
+                           "body":  "Pe factură apare prețul final contractual (ex: 1.11 lei/kWh). Atenție: acest preț include toate componentele, nu doar energia activă! Prețul energiei active pure (ex: 0.45 RON/kWh) apare în detaliile facturii. Verifică dacă se potrivește cu oferta din contract. Dacă a crescut, posibil oferta a expirat."
+                       },
+                       {
+                           "heading":  "5. Detaliile facturii — fiecare componentă de cost",
+                           "body":  "Pagina 2 a facturii listează toate componentele: Energia activă (0.45 RON/kWh), Tarif distribuție (0.3174 RON/kWh), Servicii sistem (0.0147 RON/kWh), Transport TG (0.00363 RON/kWh), Transport TL (0.03645 RON/kWh), Cogenerare (0.0136 RON/kWh), CFD (0.000144 RON/kWh), Certificate verzi (0.0740 RON/kWh), Acciză (0.00768 RON/kWh). Suma lor + TVA 21% = totalul facturii."
+                       },
+                       {
+                           "heading":  "6. Soldul anterior, scadența și modalități de plată",
+                           "body":  "Totalul de plată poate include sume restante din facturi anterioare. Verifică linia \u0027Sold Cont Contract la data emiterii\u0027. Data scadenței este importantă — întârzierea atrage penalități contractuale. Plata se poate face prin aplicația furnizorului, internet banking (șablon de plată), direct debit, scanare cod de bare sau la Poșta Română."
+                       }
+                   ],
+      "author":  {
+                     "name":  "Echipa Verifica Factura",
+                     "url":  "https://verificafactura.ro"
+                 },
+      "lastVerifiedAt":  "2026-04-29",
+      "sources":  [
+                      {
+                          "name":  "ANRE",
+                          "url":  "https://anre.ro"
+                      },
+                      {
+                          "name":  "POSF",
+                          "url":  "https://posf.ro/comparator?comparatorType=electric"
+                      }
+                  ],
+      "faq":  [
+                  {
+                      "question":  "Datele tale și codul NLC/POD — identitatea locului de consum",
+                      "answer":  "În antetul facturii găsești datele clientului, adresa locului de consum, codul client și codul NLC (Număr Loc Consum) sau POD. Codul POD (de exemplu RO001E103551959) este unic pentru locul tău de consum și este esențial pentru: schimbarea furnizorului, contestații, verificări cu operatorul de distribuție. Notează-l — îl vei folosi des."
+                  },
+                  {
+                      "question":  "Perioada de facturare și tipul citirii",
+                      "answer":  "Factura specifică perioada (ex: 28.02.2026 – 27.03.2026 = 28 de zile). Verifică întotdeauna dacă este citire reală sau estimare. Pe factură apare \u0027autocitire\u0027, \u0027citire reală\u0027 sau \u0027estimat\u0027. Consumul mediu zilnic (kWh ÷ zile) este mai relevant decât totalul — compară acest indicator între luni."
+                  },
+                  {
+                      "question":  "Consumul în kWh — baza facturii",
+                      "answer":  "Secțiunea de măsurări arată indexul vechi, indexul nou și diferența (consumul). Pe o factură Hidroelectrica, exemplu: index vechi 49402 (autocitire), index nou 49520 (autocitire), diferență 118 kWh. Dacă nu ai transmis indexul, furnizorul estimează pe baza istoricului. Estimarea poate fi mai mare sau mai mică decât consumul real."
+                  }
+              ]
+  },
+  {
+      "type":  "article",
+      "status":  "published",
+      "publishDate":  "2026-04-29",
+      "slug":  "cat-consuma-un-aer-conditionat-pe-luna",
+      "title":  "Cât consumă un aer condiționat pe lună în lei — calcul real 2026",
+      "excerpt":  "Consum real per oră, pe zi și pe lună pentru aparate de 9.000, 12.000 și 18.000 BTU, cu costuri calculate la prețurile din 2026.",
+      "readTime":  "7 min",
+      "metaDescription":  "Cât consumă un aer condiționat pe lună în lei în 2026: calcul real pentru 9.000, 12.000 și 18.000 BTU, cu sfaturi de reducere a consumului.",
+      "intro":  "Aerul condiționat este cel mai mare consumator de energie vara. Un aparat folosit 8 ore pe zi poate adăuga 80–200 RON pe lună la factură. Iată cifrele exacte și ce poți face pentru a reduce costul.",
+      "sections":  [
+                       {
+                           "heading":  "1. Consum per oră în funcție de capacitate",
+                           "body":  "Un aparat de 9.000 BTU (2.6 kW) consumă 0.6–1.0 kWh pe oră. Unul de 12.000 BTU (3.5 kW) consumă 0.8–1.5 kWh pe oră. Unul de 18.000 BTU (5.3 kW) consumă 1.5–2.5 kWh pe oră. Consumul exact depinde de clasa energetică: un inverter A+++ consumă cu 40–50% mai puțin decât un aparat fix clasa B."
+                       },
+                       {
+                           "heading":  "2. Calcul lunar la 8 ore pe zi — 12.000 BTU",
+                           "body":  "Inverter A+++: 0.8 kWh/h × 8 ore × 30 zile = 192 kWh/lună → 86 RON (la 0.45 RON/kWh Hidroelectrica) sau 129 RON (la 0.67 RON/kWh PPC). Aparat vechi clasa B: 1.4 kWh/h × 8 ore × 30 zile = 336 kWh/lună → 151 RON sau 225 RON. Diferența între un aparat eficient și unul vechi: 65–96 RON pe lună."
+                       },
+                       {
+                           "heading":  "3. Temperatura setată — cel mai mare factor de control",
+                           "body":  "Fiecare grad în minus crește consumul cu 6–8%. La 18°C, aparatul funcționează aproape continuu și consumă maxim. La 24–25°C, consumul scade cu 30–40%. La 26–27°C, consumul este minimal dar confortul scade. Recomandarea optimă: 24°C vara, cu ventilator pe tavan pentru o senzație de 2–3°C mai răcoare."
+                       },
+                       {
+                           "heading":  "4. Sfaturi concrete pentru reducerea consumului",
+                           "body":  "Închide ușile și ferestrele când funcționează aerul condiționat. Folosește perdele sau jaluzele pentru a bloca soarele direct. Curăță filtrele la fiecare 2–4 săptămâni — filtrele murdare cresc consumul cu 10–15%. Nu seta temperatura cu 10°C sub cea exterioară — 5–7°C diferență e optim. Folosește modul \u0027eco\u0027 sau \u0027sleep\u0027 noaptea. Un aparat inverter se amortizează în 2–3 ani față de unul fix, doar din economia de energie."
+                       }
+                   ],
+      "author":  {
+                     "name":  "Echipa Verifica Factura",
+                     "url":  "https://verificafactura.ro"
+                 },
+      "lastVerifiedAt":  "2026-04-29",
+      "sources":  [
+                      {
+                          "name":  "ANRE",
+                          "url":  "https://anre.ro"
+                      },
+                      {
+                          "name":  "POSF",
+                          "url":  "https://posf.ro/comparator?comparatorType=electric"
+                      }
+                  ],
+      "faq":  [
+                  {
+                      "question":  "Consum per oră în funcție de capacitate",
+                      "answer":  "Un aparat de 9.000 BTU (2.6 kW) consumă 0.6–1.0 kWh pe oră. Unul de 12.000 BTU (3.5 kW) consumă 0.8–1.5 kWh pe oră. Unul de 18.000 BTU (5.3 kW) consumă 1.5–2.5 kWh pe oră. Consumul exact depinde de clasa energetică: un inverter A+++ consumă cu 40–50% mai puțin decât un aparat fix clasa B."
+                  },
+                  {
+                      "question":  "Calcul lunar la 8 ore pe zi — 12.000 BTU",
+                      "answer":  "Inverter A+++: 0.8 kWh/h × 8 ore × 30 zile = 192 kWh/lună → 86 RON (la 0.45 RON/kWh Hidroelectrica) sau 129 RON (la 0.67 RON/kWh PPC). Aparat vechi clasa B: 1.4 kWh/h × 8 ore × 30 zile = 336 kWh/lună → 151 RON sau 225 RON. Diferența între un aparat eficient și unul vechi: 65–96 RON pe lună."
+                  },
+                  {
+                      "question":  "Temperatura setată — cel mai mare factor de control",
+                      "answer":  "Fiecare grad în minus crește consumul cu 6–8%. La 18°C, aparatul funcționează aproape continuu și consumă maxim. La 24–25°C, consumul scade cu 30–40%. La 26–27°C, consumul este minimal dar confortul scade. Recomandarea optimă: 24°C vara, cu ventilator pe tavan pentru o senzație de 2–3°C mai răcoare."
+                  }
+              ]
+  },
+  {
+      "type":  "article",
+      "status":  "published",
+      "publishDate":  "2026-04-29",
+      "slug":  "hidroelectrica-vs-electrica-comparatie-2026",
+      "title":  "Hidroelectrica vs Electrica Furnizare — comparație completă 2026",
+      "excerpt":  "Preț per kWh, abonament, cost total calculat, calitatea serviciului și când merită fiecare furnizor.",
+      "readTime":  "8 min",
+      "metaDescription":  "Comparație Hidroelectrica vs Electrica Furnizare 2026: preț kWh, abonament, cost total, calitate serviciu. Calculat pe consumuri reale.",
+      "intro":  "Hidroelectrica și Electrica Furnizare sunt doi dintre cei mai mari furnizori de energie din România. Prețurile lor diferă semnificativ. Iată o comparație obiectivă, cu cifre reale din aprilie 2026.",
+      "sections":  [
+                       {
+                           "heading":  "1. Prețul energiei active — diferența de bază",
+                           "body":  "Hidroelectrica: 0.45 RON/kWh (casnic), sursă POSF/ANRE. Electrica Furnizare: 0.62 RON/kWh (casnic), sursă POSF/ANRE. Diferența: 0.17 RON/kWh. La un consum de 250 kWh/lună, doar pe energia activă diferența este de 42.50 RON/lună sau 510 RON/an. Ambii furnizori nu percep abonament lunar."
+                       },
+                       {
+                           "heading":  "2. Cost total calculat — 3 scenarii de consum",
+                           "body":  "Apartament mic (150 kWh): Hidroelectrica ~167 RON, Electrica ~198 RON — diferență 31 RON/lună. Apartament 2-3 camere (250 kWh): Hidroelectrica ~280 RON, Electrica ~331 RON — diferență 51 RON/lună. Casă (500 kWh): Hidroelectrica ~559 RON, Electrica ~662 RON — diferență 103 RON/lună. Toate calculele includ distribuție Muntenia, transport, taxe și TVA 21%."
+                       },
+                       {
+                           "heading":  "3. Calitatea serviciului și aplicații",
+                           "body":  "Hidroelectrica are aplicația iHidro (Android, iOS, web) pentru autocitire, plăți și vizualizare facturi. Portalul online funcționează bine. Suport prin call center (021.9834) luni-vineri 08-20. Electrica Furnizare are portalul MyElectrica pentru facturi și plăți online. Suport prin call center și email. Ambii furnizori permit transmiterea indexului online."
+                       },
+                       {
+                           "heading":  "4. Disponibilitate și zonă de acoperire",
+                           "body":  "Ambii furnizori sunt disponibili în toată țara — nu depinzi de zona de distribuție. Poți avea Hidroelectrica în Moldova sau Electrica în Banat. Operatorul de distribuție (rețeaua fizică) rămâne același indiferent de furnizor."
+                       },
+                       {
+                           "heading":  "5. Verdictul — când merită fiecare",
+                           "body":  "La prețurile din aprilie 2026, Hidroelectrica este clar mai avantajoasă financiar pentru orice nivel de consum. Diferența de 510 RON/an la un consum mediu este substanțială. Electrica Furnizare poate fi preferată de clienții care au deja un contract bun cu preț fix pe perioadă lungă sau care preferă experiența lor de client. Dacă ești la Electrica și vrei să schimbi, procesul este gratuit prin POSF și durează ~21 de zile."
+                       }
+                   ],
+      "author":  {
+                     "name":  "Echipa Verifica Factura",
+                     "url":  "https://verificafactura.ro"
+                 },
+      "lastVerifiedAt":  "2026-04-29",
+      "sources":  [
+                      {
+                          "name":  "ANRE",
+                          "url":  "https://anre.ro"
+                      },
+                      {
+                          "name":  "POSF",
+                          "url":  "https://posf.ro/comparator?comparatorType=electric"
+                      }
+                  ],
+      "faq":  [
+                  {
+                      "question":  "Prețul energiei active — diferența de bază",
+                      "answer":  "Hidroelectrica: 0.45 RON/kWh (casnic), sursă POSF/ANRE. Electrica Furnizare: 0.62 RON/kWh (casnic), sursă POSF/ANRE. Diferența: 0.17 RON/kWh. La un consum de 250 kWh/lună, doar pe energia activă diferența este de 42.50 RON/lună sau 510 RON/an. Ambii furnizori nu percep abonament lunar."
+                  },
+                  {
+                      "question":  "Cost total calculat — 3 scenarii de consum",
+                      "answer":  "Apartament mic (150 kWh): Hidroelectrica ~167 RON, Electrica ~198 RON — diferență 31 RON/lună. Apartament 2-3 camere (250 kWh): Hidroelectrica ~280 RON, Electrica ~331 RON — diferență 51 RON/lună. Casă (500 kWh): Hidroelectrica ~559 RON, Electrica ~662 RON — diferență 103 RON/lună. Toate calculele includ distribuție Muntenia, transport, taxe și TVA 21%."
+                  },
+                  {
+                      "question":  "Calitatea serviciului și aplicații",
+                      "answer":  "Hidroelectrica are aplicația iHidro (Android, iOS, web) pentru autocitire, plăți și vizualizare facturi. Portalul online funcționează bine. Suport prin call center (021.9834) luni-vineri 08-20. Electrica Furnizare are portalul MyElectrica pentru facturi și plăți online. Suport prin call center și email. Ambii furnizori permit transmiterea indexului online."
+                  }
+              ]
+  },
+  {
+      "type":  "article",
+      "status":  "published",
+      "publishDate":  "2026-04-29",
+      "slug":  "ce-inseamna-regularizare-factura-energie",
+      "title":  "Ce înseamnă regularizare pe factura de energie și de ce e factura mai mare",
+      "excerpt":  "Explicație simplă: ce este regularizarea, de ce apare, cum o verifici și ce faci dacă nu ești de acord cu suma.",
+      "readTime":  "7 min",
+      "metaDescription":  "Ce înseamnă regularizare pe factura de energie electrică: de ce apare, cum se calculează, cum o verifici și ce faci dacă suma e prea mare.",
+      "intro":  "Ai primit o factură mult mai mare decât de obicei și scrie \u0027regularizare\u0027? Nu intră în panică — regularizarea nu înseamnă că plătești mai mult per total, ci că plătești acum ce ai consumat în lunile anterioare dar nu a fost facturat corect.",
+      "sections":  [
+                       {
+                           "heading":  "1. Ce este regularizarea — explicație simplă",
+                           "body":  "Regularizarea apare când furnizorul a estimat consumul în lunile anterioare (pentru că nu a avut indexul real) și acum, după citirea contorului, corectează diferența. Dacă ai consumat mai mult decât s-a estimat, plătești diferența acum. Dacă ai consumat mai puțin, primești un credit pe factura următoare."
+                       },
+                       {
+                           "heading":  "2. De ce apare regularizarea",
+                           "body":  "Cauzele frecvente: nu ai transmis indexul lunar, operatorul de distribuție nu a citit contorul (citirea se face la maximum 3 luni), sau s-a schimbat tariful între estimare și citirea reală. Regularizarea este normală și legală — nu este o greșeală și nu este o taxă suplimentară."
+                       },
+                       {
+                           "heading":  "3. Cum verifici dacă regularizarea e corectă",
+                           "body":  "Compară indexul vechi și cel nou de pe factură cu cifrele de pe contorul tău. Verifică dacă consumul total (diferența între indecși) este corect. Înmulțește consumul cu prețul pe kWh și adaugă componentele reglementate și TVA. Dacă cifrele se potrivesc, regularizarea este corectă."
+                       },
+                       {
+                           "heading":  "4. Ce faci dacă nu ești de acord",
+                           "body":  "Contactează furnizorul și solicită verificarea facturii. Poți cere și verificarea metrologică a contorului (contra cost, dar dacă se dovedește defect, costul e suportat de operatorul de distribuție). Dacă furnizorul nu rezolvă, te poți adresa ANRE prin telefon (021.9782) sau email (anre@anre.ro). Poți solicita și eșalonarea plății dacă suma este mare."
+                       },
+                       {
+                           "heading":  "5. Cum eviți regularizările pe viitor",
+                           "body":  "Transmite indexul lunar în perioada indicată pe factură (de obicei între 22 și 26 ale lunii). Folosește aplicația furnizorului, SMS-ul sau formularul online. Dacă transmiți indexul constant, facturile vor fi pe consum real și nu vor mai apărea regularizări."
+                       }
+                   ],
+      "author":  {
+                     "name":  "Echipa Verifica Factura",
+                     "url":  "https://verificafactura.ro"
+                 },
+      "lastVerifiedAt":  "2026-04-29",
+      "sources":  [
+                      {
+                          "name":  "ANRE",
+                          "url":  "https://anre.ro"
+                      },
+                      {
+                          "name":  "POSF",
+                          "url":  "https://posf.ro/comparator?comparatorType=electric"
+                      }
+                  ],
+      "faq":  [
+                  {
+                      "question":  "Ce este regularizarea — explicație simplă",
+                      "answer":  "Regularizarea apare când furnizorul a estimat consumul în lunile anterioare (pentru că nu a avut indexul real) și acum, după citirea contorului, corectează diferența. Dacă ai consumat mai mult decât s-a estimat, plătești diferența acum. Dacă ai consumat mai puțin, primești un credit pe factura următoare."
+                  },
+                  {
+                      "question":  "De ce apare regularizarea",
+                      "answer":  "Cauzele frecvente: nu ai transmis indexul lunar, operatorul de distribuție nu a citit contorul (citirea se face la maximum 3 luni), sau s-a schimbat tariful între estimare și citirea reală. Regularizarea este normală și legală — nu este o greșeală și nu este o taxă suplimentară."
+                  },
+                  {
+                      "question":  "Cum verifici dacă regularizarea e corectă",
+                      "answer":  "Compară indexul vechi și cel nou de pe factură cu cifrele de pe contorul tău. Verifică dacă consumul total (diferența între indecși) este corect. Înmulțește consumul cu prețul pe kWh și adaugă componentele reglementate și TVA. Dacă cifrele se potrivesc, regularizarea este corectă."
+                  }
+              ]
+  },
+  {
+      "type":  "article",
+      "status":  "published",
+      "publishDate":  "2026-04-29",
+      "slug":  "cat-consuma-un-boiler-electric-pe-luna",
+      "title":  "Cât consumă un boiler electric pe lună în lei — calcul real 2026",
+      "excerpt":  "Consum real pentru boilere de 50L, 80L și 120L, cu costuri calculate și sfaturi de reducere a consumului.",
+      "readTime":  "7 min",
+      "metaDescription":  "Cât consumă un boiler electric pe lună: calcul real 2026 pentru 50L, 80L și 120L. Costuri în RON și sfaturi practice de reducere.",
+      "intro":  "Boilerul electric este unul dintre cei mai mari consumatori de energie dintr-o locuință, dar funcționează \u0027invizibil\u0027 — nu îl vezi, nu îl auzi, dar consumă constant. Iată cât te costă real și ce poți face.",
+      "sections":  [
+                       {
+                           "heading":  "1. Consum zilnic în funcție de capacitate",
+                           "body":  "Boiler 50L (1.5 kW): 2–3 kWh/zi, suficient pentru 1–2 persoane. Boiler 80L (2.0 kW): 3–5 kWh/zi, pentru 2–3 persoane. Boiler 120L (2.5 kW): 5–7 kWh/zi, pentru 3–5 persoane. Consumul depinde de: temperatura setată, cantitatea de apă caldă folosită, izolația boilerului și temperatura apei reci de la rețea (mai scăzută iarna)."
+                       },
+                       {
+                           "heading":  "2. Cost lunar calculat — la prețuri 2026",
+                           "body":  "Boiler 80L, consum mediu 4 kWh/zi × 30 zile = 120 kWh/lună. La Hidroelectrica (0.45 RON/kWh): ~54 RON/lună doar boilerul. La Electrica (0.62 RON/kWh): ~74 RON/lună. La PPC (0.67 RON/kWh): ~80 RON/lună. Iarna consumul crește cu 20–30% din cauza temperaturii mai scăzute a apei reci."
+                       },
+                       {
+                           "heading":  "3. Temperatura setată — cheia economisirii",
+                           "body":  "La 70–80°C, boilerul consumă maximum și pierde mult mai multă căldură prin izolație. La 55–60°C, consumul scade cu 15–20% și apa este suficient de caldă pentru toate utilizările casnice. Sub 55°C nu este recomandat din motive sanitare (risc de Legionella). Fiecare 10°C în minus economisește aproximativ 10% din consum."
+                       },
+                       {
+                           "heading":  "4. Timer și programare — economie fără efort",
+                           "body":  "Un timer simplu (50–100 RON) poate reduce consumul cu 20–30%. Programează boilerul să funcționeze: dimineața 05:00–07:00 (înainte de dușuri) și seara 21:00–23:00 (pregătire pentru dimineață). În rest, rezistența stă oprită și nu consumă. Alternativ, unele boilere moderne au programare integrată."
+                       },
+                       {
+                           "heading":  "5. Alternativa pe termen lung — boiler cu pompă de căldură",
+                           "body":  "Un boiler cu pompă de căldură consumă de 3 ori mai puțin decât unul cu rezistență: ~1.3 kWh/zi în loc de 4 kWh/zi pentru 80L. Economia: ~80 kWh/lună × 0.45 RON = 36 RON/lună, adică 432 RON/an. Prețul unui boiler cu pompă de căldură: 3.000–5.000 RON. Se amortizează în 7–12 ani, dar și mai rapid dacă prețul energiei crește."
+                       }
+                   ],
+      "author":  {
+                     "name":  "Echipa Verifica Factura",
+                     "url":  "https://verificafactura.ro"
+                 },
+      "lastVerifiedAt":  "2026-04-29",
+      "sources":  [
+                      {
+                          "name":  "ANRE",
+                          "url":  "https://anre.ro"
+                      },
+                      {
+                          "name":  "POSF",
+                          "url":  "https://posf.ro/comparator?comparatorType=electric"
+                      }
+                  ],
+      "faq":  [
+                  {
+                      "question":  "Consum zilnic în funcție de capacitate",
+                      "answer":  "Boiler 50L (1.5 kW): 2–3 kWh/zi, suficient pentru 1–2 persoane. Boiler 80L (2.0 kW): 3–5 kWh/zi, pentru 2–3 persoane. Boiler 120L (2.5 kW): 5–7 kWh/zi, pentru 3–5 persoane. Consumul depinde de: temperatura setată, cantitatea de apă caldă folosită, izolația boilerului și temperatura apei reci de la rețea (mai scăzută iarna)."
+                  },
+                  {
+                      "question":  "Cost lunar calculat — la prețuri 2026",
+                      "answer":  "Boiler 80L, consum mediu 4 kWh/zi × 30 zile = 120 kWh/lună. La Hidroelectrica (0.45 RON/kWh): ~54 RON/lună doar boilerul. La Electrica (0.62 RON/kWh): ~74 RON/lună. La PPC (0.67 RON/kWh): ~80 RON/lună. Iarna consumul crește cu 20–30% din cauza temperaturii mai scăzute a apei reci."
+                  },
+                  {
+                      "question":  "Temperatura setată — cheia economisirii",
+                      "answer":  "La 70–80°C, boilerul consumă maximum și pierde mult mai multă căldură prin izolație. La 55–60°C, consumul scade cu 15–20% și apa este suficient de caldă pentru toate utilizările casnice. Sub 55°C nu este recomandat din motive sanitare (risc de Legionella). Fiecare 10°C în minus economisește aproximativ 10% din consum."
+                  }
+              ]
+  },
+  {
+      "type":  "news",
+      "status":  "published",
+      "slug":  "anaf-actualizeaza-sistemul-e-factura-cu-noi-validari",
+      "title":  "ANAF actualizează sistemul e-Factura cu noi validări",
+      "excerpt":  "Începând cu 1 mai 2026, ANAF introduce validări suplimentare pentru facturile electronice transmise prin sistemul RO e-Factura.",
+      "readTime":  "3 min",
+      "metaDescription":  "Începând cu 1 mai 2026, ANAF introduce validări suplimentare pentru facturile electronice transmise prin sistemul RO e-Factura.",
+      "intro":  "Începând cu 1 mai 2026, ANAF introduce validări suplimentare pentru facturile electronice transmise prin sistemul RO e-Factura.",
+      "category":  "E-FACTURA",
+      "date":  "25 aprilie 2026",
+      "source":  "anaf.ro",
+      "sourceUrl":  "https://www.anaf.ro/anaf/internet/ANAF/despre_ANAF/informatii_publice/comunicate/",
+      "publishDate":  "2026-04-29",
+      "sections":  [
+                       {
+                           "heading":  "Ce s-a anunțat?",
+                           "body":  "Începând cu 1 mai 2026, ANAF introduce validări suplimentare pentru facturile electronice transmise prin sistemul RO e-Factura."
+                       },
+                       {
+                           "heading":  "Ce înseamnă pentru consumatori?",
+                           "body":  "Impactul exact depinde de consum, zona de distribuție și condițiile contractuale. Verifică factura, contractul și sursa oficială înainte de a lua o decizie."
+                       },
+                       {
+                           "heading":  "Ce poți face mai departe?",
+                           "body":  "Poți folosi calculatorul de factură pentru o estimare orientativă și poți compara ofertele disponibile în POSF/ANRE."
+                       }
+                   ],
+      "author":  {
+                     "name":  "Echipa Verifica Factura",
+                     "url":  "https://verificafactura.ro"
+                 },
+      "lastVerifiedAt":  "2026-04-29",
+      "sources":  [
+                      {
+                          "name":  "anaf.ro",
+                          "url":  "https://www.anaf.ro/anaf/internet/ANAF/despre_ANAF/informatii_publice/comunicate/"
+                      }
+                  ],
+      "faq":  [
+                  {
+                      "question":  "Ce s-a anunțat?",
+                      "answer":  "Începând cu 1 mai 2026, ANAF introduce validări suplimentare pentru facturile electronice transmise prin sistemul RO e-Factura."
+                  },
+                  {
+                      "question":  "Ce înseamnă pentru consumatori?",
+                      "answer":  "Impactul exact depinde de consum, zona de distribuție și condițiile contractuale. Verifică factura, contractul și sursa oficială înainte de a lua o decizie."
+                  },
+                  {
+                      "question":  "Ce poți face mai departe?",
+                      "answer":  "Poți folosi calculatorul de factură pentru o estimare orientativă și poți compara ofertele disponibile în POSF/ANRE."
+                  }
+              ]
+  },
+  {
+      "type":  "news",
+      "status":  "published",
+      "slug":  "anre-publica-noile-tarife-de-distributie-pentru-2026",
+      "title":  "ANRE publică noile tarife de distribuție pentru 2026",
+      "excerpt":  "Tarifele de distribuție au fost actualizate prin ordine ANRE. Modificările variază între +2% și +5% în funcție de zona de distribuție.",
+      "readTime":  "3 min",
+      "metaDescription":  "Tarifele de distribuție au fost actualizate prin ordine ANRE. Modificările variază între +2% și +5% în funcție de zona de distribuție.",
+      "intro":  "Tarifele de distribuție au fost actualizate prin ordine ANRE. Modificările variază între +2% și +5% în funcție de zona de distribuție.",
+      "category":  "TARIFE",
+      "date":  "20 aprilie 2026",
+      "source":  "anre.ro",
+      "sourceUrl":  "https://anre.ro/energie-electrica/legislatie/tarife-reglementate/",
+      "publishDate":  "2026-04-29",
+      "sections":  [
+                       {
+                           "heading":  "Ce s-a anunțat?",
+                           "body":  "Tarifele de distribuție au fost actualizate prin ordine ANRE. Modificările variază între +2% și +5% în funcție de zona de distribuție."
+                       },
+                       {
+                           "heading":  "Ce înseamnă pentru consumatori?",
+                           "body":  "Impactul exact depinde de consum, zona de distribuție și condițiile contractuale. Verifică factura, contractul și sursa oficială înainte de a lua o decizie."
+                       },
+                       {
+                           "heading":  "Ce poți face mai departe?",
+                           "body":  "Poți folosi calculatorul de factură pentru o estimare orientativă și poți compara ofertele disponibile în POSF/ANRE."
+                       }
+                   ],
+      "author":  {
+                     "name":  "Echipa Verifica Factura",
+                     "url":  "https://verificafactura.ro"
+                 },
+      "lastVerifiedAt":  "2026-04-29",
+      "sources":  [
+                      {
+                          "name":  "anre.ro",
+                          "url":  "https://anre.ro/energie-electrica/legislatie/tarife-reglementate/"
+                      }
+                  ],
+      "faq":  [
+                  {
+                      "question":  "Ce s-a anunțat?",
+                      "answer":  "Tarifele de distribuție au fost actualizate prin ordine ANRE. Modificările variază între +2% și +5% în funcție de zona de distribuție."
+                  },
+                  {
+                      "question":  "Ce înseamnă pentru consumatori?",
+                      "answer":  "Impactul exact depinde de consum, zona de distribuție și condițiile contractuale. Verifică factura, contractul și sursa oficială înainte de a lua o decizie."
+                  },
+                  {
+                      "question":  "Ce poți face mai departe?",
+                      "answer":  "Poți folosi calculatorul de factură pentru o estimare orientativă și poți compara ofertele disponibile în POSF/ANRE."
+                  }
+              ]
+  },
+  {
+      "type":  "news",
+      "status":  "published",
+      "slug":  "tva-energia-electrica-ramane-la-21-in-2026",
+      "title":  "TVA energia electrică rămâne la 21% în 2026",
+      "excerpt":  "Parlamentul a confirmat menținerea cotei TVA de 21% pentru energia electrică, aplicabilă tuturor consumatorilor casnici și noncasnici.",
+      "readTime":  "3 min",
+      "metaDescription":  "Parlamentul a confirmat menținerea cotei TVA de 21% pentru energia electrică, aplicabilă tuturor consumatorilor casnici și noncasnici.",
+      "intro":  "Parlamentul a confirmat menținerea cotei TVA de 21% pentru energia electrică, aplicabilă tuturor consumatorilor casnici și noncasnici.",
+      "category":  "LEGISLAȚIE",
+      "date":  "15 aprilie 2026",
+      "source":  "cdep.ro",
+      "sourceUrl":  "https://www.cdep.ro/",
+      "publishDate":  "2026-04-29",
+      "sections":  [
+                       {
+                           "heading":  "Ce s-a anunțat?",
+                           "body":  "Parlamentul a confirmat menținerea cotei TVA de 21% pentru energia electrică, aplicabilă tuturor consumatorilor casnici și noncasnici."
+                       },
+                       {
+                           "heading":  "Ce înseamnă pentru consumatori?",
+                           "body":  "Impactul exact depinde de consum, zona de distribuție și condițiile contractuale. Verifică factura, contractul și sursa oficială înainte de a lua o decizie."
+                       },
+                       {
+                           "heading":  "Ce poți face mai departe?",
+                           "body":  "Poți folosi calculatorul de factură pentru o estimare orientativă și poți compara ofertele disponibile în POSF/ANRE."
+                       }
+                   ],
+      "author":  {
+                     "name":  "Echipa Verifica Factura",
+                     "url":  "https://verificafactura.ro"
+                 },
+      "lastVerifiedAt":  "2026-04-29",
+      "sources":  [
+                      {
+                          "name":  "cdep.ro",
+                          "url":  "https://www.cdep.ro/"
+                      }
+                  ],
+      "faq":  [
+                  {
+                      "question":  "Ce s-a anunțat?",
+                      "answer":  "Parlamentul a confirmat menținerea cotei TVA de 21% pentru energia electrică, aplicabilă tuturor consumatorilor casnici și noncasnici."
+                  },
+                  {
+                      "question":  "Ce înseamnă pentru consumatori?",
+                      "answer":  "Impactul exact depinde de consum, zona de distribuție și condițiile contractuale. Verifică factura, contractul și sursa oficială înainte de a lua o decizie."
+                  },
+                  {
+                      "question":  "Ce poți face mai departe?",
+                      "answer":  "Poți folosi calculatorul de factură pentru o estimare orientativă și poți compara ofertele disponibile în POSF/ANRE."
+                  }
+              ]
+  },
+  {
+      "type":  "news",
+      "status":  "published",
+      "slug":  "hidroelectrica-ramane-cel-mai-ieftin-furnizor-pe-piata-concurentiala",
+      "title":  "Hidroelectrica rămâne cel mai ieftin furnizor pe piața concurențială",
+      "excerpt":  "Conform comparatorului POSF/ANRE, Hidroelectrica oferă cel mai mic preț pentru clienții casnici: 0.45 RON/kWh, cu energie 98.71% regenerabilă.",
+      "readTime":  "3 min",
+      "metaDescription":  "Conform comparatorului POSF/ANRE, Hidroelectrica oferă cel mai mic preț pentru clienții casnici: 0.45 RON/kWh, cu energie 98.71% regenerabilă.",
+      "intro":  "Conform comparatorului POSF/ANRE, Hidroelectrica oferă cel mai mic preț pentru clienții casnici: 0.45 RON/kWh, cu energie 98.71% regenerabilă.",
+      "category":  "FURNIZORI",
+      "date":  "10 aprilie 2026",
+      "source":  "posf.ro",
+      "sourceUrl":  "https://posf.ro/comparator?comparatorType=electric",
+      "publishDate":  "2026-04-29",
+      "sections":  [
+                       {
+                           "heading":  "Ce s-a anunțat?",
+                           "body":  "Conform comparatorului POSF/ANRE, Hidroelectrica oferă cel mai mic preț pentru clienții casnici: 0.45 RON/kWh, cu energie 98.71% regenerabilă."
+                       },
+                       {
+                           "heading":  "Ce înseamnă pentru consumatori?",
+                           "body":  "Impactul exact depinde de consum, zona de distribuție și condițiile contractuale. Verifică factura, contractul și sursa oficială înainte de a lua o decizie."
+                       },
+                       {
+                           "heading":  "Ce poți face mai departe?",
+                           "body":  "Poți folosi calculatorul de factură pentru o estimare orientativă și poți compara ofertele disponibile în POSF/ANRE."
+                       }
+                   ],
+      "author":  {
+                     "name":  "Echipa Verifica Factura",
+                     "url":  "https://verificafactura.ro"
+                 },
+      "lastVerifiedAt":  "2026-04-29",
+      "sources":  [
+                      {
+                          "name":  "posf.ro",
+                          "url":  "https://posf.ro/comparator?comparatorType=electric"
+                      }
+                  ],
+      "faq":  [
+                  {
+                      "question":  "Ce s-a anunțat?",
+                      "answer":  "Conform comparatorului POSF/ANRE, Hidroelectrica oferă cel mai mic preț pentru clienții casnici: 0.45 RON/kWh, cu energie 98.71% regenerabilă."
+                  },
+                  {
+                      "question":  "Ce înseamnă pentru consumatori?",
+                      "answer":  "Impactul exact depinde de consum, zona de distribuție și condițiile contractuale. Verifică factura, contractul și sursa oficială înainte de a lua o decizie."
+                  },
+                  {
+                      "question":  "Ce poți face mai departe?",
+                      "answer":  "Poți folosi calculatorul de factură pentru o estimare orientativă și poți compara ofertele disponibile în POSF/ANRE."
+                  }
+              ]
+  },
+  {
+      "type":  "news",
+      "status":  "published",
+      "slug":  "anre-actualizeaza-componenta-cfd-in-facturile-de-energie",
+      "title":  "ANRE actualizează componenta CFD în facturile de energie",
+      "excerpt":  "Componenta CFD (Contract for Difference) a fost recalculată la 0.000144 RON/kWh, conform Ordinului ANRE nr. 10/2025.",
+      "readTime":  "3 min",
+      "metaDescription":  "Componenta CFD (Contract for Difference) a fost recalculată la 0.000144 RON/kWh, conform Ordinului ANRE nr. 10/2025.",
+      "intro":  "Componenta CFD (Contract for Difference) a fost recalculată la 0.000144 RON/kWh, conform Ordinului ANRE nr. 10/2025.",
+      "category":  "ANRE",
+      "date":  "5 aprilie 2026",
+      "source":  "anre.ro",
+      "sourceUrl":  "https://anre.ro/energie-electrica/legislatie/",
+      "publishDate":  "2026-04-29",
+      "sections":  [
+                       {
+                           "heading":  "Ce s-a anunțat?",
+                           "body":  "Componenta CFD (Contract for Difference) a fost recalculată la 0.000144 RON/kWh, conform Ordinului ANRE nr. 10/2025."
+                       },
+                       {
+                           "heading":  "Ce înseamnă pentru consumatori?",
+                           "body":  "Impactul exact depinde de consum, zona de distribuție și condițiile contractuale. Verifică factura, contractul și sursa oficială înainte de a lua o decizie."
+                       },
+                       {
+                           "heading":  "Ce poți face mai departe?",
+                           "body":  "Poți folosi calculatorul de factură pentru o estimare orientativă și poți compara ofertele disponibile în POSF/ANRE."
+                       }
+                   ],
+      "author":  {
+                     "name":  "Echipa Verifica Factura",
+                     "url":  "https://verificafactura.ro"
+                 },
+      "lastVerifiedAt":  "2026-04-29",
+      "sources":  [
+                      {
+                          "name":  "anre.ro",
+                          "url":  "https://anre.ro/energie-electrica/legislatie/"
+                      }
+                  ],
+      "faq":  [
+                  {
+                      "question":  "Ce s-a anunțat?",
+                      "answer":  "Componenta CFD (Contract for Difference) a fost recalculată la 0.000144 RON/kWh, conform Ordinului ANRE nr. 10/2025."
+                  },
+                  {
+                      "question":  "Ce înseamnă pentru consumatori?",
+                      "answer":  "Impactul exact depinde de consum, zona de distribuție și condițiile contractuale. Verifică factura, contractul și sursa oficială înainte de a lua o decizie."
+                  },
+                  {
+                      "question":  "Ce poți face mai departe?",
+                      "answer":  "Poți folosi calculatorul de factură pentru o estimare orientativă și poți compara ofertele disponibile în POSF/ANRE."
+                  }
+              ]
+  }
+]

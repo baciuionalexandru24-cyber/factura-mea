@@ -1,61 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Verifică Factura — Ghiduri energie</title>
-    <link>https://verificafactura.ro/</link>
-    <description>Ghiduri și actualizări despre facturi de energie electrică, furnizori și consum.</description>
-    <language>ro</language>
-    <lastBuildDate>Thu, 30 Apr 2026 00:00:00 +0300</lastBuildDate>
-    
+    <title>Verifica Factura - Ghiduri si stiri</title>
+    <link>https://verificafactura.ro</link>
+    <description>Actualizari, ghiduri si informatii verificate despre facturi de energie.</description>
+    <language>ro-RO</language>
+    <lastBuildDate>Tue, 05 May 2026 12:17:31 GMT</lastBuildDate>
     <item>
-      <title>Cum Reduci Factura Energie 2026</title>
+      <title>ANAF actualizează sistemul e-Factura cu noi validări</title>
+      <link>https://verificafactura.ro/stiri/anaf-actualizeaza-sistemul-e-factura-cu-noi-validari</link>
+      <guid>https://verificafactura.ro/stiri/anaf-actualizeaza-sistemul-e-factura-cu-noi-validari</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Începând cu 1 mai 2026, ANAF introduce validări suplimentare pentru facturile electronice transmise prin sistemul RO e-Factura.</description>
+    </item>
+    <item>
+      <title>ANRE publică noile tarife de distribuție pentru 2026</title>
+      <link>https://verificafactura.ro/stiri/anre-publica-noile-tarife-de-distributie-pentru-2026</link>
+      <guid>https://verificafactura.ro/stiri/anre-publica-noile-tarife-de-distributie-pentru-2026</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Tarifele de distribuție au fost actualizate prin ordine ANRE. Modificările variază între +2% și +5% în funcție de zona de distribuție.</description>
+    </item>
+    <item>
+      <title>TVA energia electrică rămâne la 21% în 2026</title>
+      <link>https://verificafactura.ro/stiri/tva-energia-electrica-ramane-la-21-in-2026</link>
+      <guid>https://verificafactura.ro/stiri/tva-energia-electrica-ramane-la-21-in-2026</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Parlamentul a confirmat menținerea cotei TVA de 21% pentru energia electrică, aplicabilă tuturor consumatorilor casnici și noncasnici.</description>
+    </item>
+    <item>
+      <title>Hidroelectrica rămâne cel mai ieftin furnizor pe piața concurențială</title>
+      <link>https://verificafactura.ro/stiri/hidroelectrica-ramane-cel-mai-ieftin-furnizor-pe-piata-concurentiala</link>
+      <guid>https://verificafactura.ro/stiri/hidroelectrica-ramane-cel-mai-ieftin-furnizor-pe-piata-concurentiala</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Conform comparatorului POSF/ANRE, Hidroelectrica oferă cel mai mic preț pentru clienții casnici: 0.45 RON/kWh, cu energie 98.71% regenerabilă.</description>
+    </item>
+    <item>
+      <title>ANRE actualizează componenta CFD în facturile de energie</title>
+      <link>https://verificafactura.ro/stiri/anre-actualizeaza-componenta-cfd-in-facturile-de-energie</link>
+      <guid>https://verificafactura.ro/stiri/anre-actualizeaza-componenta-cfd-in-facturile-de-energie</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Componenta CFD (Contract for Difference) a fost recalculată la 0.000144 RON/kWh, conform Ordinului ANRE nr. 10/2025.</description>
+    </item>
+    <item>
+      <title>Cum să îți reduci factura la energie în 2026 — ghid complet</title>
       <link>https://verificafactura.ro/articole/cum-reduci-factura-energie-2026</link>
       <guid>https://verificafactura.ro/articole/cum-reduci-factura-energie-2026</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Pași practici pentru a plăti mai puțin pe energie: verifică consumul, compară furnizori, optimizează abonamentul și redu consumul aparatelor mari.</description>
     </item>
     <item>
-      <title>Cum Se Calculeaza Factura Energie</title>
+      <title>Cum se calculează factura la energie electrică — toate componentele explicate</title>
       <link>https://verificafactura.ro/articole/cum-se-calculeaza-factura-energie</link>
       <guid>https://verificafactura.ro/articole/cum-se-calculeaza-factura-energie</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Explicație completă cu cifre reale: energie activă, distribuție, transport TG și TL, servicii sistem, certificate verzi, cogenerare, CFD, acciză și TVA 21%.</description>
     </item>
     <item>
-      <title>Ce Aparate Consuma Cel Mai Mult Curent</title>
+      <title>Ce aparate consumă cel mai mult curent în casă — cifre reale și sfaturi</title>
       <link>https://verificafactura.ro/articole/ce-aparate-consuma-cel-mai-mult-curent</link>
       <guid>https://verificafactura.ro/articole/ce-aparate-consuma-cel-mai-mult-curent</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Aerul condiționat, boilerul, uscătorul, cuptorul și frigiderul: cât consumă fiecare pe lună și cum reduci factura fără investiții mari.</description>
     </item>
     <item>
-      <title>Merita Sa Schimbi Furnizorul De Energie</title>
+      <title>Merită să schimbi furnizorul de energie în 2026? Ghid complet de analiză</title>
       <link>https://verificafactura.ro/articole/merita-sa-schimbi-furnizorul-de-energie</link>
       <guid>https://verificafactura.ro/articole/merita-sa-schimbi-furnizorul-de-energie</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Comparație reală între furnizori, ce verifici înainte de schimbare, cât economisești și când nu merită efortul.</description>
     </item>
     <item>
-      <title>De Ce A Crescut Factura La Energie</title>
+      <title>De ce a crescut factura la energie? 7 cauze frecvente și ce verifici imediat</title>
       <link>https://verificafactura.ro/articole/de-ce-a-crescut-factura-la-energie</link>
       <guid>https://verificafactura.ro/articole/de-ce-a-crescut-factura-la-energie</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Factura mai mare nu înseamnă neapărat preț mai mare. Verifică consumul, regularizarea, perioada facturată, prețul și abonamentele.</description>
     </item>
     <item>
-      <title>Cum Citesti Corect Factura De Energie</title>
+      <title>Cum citești corect o factură de energie electrică — ghid pas cu pas</title>
       <link>https://verificafactura.ro/articole/cum-citesti-corect-factura-de-energie</link>
       <guid>https://verificafactura.ro/articole/cum-citesti-corect-factura-de-energie</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Unde găsești codul NLC, consumul real, prețul pe kWh, perioada facturată, fiecare componentă de cost și totalul de plată.</description>
     </item>
     <item>
-      <title>Cat Consuma Un Aer Conditionat Pe Luna</title>
+      <title>Cât consumă un aer condiționat pe lună în lei — calcul real 2026</title>
       <link>https://verificafactura.ro/articole/cat-consuma-un-aer-conditionat-pe-luna</link>
       <guid>https://verificafactura.ro/articole/cat-consuma-un-aer-conditionat-pe-luna</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Consum real per oră, pe zi și pe lună pentru aparate de 9.000, 12.000 și 18.000 BTU, cu costuri calculate la prețurile din 2026.</description>
     </item>
     <item>
-      <title>Hidroelectrica Vs Electrica Comparatie 2026</title>
+      <title>Hidroelectrica vs Electrica Furnizare — comparație completă 2026</title>
       <link>https://verificafactura.ro/articole/hidroelectrica-vs-electrica-comparatie-2026</link>
       <guid>https://verificafactura.ro/articole/hidroelectrica-vs-electrica-comparatie-2026</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Preț per kWh, abonament, cost total calculat, calitatea serviciului și când merită fiecare furnizor.</description>
     </item>
     <item>
-      <title>Ce Inseamna Regularizare Factura Energie</title>
+      <title>Ce înseamnă regularizare pe factura de energie și de ce e factura mai mare</title>
       <link>https://verificafactura.ro/articole/ce-inseamna-regularizare-factura-energie</link>
       <guid>https://verificafactura.ro/articole/ce-inseamna-regularizare-factura-energie</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Explicație simplă: ce este regularizarea, de ce apare, cum o verifici și ce faci dacă nu ești de acord cu suma.</description>
     </item>
     <item>
-      <title>Cat Consuma Un Boiler Electric Pe Luna</title>
+      <title>Cât consumă un boiler electric pe lună în lei — calcul real 2026</title>
       <link>https://verificafactura.ro/articole/cat-consuma-un-boiler-electric-pe-luna</link>
       <guid>https://verificafactura.ro/articole/cat-consuma-un-boiler-electric-pe-luna</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Consum real pentru boilere de 50L, 80L și 120L, cu costuri calculate și sfaturi de reducere a consumului.</description>
     </item>
   </channel>
 </rss>

@@ -8,6 +8,8 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
+    "generate:seo": "node scripts/generate-content-assets.cjs",
+    "prebuild": "npm run generate:seo",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
