@@ -5,13 +5,14 @@ Editeaza continutul principal in aceste fisiere:
 - `content.json` pentru articole si stiri.
 - `furnizori.json` pentru furnizori, oferte si preturi.
 - `editorial-calendar.json` pentru strategie, cadenta saptamanala, backlog si template-uri social.
+- `news-sources.json` pentru sursele monitorizate automat pentru Stiri & Noutati.
 
 ## Flux continut
 
 Campuri recomandate pentru fiecare articol sau stire:
 
 - `type`: `article` sau `news`
-- `status`: `draft`, `review`, `approved`, `published`, `archived`
+- `status`: `draft`, `review`, `approved`, `scheduled`, `published`, `archived`
 - `slug`: URL-ul paginii
 - `title`, `excerpt`, `metaDescription`, `intro`
 - `publishDate`
@@ -102,6 +103,82 @@ Validatorul opreste build-ul daca un material publicat are probleme critice:
 - un furnizor are pret invalid, sursa lipsa sau data `actualizatLa` invalida.
 
 Pentru materiale in lucru foloseste `status: "draft"` sau `status: "review"`. Doar `published` este validat strict si publicat in site, sitemap si RSS.
+
+## Publicare programata
+
+Nu trebuie sa schimbi manual data de fiecare data.
+
+Flux recomandat pentru articole:
+
+1. scrii articolul cu `status: "draft"` sau `status: "review"`;
+2. cand este gata, il treci in `status: "approved"`;
+3. rulezi `npm run generate:all` sau lasi GitHub Actions sa ruleze;
+4. sistemul il trece automat in `scheduled` pe urmatorul slot liber;
+5. cand vine data, sistemul il trece automat in `published`.
+
+Daca vrei o data exacta, poti seta manual:
+
+```json
+{
+  "status": "scheduled",
+  "publishDate": "2026-05-12"
+}
+```
+
+Cand vine data publicarii, ruleaza:
+
+```bash
+npm run generate:all
+```
+
+Comanda va:
+
+1. trece automat item-urile `scheduled` cu `publishDate` <= data curenta in `published`;
+2. valida continutul;
+3. regenera sitemap, RSS si paginile statice;
+4. regenera asset-urile social.
+
+Exista si workflow GitHub Actions:
+
+```txt
+.github/workflows/editorial-automation.yml
+```
+
+Acesta ruleaza zilnic dimineata si poate fi pornit manual din tabul Actions. Daca gaseste continut programat pentru publicare, face commit automat cu fisierele regenerate.
+
+## Automatizare Stiri & Noutati
+
+Sursele monitorizate sunt in:
+
+```txt
+src/data/news-sources.json
+```
+
+Pentru import manual:
+
+```bash
+npm run import:news
+```
+
+Importul creeaza drafturi cu `status: "review"`. Nu publica automat stirile, pentru ca subiectele legislative/fiscale trebuie verificate in sursa oficiala inainte de publicare.
+
+Flux recomandat pentru stiri:
+
+1. GitHub Actions ruleaza zilnic `npm run automate:editorial`;
+2. scriptul importa posibile stiri noi ca `review`;
+3. tu verifici draftul si sursa oficiala;
+4. schimbi statusul in `approved`;
+5. sistemul il programeaza automat pe slotul de stiri;
+6. la data programata devine `published`.
+
+Comenzi utile:
+
+```bash
+npm run import:news
+npm run schedule:approved
+npm run publish:scheduled
+npm run automate:editorial
+```
 
 ## De ce exista pagini HTML statice
 

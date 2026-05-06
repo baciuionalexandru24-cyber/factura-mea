@@ -1,0 +1,50 @@
+{
+    "updatedAt": "2026-05-06",
+    "defaults": {
+      "status": "review",
+      "readTime": "3 min",
+      "author": {
+        "name": "Echipa Verifica Factura",
+        "url": "https://verificafactura.ro"
+      }
+    },
+    "sources": [
+      {
+        "id": "anre-comunicate",
+        "enabled": true,
+        "name": "ANRE - Comunicate si noutati",
+        "category": "ANRE",
+        "url": "https://anre.ro/",
+        "sourceType": "html",
+        "keywords": ["energie electrica", "tarife", "furnizare", "distributie", "consumatori", "ordin"]
+      },
+      {
+        "id": "anre-tarife",
+        "enabled": true,
+        "name": "ANRE - Tarife reglementate",
+        "category": "TARIFE",
+        "url": "https://anre.ro/energie-electrica/legislatie/tarife-reglementate/",
+        "sourceType": "html",
+        "keywords": ["tarif", "distributie", "transport", "ordin", "energie electrica"]
+      },
+      {
+        "id": "anaf-comunicate",
+        "enabled": true,
+        "name": "ANAF - Comunicate",
+        "category": "E-FACTURA",
+        "url": "https://www.anaf.ro/anaf/internet/ANAF/despre_ANAF/informatii_publice/comunicate/",
+        "sourceType": "html",
+        "keywords": ["e-factura", "factura", "validari", "anaf", "fiscal"]
+      },
+      {
+        "id": "posf",
+        "enabled": true,
+        "name": "POSF - Comparator furnizori",
+        "category": "FURNIZORI",
+        "url": "https://posf.ro/comparator?comparatorType=electric",
+        "sourceType": "html",
+        "keywords": ["oferta", "furnizor", "energie electrica", "comparator", "casnic"]
+      }
+    ]
+  }
+  

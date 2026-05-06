@@ -1,0 +1,40 @@
+name: Editorial automation
+
+on:
+  schedule:
+    # Runs every morning for Romania after the date has changed.
+    - cron: "30 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish-and-generate:
+    runs-on: ubuntu-latest
+    env:
+      EDITORIAL_TIMEZONE: Europe/Bucharest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Publish scheduled content and regenerate assets
+        run: npm run automate:editorial && npm run generate:all
+
+      - name: Commit generated editorial updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/content.json public/rss.xml public/sitemap.xml public/articole public/stiri public/furnizori editorial
+          if git diff --cached --quiet; then
+            echo "No editorial changes to commit."
+          else
+            git commit -m "chore: run editorial automation"
+            git push
+          fi

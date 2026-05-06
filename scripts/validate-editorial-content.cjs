@@ -5,9 +5,10 @@ const rootDir = path.resolve(__dirname, "..");
 const contentPath = path.join(rootDir, "src/data/content.json");
 const suppliersPath = path.join(rootDir, "src/data/furnizori.json");
 const calendarPath = path.join(rootDir, "src/data/editorial-calendar.json");
+const newsSourcesPath = path.join(rootDir, "src/data/news-sources.json");
 
 const allowedTypes = new Set(["article", "news"]);
-const allowedStatuses = new Set(["draft", "review", "approved", "published", "archived"]);
+const allowedStatuses = new Set(["draft", "review", "approved", "scheduled", "published", "archived"]);
 const mojibakeMarkers = [
   "\u00c3", "\u00c2", "\u00c4", "\u00c8", "\u00e2\u20ac", "\u00c8\u2122", "\u00c8\u203a", "\u00c4\u0192",
 ];
@@ -116,7 +117,11 @@ function validateContent(content) {
       errors.push(`${id}: textul pare sa contina caractere corupte de encoding.`);
     }
 
-    if (item.status !== "published") return;
+    if (item.status === "scheduled" && !isValidDate(item.publishDate)) {
+      errors.push(`${id}: continutul scheduled trebuie sa aiba publishDate YYYY-MM-DD.`);
+    }
+
+    if (item.status !== "published" && item.status !== "scheduled") return;
 
     requireText(item, "title", 20, id);
     requireText(item, "excerpt", 50, id);
@@ -125,7 +130,9 @@ function validateContent(content) {
 
     if (!isValidDate(item.publishDate)) errors.push(`${id}: publishDate trebuie sa fie YYYY-MM-DD.`);
     if (!isValidDate(item.lastVerifiedAt)) errors.push(`${id}: lastVerifiedAt trebuie sa fie YYYY-MM-DD.`);
-    if (isFutureDate(item.publishDate)) errors.push(`${id}: publishDate este in viitor, dar statusul este published.`);
+    if (item.status === "published" && isFutureDate(item.publishDate)) {
+      errors.push(`${id}: publishDate este in viitor, dar statusul este published. Foloseste status scheduled.`);
+    }
 
     if (!isPlainObject(item.author) || !item.author.name) {
       errors.push(`${id}: lipseste author.name.`);
@@ -217,13 +224,47 @@ function validateEditorialCalendar(calendar) {
   if (hasMojibake(calendar)) errors.push("calendar: textul pare sa contina caractere corupte de encoding.");
 }
 
+function validateNewsSources(config) {
+  if (!isPlainObject(config)) {
+    errors.push("src/data/news-sources.json trebuie sa fie un obiect.");
+    return;
+  }
+
+  if (!isValidDate(config.updatedAt)) errors.push("news-sources: updatedAt trebuie sa fie YYYY-MM-DD.");
+  if (!Array.isArray(config.sources) || config.sources.length === 0) {
+    errors.push("news-sources: sources trebuie sa contina cel putin o sursa.");
+    return;
+  }
+
+  const ids = new Set();
+  config.sources.forEach((source, index) => {
+    const id = source.id || `index-${index}`;
+    if (!source.id || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(source.id)) errors.push(`news-source:${id}: id invalid.`);
+    if (ids.has(source.id)) errors.push(`news-source:${id}: id duplicat.`);
+    ids.add(source.id);
+    if (!source.name || !source.category || !source.url) errors.push(`news-source:${id}: lipsesc name/category/url.`);
+    if (!["html", "rss"].includes(source.sourceType)) errors.push(`news-source:${id}: sourceType trebuie sa fie html sau rss.`);
+    try {
+      const url = new URL(source.url);
+      if (!["http:", "https:"].includes(url.protocol)) errors.push(`news-source:${id}: url trebuie sa foloseasca http/https.`);
+    } catch {
+      errors.push(`news-source:${id}: url invalid.`);
+    }
+    if (!Array.isArray(source.keywords) || source.keywords.length === 0) errors.push(`news-source:${id}: keywords trebuie sa fie array nevid.`);
+  });
+
+  if (hasMojibake(config)) errors.push("news-sources: textul pare sa contina caractere corupte de encoding.");
+}
+
 const content = readJson(contentPath);
 const suppliers = readJson(suppliersPath);
 const calendar = readJson(calendarPath);
+const newsSources = readJson(newsSourcesPath);
 
 if (content) validateContent(content);
 if (suppliers) validateSuppliers(suppliers);
 if (calendar) validateEditorialCalendar(calendar);
+if (newsSources) validateNewsSources(newsSources);
 
 warnings.forEach((warning) => console.warn(`WARN: ${warning}`));
 
@@ -233,4 +274,4 @@ if (errors.length > 0) {
   process.exit(1);
 }
 
-console.log(`Editorial validation passed: ${content?.length || 0} content items, ${Object.keys(suppliers || {}).length} suppliers, ${calendar?.backlog?.length || 0} backlog items.`);
+console.log(`Editorial validation passed: ${content?.length || 0} content items, ${Object.keys(suppliers || {}).length} suppliers, ${calendar?.backlog?.length || 0} backlog items, ${newsSources?.sources?.length || 0} news sources.`);

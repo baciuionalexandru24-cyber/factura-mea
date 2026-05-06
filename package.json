@@ -8,10 +8,14 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
+    "import:news": "node scripts/import-news-drafts.cjs",
+    "schedule:approved": "node scripts/schedule-approved-content.cjs",
+    "publish:scheduled": "node scripts/publish-scheduled-content.cjs",
     "validate:content": "node scripts/validate-editorial-content.cjs",
-    "generate:seo": "npm run validate:content && node scripts/generate-content-assets.cjs",
+    "automate:editorial": "npm run import:news && npm run schedule:approved && npm run publish:scheduled",
+    "generate:seo": "npm run schedule:approved && npm run publish:scheduled && npm run validate:content && node scripts/generate-content-assets.cjs",
     "generate:social": "npm run validate:content && node scripts/generate-social-assets.cjs",
-    "generate:all": "npm run generate:seo && npm run generate:social",
+    "generate:all": "npm run schedule:approved && npm run publish:scheduled && npm run validate:content && node scripts/generate-content-assets.cjs && node scripts/generate-social-assets.cjs",
     "prebuild": "npm run generate:all",
     "start": "react-scripts start",
     "build": "react-scripts build",
