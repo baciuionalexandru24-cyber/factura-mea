@@ -1,5 +1,260 @@
 [
   {
+    "type": "news",
+    "status": "review",
+    "slug": "calendarul-obligatiilor-fiscale",
+    "title": "Calendarul obligațiilor fiscale",
+    "excerpt": "Calendarul obligațiilor fiscale",
+    "readTime": "3 min",
+    "metaDescription": "Calendarul obligațiilor fiscale",
+    "intro": "Calendarul obligațiilor fiscale",
+    "category": "E-FACTURA",
+    "date": "2026-05-07",
+    "source": "ANAF - Comunicate",
+    "sourceUrl": "https://www.anaf.ro/anaf/internet/ANAF/despre_ANAF/informatii_publice/comunicate/?uri=nm:oid:Z6_H1H6H282J0HQ00Q5BIR5GP00P3",
+    "publishDate": "2026-05-07",
+    "lastVerifiedAt": "2026-05-07",
+    "author": {
+      "name": "Echipa Verifica Factura",
+      "url": "https://verificafactura.ro"
+    },
+    "sources": [
+      {
+        "name": "ANAF - Comunicate",
+        "url": "https://www.anaf.ro/anaf/internet/ANAF/despre_ANAF/informatii_publice/comunicate/?uri=nm:oid:Z6_H1H6H282J0HQ00Q5BIR5GP00P3"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Ce s-a anuntat?",
+        "answer": "Calendarul obligațiilor fiscale"
+      },
+      {
+        "question": "Ce trebuie verificat?",
+        "answer": "Verifica sursa oficiala, contractul si factura inainte de a lua o decizie."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Ce s-a anuntat?",
+        "body": "Calendarul obligațiilor fiscale"
+      },
+      {
+        "heading": "Ce inseamna pentru consumatori?",
+        "body": "Impactul exact depinde de consum, zona de distributie si conditiile contractuale. Acest draft trebuie revizuit inainte de publicare."
+      },
+      {
+        "heading": "Ce poti face mai departe?",
+        "body": "Foloseste calculatorul de factura pentru o estimare orientativa si verifica informatia in sursa oficiala."
+      }
+    ],
+    "importedByAutomationAt": "2026-05-07T11:28:56.834Z"
+  },
+  {
+    "type": "news",
+    "status": "review",
+    "slug": "informatii-privind-obligatiile-fiscale",
+    "title": "Informații privind obligațiile fiscale",
+    "excerpt": "Informații privind obligațiile fiscale",
+    "readTime": "3 min",
+    "metaDescription": "Informații privind obligațiile fiscale",
+    "intro": "Informații privind obligațiile fiscale",
+    "category": "E-FACTURA",
+    "date": "2026-05-07",
+    "source": "ANAF - Comunicate",
+    "sourceUrl": "https://www.anaf.ro/anaf/internet/ANAF/despre_ANAF/informatii_publice/comunicate/?uri=nm:oid:Z6_H1H6H282J0HQ00Q5BIR5GP00P2",
+    "publishDate": "2026-05-07",
+    "lastVerifiedAt": "2026-05-07",
+    "author": {
+      "name": "Echipa Verifica Factura",
+      "url": "https://verificafactura.ro"
+    },
+    "sources": [
+      {
+        "name": "ANAF - Comunicate",
+        "url": "https://www.anaf.ro/anaf/internet/ANAF/despre_ANAF/informatii_publice/comunicate/?uri=nm:oid:Z6_H1H6H282J0HQ00Q5BIR5GP00P2"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Ce s-a anuntat?",
+        "answer": "Informații privind obligațiile fiscale"
+      },
+      {
+        "question": "Ce trebuie verificat?",
+        "answer": "Verifica sursa oficiala, contractul si factura inainte de a lua o decizie."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Ce s-a anuntat?",
+        "body": "Informații privind obligațiile fiscale"
+      },
+      {
+        "heading": "Ce inseamna pentru consumatori?",
+        "body": "Impactul exact depinde de consum, zona de distributie si conditiile contractuale. Acest draft trebuie revizuit inainte de publicare."
+      },
+      {
+        "heading": "Ce poti face mai departe?",
+        "body": "Foloseste calculatorul de factura pentru o estimare orientativa si verifica informatia in sursa oficiala."
+      }
+    ],
+    "importedByAutomationAt": "2026-05-07T11:28:56.834Z"
+  },
+  {
+    "type": "news",
+    "status": "review",
+    "slug": "comisia-paritara-anaf-aparat-propriu",
+    "title": "Comisia Paritară ANAF - aparat propriu",
+    "excerpt": "Comisia Paritară ANAF - aparat propriu",
+    "readTime": "3 min",
+    "metaDescription": "Comisia Paritară ANAF - aparat propriu",
+    "intro": "Comisia Paritară ANAF - aparat propriu",
+    "category": "E-FACTURA",
+    "date": "2026-05-07",
+    "source": "ANAF - Comunicate",
+    "sourceUrl": "https://www.anaf.ro/anaf/internet/ANAF/despre_ANAF/informatii_publice/comunicate/?uri=nm:oid:Z6_H1H6H282J81PF068FCPDO410G6",
+    "publishDate": "2026-05-07",
+    "lastVerifiedAt": "2026-05-07",
+    "author": {
+      "name": "Echipa Verifica Factura",
+      "url": "https://verificafactura.ro"
+    },
+    "sources": [
+      {
+        "name": "ANAF - Comunicate",
+        "url": "https://www.anaf.ro/anaf/internet/ANAF/despre_ANAF/informatii_publice/comunicate/?uri=nm:oid:Z6_H1H6H282J81PF068FCPDO410G6"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Ce s-a anuntat?",
+        "answer": "Comisia Paritară ANAF - aparat propriu"
+      },
+      {
+        "question": "Ce trebuie verificat?",
+        "answer": "Verifica sursa oficiala, contractul si factura inainte de a lua o decizie."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Ce s-a anuntat?",
+        "body": "Comisia Paritară ANAF - aparat propriu"
+      },
+      {
+        "heading": "Ce inseamna pentru consumatori?",
+        "body": "Impactul exact depinde de consum, zona de distributie si conditiile contractuale. Acest draft trebuie revizuit inainte de publicare."
+      },
+      {
+        "heading": "Ce poti face mai departe?",
+        "body": "Foloseste calculatorul de factura pentru o estimare orientativa si verifica informatia in sursa oficiala."
+      }
+    ],
+    "importedByAutomationAt": "2026-05-07T11:28:56.834Z"
+  },
+  {
+    "type": "news",
+    "status": "review",
+    "slug": "regulamentul-de-organizare-si-functionare-al-anaf",
+    "title": "Regulamentul de organizare și funcționare al ANAF",
+    "excerpt": "Regulamentul de organizare și funcționare al ANAF",
+    "readTime": "3 min",
+    "metaDescription": "Regulamentul de organizare și funcționare al ANAF",
+    "intro": "Regulamentul de organizare și funcționare al ANAF",
+    "category": "E-FACTURA",
+    "date": "2026-05-07",
+    "source": "ANAF - Comunicate",
+    "sourceUrl": "https://www.anaf.ro/anaf/internet/ANAF/despre_ANAF/informatii_publice/comunicate/?uri=nm:oid:Z6_H1H6H282J0HQ00Q5BIR5GP0023",
+    "publishDate": "2026-05-07",
+    "lastVerifiedAt": "2026-05-07",
+    "author": {
+      "name": "Echipa Verifica Factura",
+      "url": "https://verificafactura.ro"
+    },
+    "sources": [
+      {
+        "name": "ANAF - Comunicate",
+        "url": "https://www.anaf.ro/anaf/internet/ANAF/despre_ANAF/informatii_publice/comunicate/?uri=nm:oid:Z6_H1H6H282J0HQ00Q5BIR5GP0023"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Ce s-a anuntat?",
+        "answer": "Regulamentul de organizare și funcționare al ANAF"
+      },
+      {
+        "question": "Ce trebuie verificat?",
+        "answer": "Verifica sursa oficiala, contractul si factura inainte de a lua o decizie."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Ce s-a anuntat?",
+        "body": "Regulamentul de organizare și funcționare al ANAF"
+      },
+      {
+        "heading": "Ce inseamna pentru consumatori?",
+        "body": "Impactul exact depinde de consum, zona de distributie si conditiile contractuale. Acest draft trebuie revizuit inainte de publicare."
+      },
+      {
+        "heading": "Ce poti face mai departe?",
+        "body": "Foloseste calculatorul de factura pentru o estimare orientativa si verifica informatia in sursa oficiala."
+      }
+    ],
+    "importedByAutomationAt": "2026-05-07T11:28:56.834Z"
+  },
+  {
+    "type": "news",
+    "status": "review",
+    "slug": "agenda-conducerii-anaf",
+    "title": "Agenda conducerii ANAF",
+    "excerpt": "Agenda conducerii ANAF",
+    "readTime": "3 min",
+    "metaDescription": "Agenda conducerii ANAF",
+    "intro": "Agenda conducerii ANAF",
+    "category": "E-FACTURA",
+    "date": "2026-05-07",
+    "source": "ANAF - Comunicate",
+    "sourceUrl": "https://www.anaf.ro/anaf/internet/ANAF/despre_ANAF/informatii_publice/comunicate/?uri=nm:oid:Z6_H1H6H282J0HQ00Q5BIR5GP00S4",
+    "publishDate": "2026-05-07",
+    "lastVerifiedAt": "2026-05-07",
+    "author": {
+      "name": "Echipa Verifica Factura",
+      "url": "https://verificafactura.ro"
+    },
+    "sources": [
+      {
+        "name": "ANAF - Comunicate",
+        "url": "https://www.anaf.ro/anaf/internet/ANAF/despre_ANAF/informatii_publice/comunicate/?uri=nm:oid:Z6_H1H6H282J0HQ00Q5BIR5GP00S4"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Ce s-a anuntat?",
+        "answer": "Agenda conducerii ANAF"
+      },
+      {
+        "question": "Ce trebuie verificat?",
+        "answer": "Verifica sursa oficiala, contractul si factura inainte de a lua o decizie."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Ce s-a anuntat?",
+        "body": "Agenda conducerii ANAF"
+      },
+      {
+        "heading": "Ce inseamna pentru consumatori?",
+        "body": "Impactul exact depinde de consum, zona de distributie si conditiile contractuale. Acest draft trebuie revizuit inainte de publicare."
+      },
+      {
+        "heading": "Ce poti face mai departe?",
+        "body": "Foloseste calculatorul de factura pentru o estimare orientativa si verifica informatia in sursa oficiala."
+      }
+    ],
+    "importedByAutomationAt": "2026-05-07T11:28:56.834Z"
+  },
+  {
     "type": "article",
     "status": "published",
     "publishDate": "2026-04-29",
