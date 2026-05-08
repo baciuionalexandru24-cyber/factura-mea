@@ -2,6 +2,159 @@
   {
     "type": "news",
     "status": "review",
+    "slug": "buletin-informativ-fiscal",
+    "title": "Buletin informativ fiscal",
+    "excerpt": "Buletin informativ fiscal",
+    "readTime": "3 min",
+    "metaDescription": "Buletin informativ fiscal",
+    "intro": "Buletin informativ fiscal",
+    "category": "E-FACTURA",
+    "date": "2026-05-08",
+    "source": "ANAF - Comunicate",
+    "sourceUrl": "https://www.anaf.ro/anaf/internet/ANAF/despre_ANAF/informatii_publice/comunicate/?uri=nm:oid:Z6_H1H6H282J0R380Q5BFEB9S0026",
+    "publishDate": "2026-05-08",
+    "lastVerifiedAt": "2026-05-08",
+    "author": {
+      "name": "Echipa Verifica Factura",
+      "url": "https://verificafactura.ro"
+    },
+    "sources": [
+      {
+        "name": "ANAF - Comunicate",
+        "url": "https://www.anaf.ro/anaf/internet/ANAF/despre_ANAF/informatii_publice/comunicate/?uri=nm:oid:Z6_H1H6H282J0R380Q5BFEB9S0026"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Ce s-a anuntat?",
+        "answer": "Buletin informativ fiscal"
+      },
+      {
+        "question": "Ce trebuie verificat?",
+        "answer": "Verifica sursa oficiala, contractul si factura inainte de a lua o decizie."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Ce s-a anuntat?",
+        "body": "Buletin informativ fiscal"
+      },
+      {
+        "heading": "Ce inseamna pentru consumatori?",
+        "body": "Impactul exact depinde de consum, zona de distributie si conditiile contractuale. Acest draft trebuie revizuit inainte de publicare."
+      },
+      {
+        "heading": "Ce poti face mai departe?",
+        "body": "Foloseste calculatorul de factura pentru o estimare orientativa si verifica informatia in sursa oficiala."
+      }
+    ],
+    "importedByAutomationAt": "2026-05-08T09:01:11.437Z"
+  },
+  {
+    "type": "news",
+    "status": "review",
+    "slug": "plata-obligatiilor-fiscale",
+    "title": "Plata obligaţiilor fiscale",
+    "excerpt": "Plata obligaţiilor fiscale",
+    "readTime": "3 min",
+    "metaDescription": "Plata obligaţiilor fiscale",
+    "intro": "Plata obligaţiilor fiscale",
+    "category": "E-FACTURA",
+    "date": "2026-05-08",
+    "source": "ANAF - Comunicate",
+    "sourceUrl": "https://www.anaf.ro/anaf/internet/ANAF/despre_ANAF/informatii_publice/comunicate/?uri=nm:oid:Z6_H1H6H282J0HQ00Q5BIR5GP0GG2",
+    "publishDate": "2026-05-08",
+    "lastVerifiedAt": "2026-05-08",
+    "author": {
+      "name": "Echipa Verifica Factura",
+      "url": "https://verificafactura.ro"
+    },
+    "sources": [
+      {
+        "name": "ANAF - Comunicate",
+        "url": "https://www.anaf.ro/anaf/internet/ANAF/despre_ANAF/informatii_publice/comunicate/?uri=nm:oid:Z6_H1H6H282J0HQ00Q5BIR5GP0GG2"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Ce s-a anuntat?",
+        "answer": "Plata obligaţiilor fiscale"
+      },
+      {
+        "question": "Ce trebuie verificat?",
+        "answer": "Verifica sursa oficiala, contractul si factura inainte de a lua o decizie."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Ce s-a anuntat?",
+        "body": "Plata obligaţiilor fiscale"
+      },
+      {
+        "heading": "Ce inseamna pentru consumatori?",
+        "body": "Impactul exact depinde de consum, zona de distributie si conditiile contractuale. Acest draft trebuie revizuit inainte de publicare."
+      },
+      {
+        "heading": "Ce poti face mai departe?",
+        "body": "Foloseste calculatorul de factura pentru o estimare orientativa si verifica informatia in sursa oficiala."
+      }
+    ],
+    "importedByAutomationAt": "2026-05-08T09:01:11.437Z"
+  },
+  {
+    "type": "news",
+    "status": "review",
+    "slug": "declararea-obligatiilor-fiscale",
+    "title": "Declararea obligaţiilor fiscale",
+    "excerpt": "Declararea obligaţiilor fiscale",
+    "readTime": "3 min",
+    "metaDescription": "Declararea obligaţiilor fiscale",
+    "intro": "Declararea obligaţiilor fiscale",
+    "category": "E-FACTURA",
+    "date": "2026-05-08",
+    "source": "ANAF - Comunicate",
+    "sourceUrl": "https://www.anaf.ro/anaf/internet/ANAF/despre_ANAF/informatii_publice/comunicate/?uri=nm:oid:Z6_H1H6H282J0HQ00Q5BIR5GP00D4",
+    "publishDate": "2026-05-08",
+    "lastVerifiedAt": "2026-05-08",
+    "author": {
+      "name": "Echipa Verifica Factura",
+      "url": "https://verificafactura.ro"
+    },
+    "sources": [
+      {
+        "name": "ANAF - Comunicate",
+        "url": "https://www.anaf.ro/anaf/internet/ANAF/despre_ANAF/informatii_publice/comunicate/?uri=nm:oid:Z6_H1H6H282J0HQ00Q5BIR5GP00D4"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Ce s-a anuntat?",
+        "answer": "Declararea obligaţiilor fiscale"
+      },
+      {
+        "question": "Ce trebuie verificat?",
+        "answer": "Verifica sursa oficiala, contractul si factura inainte de a lua o decizie."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Ce s-a anuntat?",
+        "body": "Declararea obligaţiilor fiscale"
+      },
+      {
+        "heading": "Ce inseamna pentru consumatori?",
+        "body": "Impactul exact depinde de consum, zona de distributie si conditiile contractuale. Acest draft trebuie revizuit inainte de publicare."
+      },
+      {
+        "heading": "Ce poti face mai departe?",
+        "body": "Foloseste calculatorul de factura pentru o estimare orientativa si verifica informatia in sursa oficiala."
+      }
+    ],
+    "importedByAutomationAt": "2026-05-08T09:01:11.437Z"
+  },
+  {
+    "type": "news",
+    "status": "review",
     "slug": "calendarul-obligatiilor-fiscale",
     "title": "Calendarul obligațiilor fiscale",
     "excerpt": "Calendarul obligațiilor fiscale",
