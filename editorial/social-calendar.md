@@ -1,6 +1,6 @@
 # Calendar editorial si social media
 
-Generat automat: 2026-05-12
+Generat automat: 2026-05-13
 
 ## Cadenta saptamanala
 
